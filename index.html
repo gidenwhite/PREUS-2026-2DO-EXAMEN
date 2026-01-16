@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Banco de Preguntas PREUS - Sistema de Estudio Inteligente</title>
+    <title>Banco de Preguntas PREUS - SOLO PREGUNTAS DEL 2DO EXAMEN</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
     <style>
@@ -177,7 +177,7 @@
             display: grid;
             grid-template-columns: 1fr auto;
             gap: 15px;
-            margin-bottom: 20px;
+            margin-bottom: 15px;
         }
 
         .auth-input {
@@ -218,6 +218,33 @@
             box-shadow: 0 7px 15px rgba(79, 70, 229, 0.2);
         }
 
+        .whatsapp-auth-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            background: #25D366;
+            color: white;
+            padding: 15px 20px;
+            border-radius: var(--border-radius);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 16px;
+            margin-top: 15px;
+            transition: var(--transition);
+            box-shadow: 0 5px 15px rgba(37, 211, 102, 0.2);
+            width: 100%;
+            border: none;
+            cursor: pointer;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .whatsapp-auth-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(37, 211, 102, 0.3);
+            color: white;
+        }
+
         .logout-btn {
             background: linear-gradient(to right, var(--danger), #dc2626);
             margin-top: 10px;
@@ -238,7 +265,7 @@
             font-weight: 600;
             font-size: 22px;
             color: var(--dark);
-            margin-bottom: 20px;
+            margin-bottom: 10px;
             display: flex;
             align-items: center;
             gap: 10px;
@@ -246,6 +273,21 @@
 
         .section-title i {
             color: var(--primary);
+        }
+
+        .subject-instruction {
+            color: var(--gray);
+            font-size: 15px;
+            margin-bottom: 20px;
+            padding-left: 10px;
+            border-left: 3px solid var(--primary-light);
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% { opacity: 0.8; }
+            50% { opacity: 1; }
+            100% { opacity: 0.8; }
         }
 
         .subject-grid {
@@ -675,13 +717,17 @@
                 padding: 20px;
             }
             
-            .whatsapp-btn {
+            .whatsapp-btn, .whatsapp-auth-btn {
                 padding: 15px 20px;
                 font-size: 16px;
             }
             
             .auth-section {
                 padding: 20px;
+            }
+            
+            .subject-instruction {
+                font-size: 14px;
             }
         }
 
@@ -734,6 +780,11 @@
                 </button>
             </div>
             
+            <!-- Botón para obtener acceso premium -->
+            <button onclick="openWhatsAppAccess()" class="whatsapp-auth-btn" id="whatsappAuthBtn">
+                <i class="fab fa-whatsapp"></i> Obtener acceso premium a todas las preguntas
+            </button>
+            
             <button onclick="logout()" class="auth-btn logout-btn" style="display:none;" id="logoutBtn">
                 <i class="fas fa-sign-out-alt"></i> Cerrar Sesión
             </button>
@@ -746,6 +797,9 @@
             <h2 class="section-title">
                 <i class="fas fa-book-open"></i> Materias de Estudio
             </h2>
+            <p class="subject-instruction" id="subjectInstruction">
+                <i class="fas fa-mouse-pointer"></i> Selecciona una materia para ver las preguntas
+            </p>
             
             <div class="subject-grid">
                 <div class="subject-card" onclick="loadSubject('lenguaje')">
@@ -824,8 +878,7 @@
                 y maximiza tu preparación para el examen.
             </p>
             
-            <a href="" 
-               class="whatsapp-btn" target="_blank">
+            <a href="javascript:void(0);" onclick="openWhatsAppAccess()" class="whatsapp-btn">
                 <i class="fab fa-whatsapp"></i> Solicitar Código por WhatsApp
             </a>
             
@@ -872,6 +925,14 @@
         let isAuthenticated = false;
         let userCode = localStorage.getItem('userCode') || null;
         let deviceId = localStorage.getItem('deviceId') || generateDeviceId();
+
+        // WhatsApp link
+        const whatsappLink = "https://wa.me/59169004899?text=Hola%20%F0%9F%91%8B%F0%9F%98%8A%0AQuiero%20adquirir%20mi%20c%C3%B3digo%20de%20acceso%20al%20banco%20de%20preguntas%20%F0%9F%93%9A%E2%9C%A8%0A%F0%9F%92%B0%20Precio%3A%2015%20Bs%20(pago%20por%20QR)%0A%F0%9F%94%90%20Entiendo%20que%20el%20c%C3%B3digo%20funciona%20solo%20en%20un%20dispositivo%2C%20es%20de%20uso%20personal%20y%20solo%20online%2C%20por%20lo%20que%20me%20comprometo%20a%20no%20compartirlo%20con%20nadie.%0A%C2%A1Quedo%20atento(a)%2C%20muchas%20gracias!%20%F0%9F%99%8C%F0%9F%93%B2";
+
+        // Función para abrir WhatsApp
+        window.openWhatsAppAccess = function() {
+            window.open(whatsappLink, '_blank');
+        };
 
         // Generate unique device ID
         function generateDeviceId() {
@@ -978,6 +1039,7 @@
             const codeInput = document.getElementById('codeInput');
             const authBtn = document.querySelector('.auth-form .auth-btn');
             const logoutBtn = document.getElementById('logoutBtn');
+            const whatsappAuthBtn = document.getElementById('whatsappAuthBtn');
             const watermark = document.getElementById('watermark');
             const questionsHeader = document.getElementById('questionsHeader');
             const lockedContent = document.getElementById('lockedContent');
@@ -985,6 +1047,7 @@
             if (authenticated) {
                 codeInput.style.display = 'none';
                 authBtn.style.display = 'none';
+                whatsappAuthBtn.style.display = 'none';
                 logoutBtn.style.display = 'block';
                 watermark.classList.add('active');
                 
@@ -1003,6 +1066,7 @@
             } else {
                 codeInput.style.display = 'block';
                 authBtn.style.display = 'flex';
+                whatsappAuthBtn.style.display = 'flex';
                 logoutBtn.style.display = 'none';
                 watermark.classList.remove('active');
                 
@@ -1023,6 +1087,9 @@
                 card.classList.remove('active');
             });
             event.currentTarget.classList.add('active');
+            
+            // Hide instruction message when a subject is selected
+            document.getElementById('subjectInstruction').style.display = 'none';
             
             // Update subject name
             const subjectNames = {
