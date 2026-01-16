@@ -1,0 +1,337 @@
+﻿id;question;option_a;option_b;option_c;option_d;answer_letter
+1;¿En qué año llegó Cristóbal Colón a América?;1492;1500;1531;1535;A
+2;¿Cuántos hombres llegaron con Francisco Pizarro en la conquista del Perú?;64;100;168;200;C
+3;¿En qué mes y año ingresaron los conquistadores a Cajamarca?;Junio de 1532;Julio de 1532;Agosto de 1532;Septiembre de 1532;B
+4;¿Con quién estaba en guerra civil Atahualpa cuando llegaron los españoles?;Manco Inca;Huáscar;Paullu Inca;Túpac Amaru;B
+5;¿En qué fecha fue ejecutado Atahualpa?;16 de noviembre de 1532;28 de julio de 1533;13 de julio de 1533;26 de julio de 1533;B
+6;¿Cuántos hombres de refuerzo trajo Diego de Almagro a Cajamarca en abril de 1533?;100;150;200;250;B
+7;¿Qué año fue fundado el primer poblado europeo Paria en el altiplano?;1533;1534;1535;1536;C
+8;¿Qué fecha defendida por Hugo Poppe es considerada oficialmente como la fundación de La Plata?;16 de abril de 1540;29 de septiembre de 1538;25 de mayo de 1538;1 de octubre de 1540;B
+9;¿Quién fundó oficialmente la Villa de La Plata según la Ley N° 023/2017-2018?;Diego de Almagro;Francisco Pizarro;Gonzalo Pizarro;Hernando Pizarro;C
+10;¿En qué año se emitió la cédula real que confirmó el establecimiento de la Audiencia de Charcas?;1559;1561;1565;1570;A
+11;¿Cuándo comenzó a actuar efectivamente el tribunal de la Audiencia de Charcas?;1559;1560;1561;1562;C
+12;¿Quién fue el primer presidente de la Real Audiencia de Charcas?;Pedro Ramírez de Quiñones;Ramón García Pizarro;Francisco de Toledo;Diego de Almagro;A
+13;¿Cuántas intendencias conformaban la Real Audiencia de Charcas?;2;3;4;5;C
+14;¿Cuáles eran las gobernaciones de la Real Audiencia de Charcas?;Paria y Apolobamba;Moxos y Chiquitos;Santa Cruz y Tarija;Oruro y Potosí;B
+15;¿A qué virreinato perteneció la Audiencia de Charcas entre 1561-1776?;Virreinato de Nueva España;Virreinato del Perú;Virreinato de Nueva Granada;Virreinato del Río de la Plata;B
+16;¿Qué jesuita apoyó las medidas tomadas por el virrey Toledo?;Alonso de Barzana;José de Acosta;Diego Gonzáles Holguín;Juan Frías de Herrán;B
+17;¿Quién fundó la Villa de San Bernardo de la Frontera en Tarija?;Gerónimo de Osorio;Luís de Fuentes;Melchor de Rodas;Francisco de Toledo;B
+18;¿En qué año llegaron los primeros jesuitas al Perú?;1565;1568;1570;1575;B
+19;¿Cuándo se estableció el Tribunal del Santo Oficio de la Inquisición en el Perú?;1568;1569;1570;1571;C
+20;¿Cuántos habitantes tenía aproximadamente Perú al momento de la conquista española?;5 a 6 millones;7 a 8 millones;9 a 10 millones;11 a 12 millones;C
+21;¿A cuántos habitantes llegaba la población indígena hacia 1570 según la Visita General?;1.000.000;1.300.000;1.500.000;2.000.000;B
+22;¿En qué año se fundó la villa de San Felipe de Austria (Oruro)?;1601;1605;1607;1610;C
+23;¿Cuándo se ubicó definitivamente Santa Cruz de la Sierra?;1615;1618;1621;1625;C
+24;¿En qué año se abrió el colegio de Santiago de La Plata?;1588;1591;1595;1600;B
+25;¿Quién fue el jefe provincial de la Compañía de Jesús a cargo de la fundación de la Universidad?;Ignacio de Arbieto;Luis P. de Santillán;Juan Frías de Herrán;Manuel Vázquez;C
+26;¿Qué fecha fue fundada la Universidad San Francisco Xavier de Chuquisaca?;8 de agosto de 1621;2 de febrero de 1622;27 de marzo de 1624;13 de octubre de 1681;C
+27;¿Quién fue el primer rector de la Universidad San Francisco Xavier?;Ignacio de Arbieto;Luis P. de Santillán;Juan José de Segovia;Cristóbal de Castilla;B
+28;¿Bajo qué autoridad se creó la Carrera de Derecho en 1681?;Arzobispo Cristóbal de Castilla y Zamora;Padre Luis de Santillán;Rey Carlos III;Papa Gregorio XV;A
+29;¿Qué rey firmó el decreto de expulsión de los jesuitas en 1767?;Felipe II;Felipe III;Carlos II;Carlos III;D
+30;¿Cuántos años duraba la práctica forense en la Academia Carolina?;Un año;Dos años;Tres años;Cuatro años;B
+31;¿Quiénes fueron componentes de la Primera Junta de Gobierno de Buenos Aires el 25 de Mayo de 1810?;San Martín, Bolívar y Sucre;Padilla, Camargo y Muñecas;Juan José Paso, Mariano Moreno y Juan José Castelli;Matienzo, Moxó y Álvarez;C
+32;¿A quién se atribuye la autoría de El Diálogo entre Atahuallpa y Fernando VII en los Campos Elíseos?;Jaime de Zudáñez;Bernardo de Monteagudo;José Mariano Serrano;Mariano Moreno;B
+33;¿Quién escribió el Catecismo político cristiano en 1811?;Bernardo de Monteagudo;Mariano Moreno;Jaime de Zudáñez;Juan José Castelli;C
+34;¿Entre qué años funcionó el Real y Supremo Consejo de Indias?;1500-1800;1524-1834;1550-1850;1600-1900;B
+35;¿Qué institución fue creada en Sevilla en 1503 por los reyes católicos?;Consejo de Indias;Casa de Contratación;Audiencia;Tribunal del Santo Oficio;B
+36;¿Cuál era el único puerto del cual se podía partir hacia América según la Casa de Contratación?;Cádiz;Barcelona;Sevilla;Valencia;C
+37;¿Qué porcentaje representaba el quinto real sobre la producción de plata?;10%;15%;20%;25%;C
+38;¿En qué año fue creada la Casa de Moneda en Potosí?;1545;1575;1659;1759;D
+39;¿Qué mineral se explotó primero en el Cerro Rico de Potosí desde 1545?;Los pacos;El azogue;La tacana;El mercurio;C
+40;¿Desde qué año se empezó a traer mercurio desde Huancavelica para la refinación de plata?;1545;1560;1566;1575;C
+41;¿De cuántas provincias debían provenir los mitayos según Toledo?;12;14;16;18;C
+42;¿Cuántas semanas de trabajo seguidas tenía un mitayo seguidas de dos semanas de descanso?;Una semana;Dos semanas;Tres semanas;Cuatro semanas;A
+43;¿Cuántos reales ganaba por día un mitayo que trabajaba en las minas según datos de 1597?;Dos reales y medio;Tres reales;Tres reales y un cuartillo;Cuatro reales;C
+44;¿Entre qué años las minas de Potosí produjeron más de cinco millones de marcos de plata?;1540-1565;1551-1575;1560-1580;1570-1590;B
+45;¿Qué impuesto pagaban los hacendados a la iglesia sobre la producción?;El quinto real;El diezmo;La alcabala;El tributo;B
+46;¿Qué porcentaje de la producción pagaban los indígenas como impuesto de la veintena?;2,00%;5,00%;10,00%;20,00%;B
+47;¿Qué impuesto gravaba las importaciones llegadas desde España?;Alcabala;Almojarifazgo;Quinto real;Diezmo;B
+48;¿Qué impuesto se aplicaba a las transacciones de compra y venta?;Almojarifazgo;Diezmo;Alcabala;Tributo;C
+49;¿En qué año se creó el virreinato de Nueva Granada?;171500%;171700%;177500%;177700%;B
+50;¿Cuándo se creó el virreinato del Río de la Plata?;1770;1773;1776;1780;C
+51;¿En qué año fue expulsada la Compañía de Jesús de los dominios españoles?;1765;1767;1770;1775;B
+52;¿Qué porcentaje aumentaron las alcabalas con las Reformas Borbónicas?;Del 2% al 3%;Del 2% al 4%;Del 3% al 5%;Del 4% al 6%;B
+53;¿En qué año se emitió el Reglamento para el Comercio Libre de España a Indias?;1776;1777;1778;1780;C
+54;¿Cuántos puertos americanos fueron habilitados para comerciar directamente con España?;13;20;24;30;C
+55;¿Quién era el corregidor de Chayanta contra quien luchó Tomás Catari?;Antonio Acuña;Blas Doria Bernal;Joaquín de Alós;Manuel Álvarez Villarroel;C
+56;¿A qué ciudad viajó Tomás Catari para denunciar los abusos del corregidor?;Lima;Cusco;Buenos Aires;La Plata;C
+57;¿En qué fecha fue asesinado Tomás Catari?;24 de agosto de 1780;15 de enero de 1781;8 de enero de 1781;4 de noviembre de 1780;C
+58;¿Dónde fue lanzado al abismo Tomás Catari?;Abra de Macha;Abra de Chataquila;Abra de Cotagaita;Abra de Pocoata;B
+59;¿Qué fecha capturó Túpac Amaru II al corregidor Antonio de Arriaga?;28 de julio de 1780;4 de noviembre de 1780;18 de noviembre de 1780;16 de noviembre de 1780;B
+60;¿Quién fue el verdugo del corregidor Arriaga?;Diego Cristóbal;Antonio Oblitas;Micaela Bastidas;José Gabriel Condorcanqui;B
+61;¿Qué fecha fue ejecutado Túpac Amaru II en la plaza del Cusco?;18 de mayo de 1781;28 de mayo de 1781;18 de junio de 1781;28 de junio de 1781;A
+62;¿Dónde nació Julián Apaza (Túpac Katari) en 1750?;La Paz;Ayo Ayo;Sicasica;Viacha;B
+63;¿Cuándo inició Túpac Katari el primer cerco a La Paz?;Febrero de 1781;15 de marzo de 1781;30 de junio de 1781;5 de agosto de 1781;B
+64;¿Quién construyó las murallas para defender La Paz durante los cercos?;Ignacio Flores;Josef Reseguín;Sebastián de Segurola;Juan José Vértiz;C
+65;¿Qué fecha fue ejecutado Túpac Katari en la plaza de Peñas?;13 de noviembre de 1781;14 de noviembre de 1781;15 de noviembre de 1781;16 de noviembre de 1781;B
+66;¿Quién traicionó y entregó a Túpac Katari a las autoridades españolas?;Miguel Bastidas;Andrés Túpac Amaru;Inga Lipe el Mayor;Antonio Acuña;C
+67;¿En qué año quedó Fernando VII aislado del trono español debido a la invasión napoleónica?;1805;1807;1809;1810;B
+68;¿Quién era la esposa del príncipe portugués Juan que propuso la unión de España y Portugal?;María Antonieta;Carlota Joaquina;Isabel de Braganza;Josefina de Beauharnais;B
+69;¿Qué concepto filosófico sostuvieron los doctores de Charcas ante la ausencia del rey?;El pacto colonial;El silogismo altoperuano;La doctrina del pueblo;El constitucionalismo moderno;B
+70;¿En qué fecha se produjo el movimiento juntista en Chuquisaca?;16 de julio de 1809;25 de mayo de 1809;9 de febrero de 1810;6 de agosto de 1825;B
+71;¿Cómo se denominó la junta formada en La Paz el 16 de julio de 1809?;Junta Gobernadora;Junta Tuitiva;Audiencia Gobernadora;Junta Provincial;B
+72;¿Quién fue enviado por el virrey de Buenos Aires para controlar el movimiento de Chuquisaca?;José Manuel de Goyeneche;Ramón García Pizarro;Vicente Nieto;Francisco de Paula Sanz;C
+73;¿Quién reprimió el movimiento paceño de 1809 enviado por el virrey del Perú?;Vicente Nieto;Antonio González Balcarce;José Manuel de Goyeneche;Juan José Castelli;C
+74;¿En qué año la Junta de Buenos Aires decidió crear su propia junta desligándose de la metrópoli?;1809;1810;1811;1812;B
+75;¿Cuántos ejércitos auxiliares envió Buenos Aires al Alto Perú entre 1810 y 1817?;Dos;Tres;Cuatro;Cinco;C
+76;¿Quién comandó el primer ejército auxiliar enviado al Alto Perú?;Manuel Belgrano;José Casimiro Rondeau;Antonio González Balcarce;Gregorio Araoz de la Madrid;C
+77;¿En qué batalla sufrió el primer ejército auxiliar una catastrófica derrota?;Cotagaita;Suipacha;Huaqui;Vilcapugio;C
+78;¿Quién comandó el segundo ejército auxiliar entre 1812 y 1813?;Juan José Castelli;Manuel Belgrano;José Casimiro Rondeau;Antonio González Balcarce;B
+79;¿Qué guerrillero coordinó las guerrillas durante la segunda expedición auxiliar?;Idelfonso de las Muñecas;Juan Antonio Álvarez de Arenales;José Miguel Lanza;Vicente Camargo;B
+80;¿En qué batallas fue derrotado el segundo ejército auxiliar?;Tucumán y Salta;Vilcapugio y Ayohuma;Huaqui y Cotagaita;Suipacha y Desaguadero;B
+81;¿Quién comandó el tercer ejército auxiliar?;Manuel Belgrano;Gregorio Araoz de la Madrid;José Casimiro Rondeau;Antonio González Balcarce;C
+82;¿En qué año partió el tercer ejército auxiliar hacia el Alto Perú?;1813;1814;1815;1817;C
+83;¿En qué batalla fue derrotado el tercer ejército auxiliar?;Ayohuma;Vilcapugio;Sipe Sipe;Yungay;C
+84;¿Quién comandaba la guerrilla de Larecaja?;José Miguel Lanza;Idelfonso de las Muñecas;Vicente Camargo;Eustaquio Méndez;B
+85;¿Quiénes comandaron la guerrilla de Ayopaya y Sica Sica?;Manuel Asencio Padilla y Juana Asurdui;Eusebio Lira, José Manuel Chinchilla y José Miguel Lanza;Vicente Camargo y Eustaquio Méndez;José Ignacio Zárate y Miguel Betanzos;B
+86;¿Quién acompañó a Manuel Asencio Padilla en la guerrilla de La Laguna?;José Miguel Lanza;Idelfonso de las Muñecas;Juana Asurdui;Vicente Camargo;C
+87;¿En qué fecha ocurrió la batalla de Jumbate?;12 de marzo de 1816;3 de abril de 1816;14 de septiembre de 1816;21 de noviembre de 1816;A
+88;¿Qué apodo recibieron los guerreros yamparas tras la batalla de Jumbate?;Los valientes;Sunqu Mikhus;Los libertadores;Los defensores;B
+89;¿Dónde fue ejecutado Vicente Camargo?;El Villar;Arpaja;El Pari;Vallegrande;B
+90;¿Cuándo murió Manuel Asencio Padilla?;3 de abril de 1816;14 de septiembre de 1816;21 de noviembre de 1816;12 de marzo de 1816;B
+91;¿Dónde falleció Ignacio Warnes?;El Villar;Arpaja;El Pari;Vallegrande;C
+92;¿Quién fue gobernador de Santa Cruz hasta la finalización de la guerra?;Ignacio Warnes;Francisco Xavier Aguilera;Pedro Antonio de Olañeta;José Miguel de Velasco;B
+93;¿Hacia qué región dirigió su ejército la estrategia rioplatense en 1816?;Perú;Chile;Paraguay;Uruguay;B
+94;¿Cuántas guerrillas quedaron activas a fines de 1817?;Ninguna;Una;Tres;Cinco;B
+95;¿Qué guerrilla quedó activa a fines de 1817?;La Laguna;Ayopaya;Larecaja;Cinti;B
+96;¿Quién comandó la cuarta expedición auxiliar en 1817?;Manuel Belgrano;José Casimiro Rondeau;Gregorio Araoz de La Madrid;Antonio González Balcarce;C
+97;¿En qué batalla venció La Madrid a las tropas realistas en Tarija?;Icla;La Tablada;Sopachuy;Yungay;B
+98;¿Quién defendió la ciudad de La Plata el 25 de mayo de 1817?;Sus habitantes;Andrés de Santa Cruz;Pedro Antonio de Olañeta;O'Reilly;A
+99;¿Quién derrotó a las tropas de La Madrid en Icla y Sopachuy?;Andrés de Santa Cruz;Francisco Xavier Aguilera;O'Reilly;Pedro Antonio de Olañeta;C
+100;¿En qué año retornó España al sistema constitucional?;1818;1819;1820;1821;C
+101;¿A dónde se trasladó la capital del virreinato del Perú en 1821?;Lima;Arequipa;Cusco;Ayacucho;C
+102;¿Quién dirigía el Ejército del Sur realista en el Alto Perú?;José Manuel de Goyeneche;Vicente Nieto;Pedro Antonio de Olañeta;Francisco Xavier Aguilera;C
+103;¿Cómo se llamó la lucha interna en el ejército realista entre liberales y absolutistas?;Guerra civil;Guerra doméstica;Guerra interna;Conflicto realista;B
+104;¿Quién comandó el ejército colombiano que ingresó al Alto Perú en 1825?;Simón Bolívar;Antonio José de Sucre;José de San Martín;Bernardo O'Higgins;B
+105;¿Qué decreto emitió Sucre el 9 de febrero de 1825?;Decreto de independencia;Decreto de convocatoria a la Asamblea Deliberante;Decreto de creación de la república;Decreto de abolición del tributo;B
+106;¿Dónde murió Pedro Antonio de Olañeta?;Ayacucho;Ingavi;Tumusla;Yungay;C
+107;¿En qué fecha se firmó el Acta de Independencia de Bolivia?;9 de febrero de 1825;6 de agosto de 1825;11 de agosto de 1825;25 de mayo de 1826;B
+108;¿Cuántos diputados asistieron a la sesión del 6 de agosto de 1825?;35;48;47;27;C
+109;¿Quién fue el diputado que llegó tardíamente a Chuquisaca el 14 de agosto?;José Mariano Serrano;Vicente Caballero;Casimiro Olañeta;José Ignacio Sanjinés;B
+110;¿Qué nombre adoptó inicialmente el nuevo Estado boliviano?;República de Bolivia;República Bolívar;República de Charcas;República Altoperuana;B
+111;¿Qué ciudad cambió su nombre a Sucre en homenaje al mariscal?;La Paz;Potosí;Chuquisaca;Cochabamba;C
+112;¿En qué fecha se dispuso el régimen unitario y la división de los tres poderes?;6 de agosto de 1825;11 de agosto de 1825;13 de agosto de 1825;17 de agosto de 1825;C
+113;¿Cuándo se crearon los símbolos patrios de Bolivia?;13 de agosto de 1825;17 de agosto de 1825;6 de agosto de 1825;25 de mayo de 1826;B
+114;¿Qué colores tuvo la primera bandera boliviana?;Rojo y amarillo;Verde y punzó;Rojo, amarillo y verde;Azul y blanco;B
+115;¿En qué año se promulgó la primera Constitución Política de Bolivia?;1825;1826;1827;1828;B
+116;¿Quién redactó la Constitución de 1826?;Antonio José de Sucre;Simón Bolívar;José Mariano Serrano;Casimiro Olañeta;B
+117;¿Cuántos departamentos conformaron inicialmente Bolivia?;Cuatro;Cinco;Seis;Siete;B
+118;¿Qué tipo de presidencia estableció la Constitución de 1826?;Temporal de 4 años;Temporal de 5 años;Vitalicia;Rotatoria;C
+119;¿Qué religión fue reconocida como única y oficial en la Constitución de 1826?;Protestante;Católica apostólica y romana;Ortodoxa;Anglicana;B
+120;¿Qué poder NO existía en la estructura bolivariana de 1826?;Electoral;Legislativo;Ejecutivo;Municipal;D
+121;¿En qué fecha se obligó a la Iglesia a entregar el diezmo al Estado?;1 de enero de 1826;1 de enero de 1827;31 de julio de 1827;25 de mayo de 1826;B
+122;¿Qué reforma implicó la reducción de conventos y supresión de cofradías?;Reforma educativa;Reforma agraria;Reforma eclesiástica;Reforma militar;C
+123;¿Cuándo se reactivó el tributo indígena que Sucre había eliminado temporalmente?;1 de enero de 1827;31 de julio de 1827;25 de mayo de 1826;6 de agosto de 1825;B
+124;¿Quién llegó a la presidencia de Bolivia en 1829?;José Miguel de Velasco;Antonio José de Sucre;Andrés de Santa Cruz;José Ballivián;C
+125;¿Quién se autoproclamó jefe supremo del Perú en 1834?;Agustín Gamarra;Luis José de Orbegoso;Pedro Bermúdez;Felipe Santiago Salaverry;C
+126;¿Quién se sublevó en febrero de 1835 autoproclamándose jefe de la República peruana?;Pedro Bermúdez;Felipe Santiago Salaverry;Agustín Gamarra;Andrés de Santa Cruz;B
+127;¿Con cuántos soldados invadió Santa Cruz el Perú en 1835?;3000;5000;7000;10000;B
+128;¿En qué batalla fue derrotado Gamarra por Santa Cruz?;Socabaya;Yanacocha;Uchumayo;Yungay;B
+129;¿Dónde fue fusilado Salaverry?;Lima;Cusco;Arequipa;Tacna;C
+130;¿En cuántos Estados dividió Santa Cruz el Perú?;Uno;Dos;Tres;Cuatro;B
+131;¿Dónde tuvo su capital el Estado del Norte del Perú?;Lima;Huaura;Sicuani;Tacna;B
+132;¿Dónde se firmó el Pacto Fundamental de la Confederación?;Lima;Cusco;Tacna;Arequipa;C
+133;¿Qué título confirieron a Santa Cruz los tres Estados?;Presidente perpetuo;Supremo Protector;Libertador;Capitán General;B
+134;¿Qué puertos declaró Santa Cruz como puertos de depósito?;Callao, Arica y Valparaíso;Callao, Arica y Cobija;Arica, Iquique y Antofagasta;Callao, Paita y Mollendo;B
+135;¿Quién alertó en Chile sobre el peligro de la Confederación?;Manuel Bulnes;Joaquín Prieto;Diego Portales;Agustín Gamarra;C
+136;¿Cómo se llamó el ejército que invadió el Perú para destruir la Confederación?;Ejército Libertador;Ejército Unido Restaurador;Ejército de los Andes;Ejército Patriota;B
+137;¿Qué tratado firmó Santa Cruz tras ser cercado en Arequipa?;Tratado de Tacna;Tratado de Paucarpata;Tratado de Yungay;Tratado de Ancón;B
+138;¿En qué fecha se libró la batalla de Yungay?;20 de enero de 1838;20 de enero de 1839;20 de febrero de 1839;20 de marzo de 1839;B
+139;¿Quién comandó al ejército chileno en Yungay?;Joaquín Prieto;Diego Portales;Manuel Bulnes;Agustín Gamarra;C
+140;¿Cuántos hombres transportó Bulnes en 26 buques?;3400;4400;5400;6400;C
+141;¿Cuándo renunció Santa Cruz al protectorado de la Confederación?;20 de enero de 1839;17 de febrero de 1839;1 de marzo de 1839;6 de agosto de 1839;B
+142;¿Quién asumió la presidencia de Perú tras la disolución de la Confederación?;Luis José de Orbegoso;Felipe Santiago Salaverry;Agustín Gamarra;Pedro Bermúdez;C
+143;¿Entre qué años existió la Confederación Perú-Bolivia?;1835-1838;1836-1839;1837-1840;1834-1837;B
+144;¿Quién dirigió al ejército boliviano en la batalla de Ingavi?;Andrés de Santa Cruz;José Miguel de Velasco;José Ballivián Segurola;Pedro Blanco Soto;C
+145;¿En qué fecha se libró la batalla de Ingavi?;18 de noviembre de 1840;18 de noviembre de 1841;18 de diciembre de 1841;18 de octubre de 1841;B
+146;¿Quién murió en el campo de batalla de Ingavi?;José Ballivián;José Miguel de Velasco;Agustín Gamarra;Andrés de Santa Cruz;C
+147;¿Qué significó la batalla de Ingavi para Bolivia?;La anexión de Perú;La consolidación como nación independiente;La pérdida de territorio;El inicio de la Confederación;B
+148;¿A qué generación de caudillos pertenece Andrés de Santa Cruz?;Segunda generación;Tercera generación;Primera generación;Cuarta generación;C
+149;¿Quién fue el primer presidente civil de Bolivia?;Tomás Frías;José María Linares;Adolfo Ballivián;Manuel Isidoro Belzu;B
+150;¿Qué sector social apoyó principalmente a Manuel Isidoro Belzu?;Hacendados;Artesanos;Mineros;Comerciantes;B
+151;¿Entre qué años gobernó Manuel Isidoro Belzu?;1845-1852;1848-1855;1850-1857;1846-1853;B
+152;¿Qué educador influenció las ideas educativas de Belzu?;Simón Rodríguez;Andrés Bello;José María Dalence;Casimiro Olañeta;A
+153;¿Cuándo se modificaron el escudo y la bandera adoptando los colores actuales?;Durante el gobierno de Santa Cruz;Durante el gobierno de Belzu;Durante el gobierno de Sucre;Durante el gobierno de Ballivián;B
+154;¿Cuándo surgió la Junta Central de Artesanos de La Paz?;1850-1852;1855-1857;1860-1862;1865-1867;C
+155;¿Cuándo llegó José María Linares al gobierno?;6 de septiembre de 1857;8 de septiembre de 1857;10 de septiembre de 1857;12 de septiembre de 1857;B
+156;¿Dónde creó Linares una academia militar para jefes y oficiales?;Cochabamba;Oruro;Sapahaqui;Potosí;C
+157;¿Qué nombre recibió el Batallón 1º de Línea durante el gobierno de Melgarejo?;Húsares;Colorados;Granaderos;Cazadores;B
+158;¿Qué ley promulgó Melgarejo el 28 de septiembre de 1868?;Ley de Enfiteusis;Ley de exvinculación;Ley que declara las tierras de comunidad como propiedad del Estado;Ley de tributo indígena;C
+159;¿Quién promulgó la Ley de Enfiteusis el 14 de diciembre de 1842?;Andrés de Santa Cruz;José Ballivián y Segurola;José Miguel de Velasco;Manuel Isidoro Belzu;B
+160;¿Quiénes lideraron la oposición que derrocó a Melgarejo?;Tomás Frías y Adolfo Ballivián;Casimiro Corral y Agustín Morales;José María Linares y José María de Achá;Hilarión Daza y Gregorio Pacheco;B
+161;¿Qué cacique se alió con Agustín Morales para derrocar a Melgarejo?;Pablo Zárate Willka;Luciano Willka;Tomás Katari;Túpac Katari;B
+162;¿Cuándo se promulgó la ley de exvinculación de tierras?;5 de octubre de 1873;5 de octubre de 1874;5 de octubre de 1875;5 de octubre de 1876;B
+163;¿En qué año nació Andrés Ibáñez?;1842;1844;1846;1848;B
+164;¿Cómo se conocía a los partidarios de Andrés Ibáñez?;Los federalistas;Los igualitarios;Los liberales;Los demócratas;B
+165;¿Contra qué dictador se levantó Andrés Ibáñez?;José María Linares;Manuel Isidoro Belzu;Mariano Melgarejo;Hilarión Daza;C
+166;¿Dónde fue ejecutado Andrés Ibáñez?;Santa Cruz de la Sierra;Vallegrande;San Diego;Warnes;C
+167;¿Entre qué años se desarrolló la Guerra del Pacífico?;1879-1884;1875-1880;1880-1885;1878-1883;A
+168;¿En qué paralelo estableció Chile unilateralmente su frontera norte en 1842?;Paralelo 23;Paralelo 24;Paralelo 25;Paralelo 26;C
+169;¿En qué año se firmó el Tratado de Medianería entre Bolivia y Chile?;1864;1866;1868;1870;B
+170;¿Cuántas leguas cuadradas perdió Bolivia con el Tratado de Medianería?;800;1000;1200;1500;C
+171;¿Quién era el presidente boliviano cuando se estableció el impuesto de 10 centavos al salitre?;Narciso Campero;Mariano Melgarejo;Hilarión Daza;Tomás Frías;C
+172;¿En qué fecha estableció Bolivia el impuesto a la Compañía de Salitres y Ferrocarril de Antofagasta?;14 de enero de 1878;14 de febrero de 1878;14 de marzo de 1878;14 de abril de 1878;B
+173;¿Qué porcentaje de la población de Antofagasta era chilena en 1874?;85%;90%;93%;95%;C
+174;¿Qué porcentaje de la población de Antofagasta era boliviana en 1874?;2%;5%;8%;10%;A
+175;¿Cuándo se firmó el Tratado de Alianza Defensiva entre Bolivia y Perú?;Enero de 1873;Febrero de 1873;Marzo de 1873;Abril de 1873;B
+176;¿Cómo se llamaba también el Tratado de Alianza Defensiva?;Tratado de Lima;Tratado Riva Agüero-Benavente;Tratado de La Paz;Tratado Hilarión Daza;B
+177;¿Qué fragata chilena bloqueó el puerto de Antofagasta el 7 de febrero de 1879?;Cochrane;Esmeralda;Blanco Encalada;Covadonga;C
+178;¿Cuándo inició la ocupación chilena de Antofagasta?;7 de febrero de 1879;14 de febrero de 1879;23 de marzo de 1879;21 de mayo de 1879;B
+179;¿Dónde nació Eduardo Abaroa?;Calama;Potosí;San Pedro de Atacama;Antofagasta;C
+180;¿En qué año nació Eduardo Abaroa?;1835;1837;1839;1841;C
+181;¿Cuál fue la frase célebre de Eduardo Abaroa antes de morir?;¡Viva Bolivia!;¿Rendirme yo?... ¡Qué se rinda su abuela, carajo!;¡No pasarán!;¡Libertad o muerte!;B
+182;¿A qué edad murió Eduardo Abaroa?;38 años;40 años;42 años;45 años;B
+183;¿En qué fecha se produjo la defensa de Calama?;14 de febrero de 1879;23 de marzo de 1879;21 de mayo de 1879;12 de abril de 1879;B
+184;¿Qué capitán chileno murió heroicamente el 21 de mayo de 1879?;Miguel Grau;Arturo Prat;Manuel Baquedano;Emilio Sotomayor;B
+185;¿Qué buque peruano hundió al Esmeralda?;Independencia;Unión;Huáscar;Pilcomayo;C
+186;¿Dónde fue cercado y capturado el Huáscar?;Mejillones;Punta Angamos;Iquique;Pisagua;B
+187;¿Quién comandaba el Huáscar cuando fue capturado?;Arturo Prat;Miguel Grau;Nicolás de Piérola;Francisco Bolognesi;B
+188;¿En qué fecha fue capturado el Huáscar?;21 de mayo de 1879;8 de octubre de 1879;2 de noviembre de 1879;19 de noviembre de 1879;B
+189;¿Cómo se conoce en la historiografía boliviana la retirada de Daza del frente?;Retirada de Pisagua;Retirada de Camarones;Retirada de Tarapacá;Retirada de Iquique;B
+190;¿En qué fecha se produjo la batalla de Dolores?;2 de noviembre de 1879;19 de noviembre de 1879;25 de febrero de 1880;26 de mayo de 1880;B
+191;¿Quién reemplazó a Daza en la presidencia de Bolivia?;José Ballivián;Narciso Campero;Gregorio Pacheco;Aniceto Arce;B
+192;¿Quién fue proclamado Dictador y Protector de la Independencia del Perú?;Mariano Ignacio Prado;Miguel Iglesias;Nicolás de Piérola;Andrés Avelino Cáceres;C
+193;¿Cuándo se produjo la batalla del Alto de la Alianza?;19 de noviembre de 1879;25 de febrero de 1880;26 de mayo de 1880;7 de junio de 1880;C
+194;¿Quiénes comandaron el Batallón Colorados en el Alto de la Alianza?;Daza y Campero;Campero y Camacho;Camacho y Ballivián;Ballivián y Daza;B
+195;¿Cuándo cayó Arica en manos chilenas?;26 de mayo de 1880;7 de junio de 1880;11 de junio de 1880;15 de noviembre de 1880;B
+196;¿Quién fue el héroe peruano que resistió hasta la muerte en Arica?;Miguel Grau;Andrés Avelino Cáceres;Francisco Bolognesi;Nicolás de Piérola;C
+197;¿Cuántos hombres comandaba Bolognesi en Arica?;800;1000;1200;1500;C
+198;¿Cuándo se establecieron en Lima las bases de una nueva confederación Perú-Bolivia?;26 de mayo de 1880;7 de junio de 1880;11 de junio de 1880;15 de noviembre de 1880;C
+199;¿Cuándo comenzó la batalla por Lima en Chorrillos?;12 de enero de 1881;13 de enero de 1881;15 de enero de 1881;17 de enero de 1881;B
+200;¿Cuándo ocuparon los chilenos la ciudad de Lima?;13 de enero de 1881;15 de enero de 1881;17 de enero de 1881;20 de enero de 1881;C
+201;¿Quién era conocido como el Brujo de los Andes?;Miguel Iglesias;Nicolás de Piérola;Andrés Avelino Cáceres;Francisco Bolognesi;C
+202;¿Cuándo se firmó el Tratado de Ancón?;17 de enero de 1883;20 de octubre de 1883;4 de abril de 1884;9 de diciembre de 1895;B
+203;¿Quién firmó el Tratado de Ancón por parte de Perú?;Nicolás de Piérola;Andrés Avelino Cáceres;Miguel Iglesias;Mariano Ignacio Prado;C
+204;¿Cuándo se firmó el Pacto de Tregua entre Bolivia y Chile?;20 de octubre de 1883;4 de abril de 1884;9 de diciembre de 1895;20 de octubre de 1904;B
+205;¿Cuándo se firmó el Tratado definitivo entre Bolivia y Chile?;4 de abril de 1884;9 de diciembre de 1895;20 de octubre de 1904;13 de agosto de 1900;C
+206;¿Quién era el embajador chileno en La Paz que envió el ultimátum en 1900?;Diego Portales;Abraham Kooning;Manuel Baquedano;Aníbal Pinto;B
+207;¿Cuántos kilómetros de costa perdió Bolivia con la Guerra del Pacífico?;300 km;400 km;500 km;600 km;B
+208;¿Cuántas libras esterlinas recibió Bolivia como compensación en el Tratado de 1904?;200 mil;300 mil;400 mil;500 mil;B
+209;¿En qué año ocurrió la masacre de Kuruyuki?;1890;1892;1894;1896;B
+210;¿Quién lideró el levantamiento chiriguano en Kuruyuki?;Pablo Zárate Willka;Hapia Oeaki Tumpa;Luciano Willka;Bruno Racua;B
+211;¿Quién fue presidente de Bolivia entre 1880 y 1884?;Gregorio Pacheco;Narciso Campero;Aniceto Arce;Mariano Baptista;B
+212;¿Quién fue presidente de Bolivia entre 1884 y 1888?;Narciso Campero;Gregorio Pacheco;Aniceto Arce;Mariano Baptista;B
+213;¿Quién fue dueño de la mina Huanchaca?;Gregorio Pacheco;Aniceto Arce;José Avelino Aramayo;Simón Patiño;B
+214;¿Quién fue dueño de la compañía Guadalupe de Oploca?;Aniceto Arce;Gregorio Pacheco;José Avelino Aramayo;Simón Patiño;B
+215;¿Cómo se denominaba a los principales mineros de la plata?;Barones de la plata;Oligarcas del sur;Patriarcas de la plata;Magnates argentíferos;C
+216;¿Cuántos obreros llegó a tener Huanchaca en 1877?;1000;1500;2000;2500;B
+217;¿Entre qué años se dio el auge de la plata en Bolivia?;1870-1895;1875-1900;1880-1895;1885-1900;C
+218;¿Qué ferrocarril fue construido por la Compañía Huanchaca?;Arica-La Paz;Antofagasta-Uyuni;Oruro-La Paz;Potosí-Sucre;B
+219;¿Entre qué años se desarrolló la Guerra Federal?;1897-1898;1898-1899;1899-1900;1900-1901;B
+220;¿Quién era el presidente boliviano durante la Guerra Federal?;Mariano Baptista;Severo Fernández Alonso;José Manuel Pando;Ismael Montes;B
+221;¿Qué ley determinó el asiento permanente del presidente en Sucre?;Ley de Capitalidad;Ley de Radicatoria;Ley Federal;Ley de Residencia;B
+222;¿En qué fecha se promulgó la Ley de Radicatoria?;31 de octubre de 1898;12 de diciembre de 1898;24 de enero de 1899;10 de abril de 1899;A
+223;¿Quién fue el prefecto conservador de La Paz que se alió con los liberales?;Eliodoro Camacho;Serapio Reyes Ortíz;José Manuel Pando;Ismael Montes;B
+224;¿Cuándo se organizó la Junta Federal en La Paz?;31 de octubre de 1898;12 de diciembre de 1898;24 de enero de 1899;10 de abril de 1899;B
+225;¿Cuándo ocurrió la batalla del primer Crucero de Cosmini?;12 de diciembre de 1898;24 de enero de 1899;10 de abril de 1899;11 de abril de 1899;B
+226;¿Dónde ocurrió la masacre del escuadrón Sucre?;Cosmini;Ayo Ayo;Mohoza;Paria;B
+227;"¿Quién escribió el artículo racista ""Lugentes Campi""?";Severo Fernández Alonso;Mariano Baptista;José Manuel Pando;Ismael Montes;B
+228;¿Quién comandaba el grupo indígena en Mohoza?;Pablo Zárate Willka;Lorenzo Ramírez;Feliciano Mamani;Manuel Mita;B
+229;¿Cuándo se produjo el segundo Crucero de Paria?;24 de enero de 1899;10 de abril de 1899;11 de abril de 1899;12 de abril de 1899;B
+230;¿Cuántos muertos hubo en el segundo Crucero de Paria?;87;97;107;117;D
+231;¿Cuándo dimitió Severo Fernández Alonso?;10 de abril de 1899;11 de abril de 1899;12 de abril de 1899;13 de abril de 1899;B
+232;¿Entre qué años duró el Juicio de Mohoza?;1899-1902;1900-1903;1901-1904;1902-1905;C
+233;¿Cuándo se creó la escuela de Warisata?;2 de agosto de 1930;2 de agosto de 1931;2 de agosto de 1932;2 de agosto de 1933;B
+234;¿En qué año desapareció la escuela de Warisata?;1939;1940;1941;1942;C
+235;¿Quién lideró la Segunda Revolución del Acre?;Nicolás Suárez;Plácido de Castro;José Galindo;Bruno Racua;B
+236;¿En qué año se produjo la Segunda Revolución del Acre?;1900;1901;1902;1903;C
+237;¿Cómo se llamaba la columna de defensa organizada por Nicolás Suárez?;La Salvadora;El Porvenir;Riosinho;Bolivia;B
+238;¿Cuándo se produjo la batalla de Bahía en la Guerra del Acre?;11 de octubre de 1901;11 de octubre de 1902;11 de octubre de 1903;11 de octubre de 1904;B
+239;¿Cuántos muertos tuvo el bando brasileño en la batalla de Bahía?;47;57;67;77;B
+240;¿Cuándo se firmó el Tratado de Petrópolis?;17 de noviembre de 1902;17 de noviembre de 1903;17 de noviembre de 1904;17 de noviembre de 1905;B
+241;¿Cuántos kilómetros cuadrados cedió Bolivia a Brasil en el Tratado de Petrópolis?;171000;181000;191000;201000;C
+242;¿Cuántas libras esterlinas recibió Bolivia por el territorio del Acre?;Un millón;Dos millones;Tres millones;Cuatro millones;B
+243;¿En qué se dividió el Partido Liberal en 1904?;Doctrinario y Radical;Doctrinario y Puritano;Puritano y Radical;Moderado y Radical;B
+244;¿Quién fue presidente boliviano entre 1904 y 1909?;José Manuel Pando;Ismael Montes;Eliodoro Villazón;Bautista Saavedra;B
+245;¿En qué año se promulgó la ley de libertad de culto?;1904;1906;1908;1910;B
+246;¿En qué año se promulgó la ley del matrimonio civil?;1909;1910;1911;1912;C
+247;¿Quiénes fundaron el Partido Republicano?;Pando y Montes;Salamanca y Saavedra;Saavedra y Pando;Salamanca y Pando;B
+248;¿En qué año fue derrocado el Partido Liberal?;1918;1919;1920;1921;C
+249;¿Quién dio el golpe de Estado contra los liberales en 1920?;Daniel Salamanca;Bautista Saavedra;José Manuel Pando;Ismael Montes;B
+250;¿En qué año se inició la Era del Estaño?;1911;1912;1913;1914;C
+251;¿Quién fue el mayor productor de estaño en Bolivia?;Mauricio Hochschild;Carlos Víctor Aramayo;Simón Patiño;Aniceto Arce;C
+252;¿Qué porcentaje de la producción boliviana de estaño exportaba Simón Patiño?;40%;45%;50%;55%;C
+253;¿Cómo se llamaba la mina que fue la base de la fortuna de Simón Patiño?;Huanchaca;La Salvadora;Guadalupe;San José;B
+254;¿Entre qué años se desarrolló la Guerra del Chaco?;1930-1933;1931-1934;1932-1935;1933-1936;C
+255;¿Qué fortín fue tomado en 1928 intensificando el conflicto?;Boquerón;Vanguardia;Corrales;Toledo;B
+256;¿Cuántos kilómetros cuadrados tiene el Chaco?;190000;210000;250000;290000;D
+257;¿Cuántos habitantes tenía el Chaco en disputa?;50000;60000;70000;80000;C
+258;¿Cuándo atacó Bolivia el fortín paraguayo Carlos López?;Marzo de 1932;Abril de 1932;Mayo de 1932;Junio de 1932;B
+259;¿Quién fue nombrado comandante general del ejército boliviano por Salamanca?;Enrique Peñaranda;Hans Kundt;David Toro;Germán Busch;B
+260;¿Cuántas bajas tuvo Bolivia en el segundo intento de tomar Nanawa?;1000;1500;2000;2500;C
+261;¿Cuántas bajas tuvo Paraguay en el segundo intento de tomar Nanawa?;89;139;189;239;C
+262;¿Cuántos soldados murieron en Campo Vía?;1600;2100;2600;3100;C
+263;¿Cuántos soldados cayeron prisioneros en Campo Vía?;5500;6500;7500;8500;C
+264;¿Dónde fue destituido el presidente Salamanca?;Villamontes;Campo Vía;Nanawa;Boquerón;A
+265;¿Quién asumió la presidencia tras la destitución de Salamanca?;Enrique Peñaranda;Tejada Sorzano;David Toro;Germán Busch;B
+266;¿Cuándo se firmó el Protocolo de Paz que finalizó la Guerra del Chaco?;12 de mayo de 1935;12 de junio de 1935;12 de julio de 1935;12 de agosto de 1935;B
+267;"¿En qué fecha se aprobó la ""Tesis de Pulacayo""?";Noviembre de 1945;Noviembre de 1946;Octubre de 1946;Diciembre de 1946;B
+268;"¿Cuál fue la importancia fundamental de la ""Tesis de Pulacayo""?";Fue la primera vez que los trabajadores propusieron la toma del poder;Estableció el primer sindicato minero;Creó la COB;Declaró la independencia sindical;A
+269;"¿Qué cantidad de horas de trabajo semanal proponía la ""Tesis de Pulacayo""?";35 horas;40 horas;45 horas;48 horas;B
+270;¿En qué año se produjo la guerra civil que incluyó el conflicto en las minas de Siglo XX?;1948;1949;1950;1951;B
+271;¿Quién era el presidente interino que ordenó arrestar a varios dirigentes mineros en mayo de 1949?;Hugo Ballivián;Mamerto Urriolagoitia;Enrique Hertzog;Tomás Monje;B
+272;¿En qué fecha se produjo el levantamiento liderado por el MNR en cuatro ciudades del país?;27 de julio de 1949;27 de agosto de 1949;27 de septiembre de 1949;27 de octubre de 1949;B
+273;¿Quién fue proclamado presidente del gobierno paralelo creado en Santa Cruz en 1949?;Víctor Paz Estenssoro;Edmundo Roca;Hernán Siles Zuazo;Froilán Callejas;B
+274;¿Quién comandó las tropas del ejército que retomó Cochabamba y Santa Cruz en 1949?;Gral. Humberto Torres Ortiz;Gral. Ovidio Quiroga;Gral. Hugo Banzer;Gral. René Barrientos;B
+275;¿En qué fecha se produjeron los hechos de Villa Victoria?;18 de abril de 1950;18 de mayo de 1950;18 de junio de 1950;18 de julio de 1950;B
+276;¿Cuántos votos obtuvo el MNR en las elecciones del 6 de junio de 1951?;43.129 votos;54.129 votos;64.129 votos;74.129 votos;B
+277;¿Qué porcentaje de votos obtuvo Gabriel Gosalvez en las elecciones de 1951?;22%;32%;42%;52%;B
+278;¿Cuántos votos obtuvo Bernardino Bilbao Rioja de la FSB en 1951?;10.259 votos;13.259 votos;16.259 votos;19.259 votos;B
+279;¿En qué fecha Mamerto Urriolagoitia renunció a la presidencia y entregó el gobierno a una junta militar?;16 de mayo de 1951;16 de junio de 1951;16 de julio de 1951;16 de agosto de 1951;B
+280;¿Quién fue el titular de gobierno que tomó contacto con la oposición a principios de abril de 1952?;Hugo Ballivián;Antonio Seleme;Humberto Torres Ortiz;Ovidio Quiroga;B
+281;¿Para qué fecha estaba planeado originalmente el golpe de abril de 1952?;9 de abril;10 de abril;11 de abril;12 de abril;D
+282;¿Cuántos efectivos tenía la fuerza de carabineros que era la base del levantamiento de 1952?;1.500 efectivos;2.500 efectivos;3.500 efectivos;4.500 efectivos;B
+283;¿Quién comandó la toma del arsenal por los rebeldes el 9 de abril de 1952?;Capitán Israel Téllez;Coronel Antonio Seleme;General Humberto Torres Ortiz;Mayor Froilán Callejas;A
+284;¿En qué embajada se asiló Antonio Seleme durante la Revolución de 1952?;Embajada de Argentina;Embajada de Perú;Embajada de Chile;Embajada de Brasil;C
+285;¿Dónde pactó Torres la tregua con Siles Zuazo el 11 de abril de 1952?;En La Paz;En El Alto;En Viacha;En Oruro;C
+286;¿Cuántos muertos dejó el movimiento revolucionario de abril de 1952?;290 muertos;390 muertos;490 muertos;590 muertos;C
+287;¿Qué porcentaje de la economía llegó a controlar el Estado después de 1952?;Más del 50%;Más del 60%;Más del 70%;Más del 80%;C
+288;¿En qué fecha se fundó la Central Obrera Boliviana (COB)?;17 de marzo de 1952;17 de abril de 1952;17 de mayo de 1952;17 de junio de 1952;B
+289;¿Hasta qué año Juan Lechín Oquendo fue secretario ejecutivo de la COB?;1977;1982;1987;1992;C
+290;¿En qué fecha se creó la Corporación Minera de Bolivia (COMIBOL)?;2 de septiembre de 1952;2 de octubre de 1952;2 de noviembre de 1952;2 de diciembre de 1952;B
+291;¿En qué fecha se nacionalizaron las minas en Bolivia?;31 de septiembre de 1952;31 de octubre de 1952;31 de noviembre de 1952;31 de diciembre de 1952;B
+292;¿Dónde firmó Paz Estenssoro el decreto de nacionalización de las minas?;En Siglo XX;En los campos de María Barzola en Catavi;En La Paz;En Oruro;B
+293;¿Qué porcentaje de los ingresos totales de la nación equivalían las minas en 1952?;Más del 60%;Más del 70%;Más del 80%;Más del 90%;C
+294;¿En qué fecha se dictó el decreto del Voto Universal?;21 de junio de 1952;21 de julio de 1952;21 de agosto de 1952;21 de septiembre de 1952;B
+295;¿A qué edad se estableció el derecho a sufragio para los habitantes de la república en 1952?;Mayores de 18 años;Mayores de 21 años;Mayores de 23 años;Mayores de 25 años;B
+296;¿En qué año se realizaron las primeras elecciones de la época revolucionaria?;1954;1955;1956;1957;C
+297;¿Dónde se promulgó la Reforma Agraria el 2 de agosto de 1953?;En Cliza;En Ucureña;En Cochabamba ciudad;En Quillacollo;B
+298;¿Cuál era el lema de la Reforma Agraria de 1953?;La tierra para todos;La tierra es del pueblo;La tierra es de quien la trabaja;La tierra es sagrada;C
+299;¿En qué fecha se promulgó el Código de Educación Boliviana?;20 de enero de 1954;20 de enero de 1955;20 de enero de 1956;20 de enero de 1957;B
+300;¿En qué fecha se aprobó el Código de Seguridad Social?;14 de diciembre de 1955;14 de diciembre de 1956;14 de diciembre de 1957;14 de diciembre de 1958;B
+301;¿Desde qué año se prestaban servicios limitados de seguridad social a ciertos sectores laborales?;1920;1922;1924;1926;C
+302;¿Cuántos nuevos servicios o centros de salud fueron entregados al servicio público hasta 1962?;63 servicios;73 servicios;83 servicios;93 servicios;C
+303;¿En qué año fue el golpe de Estado que inauguró el ciclo militar en Bolivia?;1962;1963;1964;1965;C
+304;¿Hasta qué año duró el ciclo militar en Bolivia con algunas interrupciones?;1980;1981;1982;1983;C
+305;¿En qué fecha Barrientos y Ovando crearon la co-presidencia?;26 de abril de 1965;26 de mayo de 1965;26 de junio de 1965;26 de julio de 1965;B
+306;¿Cuántos meses duró la co-presidencia en Bolivia?;Cinco meses;Seis meses;Siete meses;Ocho meses;C
+307;¿Qué denominación recibió el proyecto de Barrientos iniciado el 4 de noviembre?;Primera República;Revolución Restauradora;Nueva Bolivia;Revolución Nacional;B
+308;¿Con qué nombre llegó Ernesto Guevara a La Paz el 4 de noviembre de 1966?;Ramón Benítez;Adolfo Mena González;Fernando Sacamuelas;Alejandro Ramírez;B
+309;¿Quién denunció la existencia del grupo guerrillero el 6 de marzo de 1967?;Vicente Rocabado;Ciro Roberto Bustos;Epifanio Vargas;Honorato Rojas;C
+310;¿Quién era el comandante del ejército boliviano durante la guerrilla del Ché?;Alfredo Ovando Candia;David Lafuente Soto;Gary Prado Salmón;Hugo Banzer Suárez;B
+311;¿En qué quebrada enfrentó el Ché Guevara su último combate?;Quebrada del Yuro;Quebrada de Ñancahuazú;Quebrada de Ipitacito;Quebrada de Bella Vista;A
+312;¿Quién capturó al Ché Guevara el 8 de octubre de 1967?;Capitán Gary Prado;Coronel Joaquín Zenteno;Mayor Miguel Ayoroa;Teniente Eduardo Galindo;A
+313;¿En qué noche atacó el ejército el campamento minero de Siglo XX en la masacre de San Juan?;22 al 23 de junio de 1967;23 al 24 de junio de 1967;24 al 25 de junio de 1967;25 al 26 de junio de 1967;B
+314;¿Cuántos mineros reconoció oficialmente el gobierno que murieron en la Masacre de San Juan?;17 mineros;27 mineros;37 mineros;47 mineros;B
+315;¿En qué fecha falleció René Barrientos?;27 de marzo de 1969;27 de abril de 1969;27 de mayo de 1969;27 de junio de 1969;B
+316;¿Quién sucedió constitucionalmente a Barrientos en la presidencia?;Alfredo Ovando Candia;Luis Adolfo Siles Salinas;Juan José Torres;Hugo Banzer Suárez;B
+317;¿En qué fecha se inauguró la Televisión Boliviana?;30 de julio de 1969;30 de agosto de 1969;30 de septiembre de 1969;30 de octubre de 1969;B
+318;¿En qué fecha Ovando nacionalizó los bienes de la Gulf?;17 de septiembre de 1969;17 de octubre de 1969;17 de noviembre de 1969;17 de diciembre de 1969;B
+319;¿Desde qué año trabajaba la Gulf en Bolivia?;1952;1954;1956;1958;C
+320;¿En qué zona estalló un movimiento de guerrilla en julio de 1970?;Teoponte;Ñancahuazú;Vallegrande;Camiri;A
+321;¿En qué fecha Juan José Torres juró la presidencia?;6 de septiembre de 1970;6 de octubre de 1970;6 de noviembre de 1970;6 de diciembre de 1970;B
+322;¿En qué fecha comenzó a sesionar la Asamblea Popular?;22 de mayo de 1971;22 de junio de 1971;22 de julio de 1971;22 de agosto de 1971;B
+323;¿Cuántos días después de su creación se produjo la última sesión de la Asamblea Popular?;9 días;10 días;11 días;12 días;C
+324;¿En qué ciudad se originó el golpe de Estado contra Juan José Torres?;La Paz;Cochabamba;Santa Cruz;Tarija;C
+325;¿En qué fecha Hugo Banzer llegó al poder?;21 de julio de 1971;21 de agosto de 1971;21 de septiembre de 1971;21 de octubre de 1971;B
+326;¿Desde qué año estaba clausurado el poder legislativo en Bolivia cuando Banzer asumió?;1967;1968;1969;1970;C
+327;¿A partir de qué fecha Banzer proclamó el receso total de actividad política y sindical?;9 de octubre de 1974;9 de noviembre de 1974;9 de diciembre de 1974;9 de enero de 1975;B
+328;¿Cuántos años estuvo Hugo Banzer en el poder durante su primera gestión?;Cinco años;Seis años;Siete años;Ocho años;C
+329;¿Qué porcentaje de votos obtuvo Juan Pereda en las elecciones fraudulentas de 1978?;40%;45%;50%;55%;C
+330;¿Cuántos gobiernos tuvo Bolivia entre el 21 de julio de 1978 y el 10 de octubre de 1982?;Siete gobiernos;Ocho gobiernos;Nueve gobiernos;Diez gobiernos;C
+331;¿Cuántos días duró el gobierno de Alberto Natusch Busch?;12 días;14 días;16 días;18 días;C
+332;¿Qué porcentaje de votos obtuvo Hernán Siles en las elecciones de 1980?;28,74%;33,74%;38,74%;43,74%;C
+333;¿Cuántas víctimas aproximadamente dejó el gobierno de García Meza entre desapariciones, torturas y persecuciones?;300 víctimas;400 víctimas;500 víctimas;600 víctimas;C
+334;¿Qué porcentaje de inflación alcanzó Bolivia durante el gobierno de la UDP?;6170,50%;7170,50%;8170,50%;9170,50%;C
+335;¿A cuánto llegó el cambio del dólar en el mercado negro en agosto de 1985?;850.000 pesos;950.000 pesos;1.050.000 pesos;1.150.000 pesos;C
+336;¿Cuántos municipios creó la Ley de Participación Popular en 1994?;211 municipios;261 municipios;311 municipios;361 municipios;C

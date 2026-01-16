@@ -1,0 +1,401 @@
+﻿id;question;option_a;option_b;option_c;option_d;answer_letter
+1;¿Qué filósofo sistematizó la lógica y la convirtió en una disciplina previa a toda investigación?;Parménides;Aristóteles;Platón;Zenón de Elea;B
+2;¿Bajo qué título fueron reunidos los escritos lógicos de Aristóteles?;Analítica;Organon;Hermenéutica;Tópicos;B
+3;"¿Qué significa el término griego ""logos""?";Verdad;Razón;Estudio, tratado o ciencia;Pensamiento;C
+4;¿En qué siglo nació la lógica en Grecia?;Siglo IV a.C.;Siglo VI a.C.;Siglo V a.C.;Siglo III a.C.;C
+5;¿Qué filósofo señaló a la razón como la única capaz de conocer el ser?;Heráclito;Sócrates;Parménides;Zenón de Elea;C
+6;¿Qué obra publicó Francis Bacon en 1620?;Novum Organon;Analítica;Tópicos;Organon;A
+7;¿Qué principio lógico formuló Parménides?;Tercero excluido;Razón suficiente;Identidad;No contradicción;C
+8;¿Quién formuló el principio de razón suficiente?;Aristóteles;I. Kant;G. Leibniz;A. Schopenhauer;C
+9;¿Cuál es la fórmula del principio de identidad?;A es B;A es A;A no es A;A o B;B
+10;"¿Qué representa la letra ""A"" en la clasificación de juicios según cantidad y cualidad?";Juicio Universal Negativo;Juicio Particular Afirmativo;Juicio Universal Afirmativo;Juicio Particular Negativo;C
+11;"¿Qué representa la letra ""E"" en la clasificación de juicios?";Juicio Particular Afirmativo;Juicio Universal Negativo;Juicio Universal Afirmativo;Juicio Particular Negativo;B
+12;"¿Qué representa la letra ""I"" en la clasificación de juicios?";Juicio Universal Afirmativo;Juicio Universal Negativo;Juicio Particular Negativo;Juicio Particular Afirmativo;D
+13;"¿Qué representa la letra ""O"" en la clasificación de juicios?";Juicio Particular Negativo;Juicio Universal Afirmativo;Juicio Particular Afirmativo;Juicio Universal Negativo;A
+14;¿Cuántos principios lógicos supremos son aceptados universalmente por todos los lógicos?;Dos;Cuatro;Cinco;Tres;D
+15;¿Qué filósofo desarrolló el principio de razón suficiente además de Leibniz?;I. Kant;F. Hegel;A. Schopenhauer;F. Bacon;C
+16;¿Cuántas figuras del silogismo existen?;Tres;Cinco;Cuatro;Seis;C
+17;¿Cuántos modos válidos existen dentro del silogismo?;16;19;24;64;B
+18;¿Qué término del silogismo NO entra en la conclusión?;Término Mayor;Término Medio;Término Menor;Premisa Mayor;B
+19;¿Con qué letra se representa el término mayor en el silogismo?;S;M;T;P;D
+20;¿Con qué letra se representa el término menor en el silogismo?;P;M;S;T;C
+21;¿Con qué letra se representa el término medio en el silogismo?;S;P;T;M;D
+22;¿Cuántos términos debe tener un silogismo según las reglas generales?;Dos;Cuatro;Cinco;Tres;D
+23;¿Qué tipo de razonamiento parte de lo universal para llegar a lo particular?;Inducción;Analogía;Deducción;Silogismo hipotético;C
+24;¿Qué tipo de razonamiento parte de premisas particulares para llegar a una conclusión universal?;Deducción;Inducción;Analogía;Silogismo categórico;B
+25;¿Cuáles son las dos propiedades del concepto?;Sujeto y predicado;Premisa y conclusión;Extensión y comprensión;Contenido y extensión;D
+26;¿Qué parte del juicio une o desune conceptos?;Sujeto;Predicado;Término;Cópula;D
+27;¿Cuántos juicios tiene necesariamente un silogismo?;Dos;Cuatro;Cinco;Tres;D
+28;¿Cómo se llama el primer juicio del silogismo que contiene el término mayor?;Premisa menor;Conclusión;Inferencia;Premisa mayor;D
+29;¿Qué filósofo investigó el concepto, la definición y la inducción?;Platón;Aristóteles;Parménides;Sócrates;D
+30;¿En qué período se adoptó la lógica de Aristóteles poniéndola al servicio de la religión cristiana?;Renacimiento;Ilustración;Edad Media;Modernidad;C
+31;¿Qué asignatura del trivium se relacionaba con la lógica del movimiento?;Retórica;Gramática;Aritmética;Dialéctica;D
+32;¿Cuál fue el giro que tomó la lógica a partir del Renacimiento?;Lógica metodológica;Lógica simbólica;Lógica inductiva;Lógica formal;A
+33;"¿Qué filósofo dijo ""si los dioses usaran la lógica, sería la de Crisipo""?";Aristóteles;Zenón de Citio;Diodoro de Cronos;Se atribuye a la tradición sobre Crisipo;D
+34;Según Kant, ¿qué es la lógica?;La ciencia de las formas del ser;La ciencia racional de las leyes a priori del pensamiento;La ciencia de la naturaleza;La ciencia de los hechos empíricos;B
+35;¿Qué lógica del siglo XIX representa una renovación de la lógica de F. Bacon?;Lógica simbólica;Lógica matemática;Lógica inductiva;Lógica dialéctica;C
+36;¿Quiénes fueron representantes de la lógica inductiva del siglo XIX?;Hegel, Fichte y Schelling;Mill, Bain y Spencer;Russell, Carnap y Wittgenstein;Kant, Leibniz y Bacon;B
+37;¿Qué tipo de juicio según la relación presenta el predicado con más de dos alternativas?;Categórico;Hipotético;Problemático;Disyuntivo;D
+38;¿Qué tipo de juicio según la modalidad expresa una verdad de hecho?;Apodíctico;Asertórico;Problemático;Categórico;B
+39;¿Qué tipo de juicio según la modalidad expresa una necesidad que no admite contradicción?;Problemático;Asertórico;Categórico;Apodíctico;D
+40;¿Qué tipo de juicio según la modalidad expresa una opinión no demostrada?;Asertórico;Apodíctico;Hipotético;Problemático;D
+41;¿Cuál es la forma de realidad o existencia de los juicios según el documento?;El ser;El valer;La esencia;La sustancia;B
+42;¿Qué relación existe entre contenido y extensión de un concepto?;Directa;Proporcional;No existe relación;Inversa;D
+43;¿Qué concepto tiene mayor extensión según el documento?;Rojo;Azul;Verde;Color;D
+44;¿Cuál es la primera operación que la mente realiza antes de formar juicios?;Razonamiento;Formación de conceptos;Inferencia;Deducción;B
+45;¿Qué tipo de conceptos designan seres humanos, animales, cosas y cualidades?;Conceptos relacionantes;Conceptos abstractos;Conceptos objetivos;Conceptos funcionales;C
+46;¿Qué tipo de conceptos cumplen la función de conectar o relacionar dos o más conceptos?;Conceptos objetivos;Conceptos sustantivos;Conceptos adjetivos;Conceptos funcionales;D
+47;En la primera figura del silogismo, ¿qué función cumple el término medio en las premisas?;Predicado en ambas;Sujeto en la mayor y predicado en la menor;Predicado en la mayor y sujeto en la menor;Sujeto en ambas;B
+48;En la segunda figura del silogismo, ¿qué función cumple el término medio?;Sujeto en ambas premisas;Sujeto en la mayor y predicado en la menor;Predicado en la mayor y sujeto en la menor;Predicado en ambas premisas;D
+49;En la tercera figura del silogismo, ¿qué función cumple el término medio?;Predicado en ambas premisas;Predicado en la mayor y sujeto en la menor;Sujeto en la mayor y predicado en la menor;Sujeto en ambas premisas;D
+50;¿Cuántos modos válidos tiene la primera figura del silogismo?;Tres;Cinco;Seis;Cuatro;D
+51;¿Cuántos modos válidos tiene la segunda figura del silogismo?;Seis;Cinco;Cuatro;Tres;C
+52;¿Cuántos modos válidos tiene la tercera figura del silogismo?;Cuatro;Cinco;Tres;Seis;D
+53;¿Cuántos modos válidos tiene la cuarta figura del silogismo?;Cuatro;Seis;Tres;Cinco;D
+54;¿Qué modo del silogismo tiene la estructura AAA en la primera figura?;Celarent;Darii;Ferio;Barbara;D
+55;¿Qué modo del silogismo tiene la estructura EAE en la primera figura?;Barbara;Celarent;Darii;Ferio;B
+56;¿Qué modo del silogismo tiene la estructura AII en la primera figura?;Ferio;Barbara;Celarent;Darii;D
+57;¿Qué modo del silogismo tiene la estructura EIO en la primera figura?;Darii;Celarent;Barbara;Ferio;D
+58;Según el principio de no contradicción, dos juicios contradictorios no pueden ser ambos:;Falsos;Particulares;Universales;Verdaderos;D
+59;Según el principio del tercer excluido, dos juicios contradictorios no pueden ser ambos:;Verdaderos;Universales;Particulares;Falsos;D
+60;"¿Qué principio busca la razón de las cosas en el ""porqué""?";Principio de finalidad;Principio de identidad;Principio de causalidad;Principio del tercer excluido;C
+61;"¿Qué principio busca la razón de las cosas en el ""para qué""?";Principio de causalidad;Principio de identidad;Principio del tercer excluido;Principio de finalidad;D
+62;¿Qué filósofo antiguo creó las famosas aporías que son razonamientos extremadamente lógicos?;Parménides;Sócrates;Platón;Zenón de Elea;D
+63;¿Cómo llamó Aristóteles a su tratado de lógica?;Organon;Tópicos;Analítica;Hermenéutica;C
+64;¿En qué parte del Organon Aristóteles estudia los términos y conceptos?;Hermenéutica;Primeros Analíticos;Categorías;Tópicos;C
+65;¿En qué parte del Organon Aristóteles estudia la proposición y los juicios?;Categorías;Segundos Analíticos;Tópicos;Hermenéutica;D
+66;¿En qué parte del Organon Aristóteles trata los silogismos?;Segundos Analíticos;Categorías;Hermenéutica;Primeros Analíticos;D
+67;¿En qué parte del Organon Aristóteles estudia la demostración?;Primeros Analíticos;Tópicos;Segundos Analíticos;Categorías;C
+68;¿Qué ocupaba el centro de la lógica aristotélica?;La inducción;La analogía;El concepto;El silogismo;D
+69;¿Qué tipo de errores de razonamiento son cometidos con intención de engañar?;Paralogismos;Falacias;Aporías;Sofismas;D
+70;¿Qué tipo de errores de razonamiento son cometidos sin intención de engañar?;Sofismas;Falacias;Aporías;Paralogismos;D
+71;¿En qué se dividen los sofismas según el documento?;Simples y compuestos;Directos e indirectos;Verbales y de pensamiento;Formales e informales;C
+72;¿Qué tipo de juicio según la cantidad se refiere a todos los individuos de la especie?;Singular;Particular;Indefinido;Universal;D
+73;¿Qué tipo de juicio según la cantidad se refiere a varios objetos sin llegar a la totalidad?;Universal;Singular;Indefinido;Particular;D
+74;¿Qué tipo de juicio según la cantidad se refiere a una sola cosa?;Particular;Universal;Indefinido;Singular;D
+75;¿Qué tipo de juicio según la relación tiene la acción del predicado sujeta a una condición?;Categórico;Disyuntivo;Problemático;Hipotético;D
+76;¿Qué tipo de juicio según la relación presenta la relación de sujeto y predicado sin ninguna condición?;Hipotético;Disyuntivo;Problemático;Categórico;D
+77;¿Qué filósofo consideraba que la lógica era un saber de medio o instrumento?;Platón;Parménides;Sócrates;Aristóteles;D
+78;¿Qué tipo de razonamiento tiene la conclusión extraída de dos o más premisas?;Inmediato;Simple;Directo;Mediato;D
+79;¿Qué tipo de razonamiento tiene la conclusión inferida directamente de una sola premisa?;Mediato;Compuesto;Directo;Inmediato;D
+80;¿Cuál es una condición que debe cumplir todo razonamiento correcto?;Premisas verdaderas;Conclusión universal;Orden lógico de los juicios;Más de tres términos;C
+81;¿Qué condición del razonamiento establece que un juicio debe ser consecuencia lógica del anterior?;Orden lógico;Conclusión diferente;Premisas universales;Consecuencia lógica;D
+82;¿Qué condición del razonamiento establece que la conclusión no debe repetir lo afirmado en los juicios anteriores?;Consecuencia lógica;Orden lógico;Premisas verdaderas;Conclusión diferente;D
+83;Según una regla del silogismo para los juicios, ¿qué ocurre si ambas premisas son afirmativas?;La conclusión debe ser universal;No se puede sacar conclusión;La conclusión debe ser particular;No se saca conclusión negativa;D
+84;Según una regla del silogismo para los juicios, ¿qué ocurre si ambas premisas son negativas?;La conclusión es particular;La conclusión es negativa;No se puede sacar conclusión;La conclusión es universal;C
+85;Según una regla del silogismo para los juicios, ¿qué ocurre si ambas premisas son particulares?;La conclusión es negativa;No se puede sacar conclusión alguna;La conclusión es particular;La conclusión es universal;B
+86;¿Qué regla del silogismo establece que la conclusión debe seguir la parte más débil?;Segunda regla para los juicios;Tercera regla para los términos;Primera regla para los términos;Cuarta regla para los juicios;D
+87;¿Qué regla especial tiene la primera figura del silogismo respecto a la premisa mayor?;Debe ser particular;Debe ser negativa;Debe ser afirmativa;Debe ser universal;D
+88;¿Qué regla especial tiene la primera figura del silogismo respecto a la premisa menor?;Debe ser universal;Debe ser negativa;Debe ser particular;Debe ser afirmativa;D
+89;¿Qué regla especial tiene la segunda figura del silogismo?;La mayor es universal y una de las dos negativa;Ambas deben ser afirmativas;Ambas deben ser universales;La menor es particular;A
+90;¿Qué regla especial tiene la tercera figura respecto a la premisa mayor?;Debe ser negativa;Debe ser universal;Debe ser particular;Debe ser afirmativa;D
+91;¿Qué regla especial tiene la tercera figura respecto a la conclusión?;Debe ser universal;Debe ser negativa;Debe ser afirmativa;Debe ser particular;D
+92;¿Qué objeto de estudio tiene la lógica clásica según Aristóteles?;El razonamiento matemático;El silogismo exclusivamente;El lenguaje formal;El uso del lenguaje natural;D
+93;¿Qué disciplina estudia las estructuras del pensamiento y las leyes para formular razonamientos válidos?;Retórica;Gramática;Ética;Lógica;D
+94;¿De qué se ocupa la lógica formal según el documento?;De la verdad de los argumentos;Del contenido de los pensamientos;De los objetos del conocimiento;De la forma de los pensamientos;D
+95;"¿Cuál es el latín del que proviene el término ""concepto""?";Conceptio;Conceptare;Conceptum;Conceptus;D
+96;¿Qué es el concepto según la lógica formal?;Un razonamiento complejo;Un juicio verdadero;Una inferencia lógica;Una imagen mental expresada con palabras;D
+97;¿Qué ejemplo de concepto funcional se menciona en el documento?;Inteligente;Azul;León;Es;D
+98;¿Qué significa que el principio de identidad es tautológico en sentido ontológico?;Es contradictorio;Es universal;Afirma identidad y quietud pero la realidad cambia;Es particular;C
+99;¿Qué influencia tuvo el Círculo de Viena en la lógica?;Desarrollo del idealismo;Renovación del aristotelismo;Creación de la lógica inductiva;Desarrollo del neopositivismo;D
+100;¿Quiénes fueron considerados primero como grandes sabios y luego como vulgares charlatanes?;Los estoicos;Los megáricos;Los pitagóricos;Los sofistas;D
+1;¿Qué pregunta central intenta responder la antropología filosófica?;¿De dónde viene el hombre?;¿A dónde va el hombre?;¿Qué es el hombre?;¿Cómo somos?;C
+2;¿En qué siglo se desarrolló principalmente la antropología filosófica como disciplina?;Siglo XVIII;Siglo XIX;Siglo XXI;Siglo XX;D
+3;¿Dónde se formó definitivamente la antropología filosófica después de la segunda guerra mundial?;Francia;Alemania occidental;Estados Unidos;Inglaterra;B
+4;"¿Quién escribió la obra ""Situación del hombre en el cosmos"" en 1928?";H. Hengstenberg;A. Gehlen;M. Scheler;E. Rothacker;C
+5;"¿Qué significa el término griego ""Anthropos""?";Conocimiento;Hombre;Estudio;Razón;B
+6;¿Cuál es la pregunta central de la antropología teológica?;¿Qué somos?;¿De dónde viene el hombre?;¿Cómo somos?;¿A dónde va el hombre?;D
+7;¿Qué ofrece la antropología teológica al hombre según el documento?;Una explicación científica;Un mundo de esperanza en el más allá;Una teoría evolutiva;Un análisis sociológico;B
+8;¿Qué considera la antropología histórico-científica al hombre?;Un ser espiritual;Un ser personal;Un ser cultural;Un ser biológico;D
+9;¿Cuál es la pregunta central de la antropología histórico-científica?;¿Qué es el hombre?;¿A dónde va el hombre?;¿Cómo somos?;¿De dónde viene el hombre?;D
+10;¿Qué disciplina colabora con la antropología histórico-científica estudiando anatomía y fisiología?;Paleontología;Arqueología;Etnología;Somatología;D
+11;¿Cuál es la pregunta central de la antropología filosófica?;¿De dónde viene el hombre?;¿A dónde va el hombre?;¿Cómo somos?;¿Qué es el hombre?;D
+12;¿Cómo considera la antropología filosófica al hombre?;Un ser biológico;Un ser social;Un ser cultural;Un ser personal;D
+13;"¿Quién dijo ""Reconoced pues soberbios qué paradoja son para ustedes mismos""?";C. Marx;F. Nietzsche;B. Pascal;M. Heidegger;C
+14;¿Cuál es la pregunta central de la antropología sociológica?;¿Qué es el hombre?;¿De dónde viene el hombre?;¿Cómo somos?;¿A dónde va el hombre?;C
+15;¿Cómo percibe la antropología sociológica al hombre?;Como ser espiritual;Como ser personal;Como ser eminentemente social;Como ser biológico;C
+16;¿Cuál es la pregunta central de la antropología cultural?;¿Qué lugar ocupa el hombre en el mundo de la cultura?;¿De dónde viene el hombre?;¿Qué es el hombre?;¿A dónde va el hombre?;A
+17;¿Cuántas direcciones antropológicas menciona el documento según diferentes interpretaciones?;Tres;Cuatro;Seis;Cinco;D
+18;¿Qué problema antropológico surgió primero según el documento hasta el siglo XIX?;El de la coexistencia;El de la ubicación;El de la existencia;El de la esencia;D
+19;¿Qué es la esencia según el sentido lógico?;Una realidad profunda;Aquello a lo que se llega mediante la definición;El estar de las cosas;La existencia concreta;B
+20;¿Qué filósofo idealista afirmaba que la esencia es obra del sujeto?;Aristóteles;I. Kant;Platón;C. Marx;C
+21;¿Qué significa existencia según el documento?;La idea de las cosas;Las notas propias del ser;El estar de las cosas fuera en el tiempo y espacio;La esencia profunda;C
+22;¿Quiénes son filósofos existencialistas mencionados en el documento?;Platón y Aristóteles;Descartes y Spinoza;Kierkegaard y Heidegger;Hegel y Marx;C
+23;¿Qué problema antropológico es una condición y requisito de la existencia en el plano humano?;La esencia;La ubicación;La existencia;La coexistencia;D
+24;¿Qué expresa la coexistencia según el documento?;El conocimiento abstracto;El lenguaje la ciencia el arte el derecho y la moral;La esencia divina;La evolución biológica;B
+25;¿A qué se refiere la ubicación como problema antropológico?;A la adaptación pasiva del hombre;A la localización general del hombre dentro del proceso histórico-social;Al origen biológico del hombre;A la esencia espiritual del hombre;B
+26;¿Qué obra escribió San Agustín de Hipona relacionada con la ciudad?;Confesiones;Contra Académicos;Diálogos filosóficos;Ciudad de Dios;D
+27;¿En qué años vivió San Agustín de Hipona?;313-385 d.J.C.;354-430 d.J.C.;400-476 d.J.C.;325-395 d.J.C.;B
+28;¿Qué tipo de interpretación del hombre realizó San Agustín?;Materialista;Existencialista;Teológica;Sociológica;C
+29;Según San Agustín ¿de dónde sale el mundo creado?;De la evolución natural;De la materia eterna;De las manos de Dios;De la razón humana;C
+30;¿Qué contrapone San Agustín en su antropología?;Razón y fe;Materia y forma;Ciencia y religión;Ciudad terrenal y ciudad celestial;D
+31;¿Qué es necesario hacer según San Agustín para alcanzar la ciudad de Dios?;Estudiar filosofía;Acumular riquezas;Hacer obras buenas y arrepentirse;Desarrollar la razón;C
+32;¿En qué años vivió Jorge Guillermo Federico Hegel?;1724-1804;1770-1831;1818-1883;1788-1860;B
+33;¿Qué obra escribió Hegel sobre el espíritu?;Crítica de la razón pura;Fenomenología del Espíritu;Ser y Tiempo;El Capital;B
+34;¿Cuál es el punto de partida del pensamiento hegeliano?;La materia;La Idea Absoluta;La existencia;El proletariado;B
+35;¿Qué proceso utiliza Hegel como método del idealismo absoluto?;La inducción;La deducción;La intuición;La dialéctica;D
+36;¿Cuáles son los tres procesos de la dialéctica hegeliana?;Premisa mayor premisa menor y conclusión;Concepto juicio y razonamiento;Tesis antítesis y síntesis;Ser esencia y concepto;C
+37;¿Qué es el hombre para Hegel según el documento?;Un ser independiente de la idea;El medio o instrumento para realizar la idea;Un ser puramente material;Un ser sin consciencia;B
+38;¿Cómo es la concepción antropológica de Hegel según el documento?;Materialista y progresista;Existencialista y libre;Determinista y panteísta;Empirista y racionalista;C
+39;¿En qué años vivió Carlos Enrique Marx?;1770-1831;1813-1855;1844-1900;1818-1883;D
+40;¿Qué obra escribió Marx sobre el capital?;La riqueza de las naciones;El Capital;Tratado de economía política;Principios de economía;B
+41;Según Marx ¿qué determina la existencia concreta del hombre?;El espíritu absoluto;La voluntad divina;Las cosas los demás hombres y lo social;La razón pura;C
+42;¿Qué término usa Marx para la explotación del hombre por el hombre?;Trabajo asalariado;Capital variable;Alienación;Plusvalía;D
+43;¿Cuántos factores de la historia menciona Marx en su antropología?;Tres;Cinco;Seis;Cuatro;D
+44;¿Cuál es el primer factor de la historia según Marx?;La formación de familia;La consciencia social;Satisfacer necesidades ineludibles para vivir;La producción de herramientas;C
+45;¿Qué dice Marx que es el motor de la historia?;Los héroes;Los ideólogos;La razón absoluta;Las clases sociales;D
+46;¿En qué años vivió Severino Aaby Kierkegaard?;1770-1831;1818-1883;1813-1855;1844-1900;C
+47;¿Qué obra escribió Kierkegaard sobre la angustia?;Ser y Tiempo;El concepto de la angustia;La náusea;Temor y temblor;B
+48;¿Qué premisa inicia el existencialismo según el documento?;La esencia precede a la existencia;La razón precede a la fe;La materia precede al espíritu;La existencia precede a la esencia;D
+49;Según Kierkegaard ¿en qué consiste la existencia humana?;En el conocer;En la razón;En el existir;En la contemplación;C
+50;¿Qué encuentra el hombre en las profundidades de su consciencia según Kierkegaard?;Felicidad y plenitud;Razón y lógica;Angustia desesperación y culpa;Conocimiento absoluto;C
+51;¿En qué años vivió Federico Guillermo Nietzsche?;1813-1855;1818-1883;1889-1976;1844-1900;D
+52;¿Qué obra escribió Nietzsche sobre Zaratustra?;El nacimiento de la tragedia;Así habló Zaratustra;La genealogía de la moral;El crepúsculo de los ídolos;B
+53;¿Qué niega Nietzsche sobre el hombre según el documento?;Su existencia;Su racionalidad;Una posible finalidad;Su mortalidad;C
+54;"Según Nietzsche en ""Así habló Zaratustra"" ¿qué es el hombre?";Un fin en sí mismo;Un ser completo;Una criatura de Dios;Un puente y un tránsito;D
+55;¿Qué debe buscar constantemente el hombre según Nietzsche?;La contemplación;La resignación;La superación;La obediencia;C
+56;¿Quién lleva la tarea de definir el sentido de la vida a sus últimas consecuencias según Nietzsche?;El sabio;El santo;El filósofo;El superhombre;D
+57;¿Cómo define Nietzsche al hombre en relación con el poder?;Voluntad de saber;Voluntad de poder;Voluntad de verdad;Voluntad de placer;B
+58;¿Qué corriente filosófica se asocia con Nietzsche al hacer de la vida el supremo valor?;Racionalismo;Empirismo;Existencialismo;Vitalismo;D
+59;¿En qué años vivió Martin Heidegger?;1844-1900;1818-1883;1889-1976;1813-1855;C
+60;¿Qué obra principal escribió Heidegger?;Fenomenología del Espíritu;Crítica de la razón pura;El Capital;Ser y Tiempo;D
+61;Según Heidegger ¿qué es la existencia en su forma inmediata?;Un estar en la razón;Un estar en Dios;Un estar en el mundo;Un estar en la materia;C
+62;¿Qué es la existencia para Heidegger según el documento?;Contemplación;Razón;Felicidad;Preocupación;D
+63;¿Cómo describe Heidegger al hombre en relación con la muerte?;Un ser para la vida;Un ser para la razón;Un ser para la eternidad;Un ser para la muerte;D
+64;¿En qué años vivió Max Scheler?;1818-1883;1889-1976;1844-1900;1874-1928;D
+65;¿Cuántos grados de desarrollo psicofísico propone Scheler?;Tres;Cuatro;Seis;Cinco;D
+66;¿A qué corresponde el impulso afectivo según Scheler?;A los animales superiores;Al hombre;A los animales inferiores;A las plantas;D
+67;¿A qué corresponde el instinto según Scheler?;A las plantas;Al hombre;Al animal;A los minerales;C
+68;¿Qué grado de desarrollo corresponde a la conducta habitual según Scheler?;Instinto;Impulso afectivo;Inteligencia práctica;Memoria asociativa;D
+69;¿A qué seres corresponde la inteligencia práctica según Scheler?;Plantas;Hombre únicamente;Todos los animales;Animales superiores;D
+70;¿Qué corresponde exclusivamente al hombre según Scheler?;Instinto;Memoria asociativa;Impulso afectivo;Espíritu;D
+71;¿Qué principio define al hombre según Scheler?;La razón universal;La materia organizada;La evolución biológica;Un principio que se opone a toda vida;D
+72;¿Qué afirman los evolucionistas desde Darwin según el documento?;Hay diferencia esencial entre animal y hombre;El hombre no evolucionó;El hombre es creación divina;No hay diferencia esencial entre animal y hombre;D
+73;¿Qué es el estructuralismo según el documento?;Una doctrina filosófica;Un sistema político;Una teoría económica;Un método de investigación;D
+74;¿Qué busca explorar el estructuralismo según el documento?;Las esencias absolutas;Los individuos aislados;Las sustancias materiales;Las interrelaciones que producen significado;D
+75;¿Quién fue uno de los primeros y más prominentes representantes del estructuralismo?;M. Foucault;F. de Saussure;J. Lacan;Cl. Lévi-Strauss;D
+76;¿Qué fenómenos culturales analizó Claude Lévi-Strauss?;La economía política;La lógica formal;Las matemáticas;La mitología y sistemas de parentesco;D
+77;¿Dónde encuentra principalmente su difusión el estructuralismo?;Alemania;Inglaterra;Estados Unidos;Francia;D
+78;¿En qué área se desarrolló inicialmente el estructuralismo según el documento?;Antropología;Sociología;Filosofía;Lingüística;D
+79;¿Quién realizó valiosos aportes al estructuralismo lingüístico?;Cl. Lévi-Strauss;J. Lacan;M. Foucault;Ferdinand de Saussure;D
+80;¿Qué afirma el primer principio de la lingüística estructural contra el positivismo?;Lo individual es la única realidad;La sustancia es lo importante;El conocimiento es imposible;Se llega a lo individual a través del todo;D
+81;¿Qué dice el tercer principio de la lingüística estructural sobre el lenguaje?;Es un reflejo de la realidad;Es creación divina;Es producto de la razón;Es un sistema de diferencias;D
+82;¿Qué necesita constituirse la antropología según Lévi-Strauss?;Ciencia natural;Ciencia exacta;Ciencia histórica;Ciencia semiológica;D
+83;¿Quiénes encontraron precedentes del estructuralismo según Lévi-Strauss?;Platón y Aristóteles;Descartes y Spinoza;Kant y Hegel;Marx y Freud;D
+84;¿Qué había descubierto Freud que se impone al hombre según el estructuralismo?;La razón pura;La voluntad divina;La materia;El inconsciente;D
+85;¿Qué había descubierto Marx que se impone al hombre según el estructuralismo?;El espíritu absoluto;La idea pura;La consciencia;Las relaciones económicas;D
+86;¿Quién sostiene que Freud había desarrollado el psicoanálisis estructural?;L. Althusser;Cl. Lévi-Strauss;M. Foucault;J. Lacan;D
+87;Según Lévi-Strauss ¿cuál es el fin último de las ciencias humanas?;Perfeccionar al hombre;Conocer la esencia humana;Construir al hombre;Disolverlo;D
+88;¿En qué escuela se enraizó la antropología latinoamericana?;Estructuralista francesa;Funcionalista británica;Evolucionista alemana;Culturalista estadounidense de Boas;D
+89;¿Quién fundó la tradición antropológica mexicana?;Bronislaw Malinowski;Franz Boas;Claude Lévi-Strauss;Manuel Gamio;D
+90;¿En qué décadas recibió la antropología latinoamericana fuerte influencia del marxismo?;1920 y 1940;1980 y 2000;1940 y 1960;1960 y 1980;D
+91;¿Qué cuestiones puso en énfasis la teoría marxista en la antropología latinoamericana?;La esencia espiritual del hombre;Las ideas filosóficas;La lógica formal;El subdesarrollo y la cuestión indígena;D
+92;¿Hacia dónde se volvió la mirada antropológica siguiendo el fenómeno de urbanización?;Al campo exclusivamente;A Europa;A las montañas;A la ciudad;D
+93;¿Cuál es el centro de interés de la antropología actual según el documento?;El evolucionismo;El funcionalismo;El estructuralismo;El multiculturalismo;D
+94;¿Quién popularizó el término antropoceno?;Claude Lévi-Strauss;Charles Darwin;Franz Boas;Paul Crutzen;D
+95;¿En qué año popularizó Paul Crutzen el término antropoceno?;1995;2010;1990;2000;D
+96;¿Qué caracteriza a la época del antropoceno?;La evolución biológica;El desarrollo del lenguaje;La aparición del hombre;El impacto del hombre sobre la Tierra;D
+97;¿Qué premio recibió Paul Crutzen en 1995?;Premio Nobel de Literatura;Premio Nobel de la Paz;Premio Nobel de Física;Premio Nobel de Química;D
+98;¿Qué es un requisito necesario para ser persona según el problema de la ubicación?;La contemplación filosófica;La fe religiosa;La razón pura;Un proceso de adaptación cultural;D
+99;Según el documento ¿qué constituyen juntas la esencia y la existencia?;La nada;La materia;El espíritu;El ser;D
+100;¿Qué obra escribió Kierkegaard sobre estética y ética?;Ser y Tiempo;Temor y temblor;El concepto de la angustia;Estética y ética;D
+1;¿Qué distinguían los griegos como conjunto de opiniones a propósito de las cosas?;Episteme;Techné;Sofía;Doxa;D
+2;¿Qué es la episteme según los griegos?;Opinión común;Conocimiento riguroso e independiente;Sabiduría práctica;Arte técnico;B
+3;¿Qué estudia la epistemología?;Las estructuras del pensamiento;Los valores morales;El ser en cuanto ser;Los fundamentos y métodos del conocimiento científico;D
+4;¿En qué siglos conoció la epistemología un extraordinario desarrollo?;XVII y XVIII;XVI y XVII;XIX y XX;XX y XXI;C
+5;¿Qué filósofo renacentista está convencido de que el sujeto pensante tiene ideas claras y distintas?;Francis Bacon;Immanuel Kant;David Hume;René Descartes;D
+6;¿Quién despertó a Kant de su sueño dogmático?;René Descartes;Francis Bacon;Augusto Comte;David Hume;D
+7;¿Qué conceptos a priori menciona el documento que están presentes en el hombre según Kant?;Sustancia materia y forma;Espacio tiempo y causalidad;Ser esencia y existencia;Sujeto predicado y cópula;B
+8;¿Quién bautizó con el nombre de positivismo a su síntesis filosófica?;David Hume;Immanuel Kant;René Descartes;Augusto Comte;D
+9;¿Cuántos maestros de la sospecha menciona el documento?;Tres;Cinco;Seis;Cuatro;D
+10;¿En qué año nació Luis Feuerbach según el documento?;1818;1809;1844;1804;D
+11;¿En qué año nació Carlos Darwin según el documento?;1804;1809;1818;1844;B
+12;¿En qué año nació Carlos Marx según el documento?;1809;1844;1856;1818;D
+13;¿En qué año nació Federico Nietzsche según el documento?;1818;1856;1804;1844;D
+14;¿En qué año nació Sigmund Freud según el documento?;1844;1804;1809;1856;D
+15;¿Qué afirma Luis Feuerbach sobre la religión?;Es una psicosis colectiva;Es una proyección humana frente a la soledad;Es una droga;Es una ilusión necesaria;B
+16;¿Qué considera Carlos Marx a la religión?;Una psicosis colectiva;Una proyección humana;Una ilusión necesaria;Una droga;D
+17;¿Qué afirma Sigmund Freud sobre la religión?;Es una droga;Es una proyección humana;Es una ilusión necesaria;Es una psicosis colectiva;D
+18;¿Qué hizo Federico Nietzsche con Dios según el documento?;Lo cuestionó;Lo mata para que el hombre nazca libre;Lo reinterpretó;Lo negó filosóficamente;B
+19;¿Qué descubrió Freud según el documento?;El mundo de la razón;El mundo de las ideas;El mundo de los valores;El mundo de los instintos;D
+20;¿Qué tipo de arqueología produce Freud según el documento?;Arqueología histórica;Arqueología cultural;Arqueología filosófica;Arqueología mental;D
+21;¿En qué fecha comenzó la Segunda Guerra Mundial?;1 de agosto de 1939;1 de octubre de 1939;2 de septiembre de 1939;1 de septiembre de 1939;D
+22;¿En qué fecha finalizó la Segunda Guerra Mundial?;2 de septiembre de 1945;1 de agosto de 1945;6 de agosto de 1945;1 de septiembre de 1945;A
+23;¿Qué países formaron las potencias del Eje en la Segunda Guerra Mundial?;Alemania Francia y Rusia;Estados Unidos Inglaterra y Francia;Alemania Italia y Japón;Italia Japón y España;C
+24;¿Qué países formaron los Aliados principales en la Segunda Guerra Mundial?;Alemania Italia y Japón;Inglaterra España y Portugal;Estados Unidos Francia y Rusia;Rusia China y Japón;C
+25;¿En qué fecha ocurrió el bombardeo de Hiroshima?;2 de septiembre de 1945;1 de septiembre de 1945;20 de julio de 1945;6 de agosto de 1945;D
+26;¿En qué años vivió Adolfo Hitler?;1856-1939;1889-1945;1870-1940;1900-1945;B
+27;¿Cuántos años duró la Segunda Guerra Mundial?;Cinco años;Cuatro años;Siete años;Seis años y un día;D
+28;¿Entre cuántos millones de personas se cifra la pérdida de vidas en la Segunda Guerra Mundial?;30 a 40 millones;40 a 50 millones;60 a 80 millones;50 a 70 millones;D
+29;¿Quién había dicho que la característica más destacada de la multitud era la palabrería sin compromiso?;Federico Nietzsche;Martín Heidegger;Juan Pablo Sartre;Severino Kierkegaard;D
+30;¿Qué corriente filosófica del siglo XX toma como punto de partida la situación existencial del hombre?;El positivismo;El racionalismo;El estructuralismo;El existencialismo;D
+31;¿Qué filósofo existencialista alemán estuvo influenciado por Kierkegaard y Nietzsche?;Karl Jaspers;Jean-Paul Sartre;Gabriel Marcel;Martín Heidegger;D
+32;¿En qué años vivió Juan Pablo Sartre?;1889-1976;1913-1960;1883-1955;1905-1980;D
+33;¿En qué década se desarrolló particularmente el existencialismo de Sartre?;Década de los treinta;Década de los cincuenta;Década de los sesenta;Década de los cuarenta;D
+34;¿A qué movimiento se adhirió más tarde Juan Pablo Sartre?;Movimiento estructuralista francés;Movimiento positivista francés;Movimiento fenomenológico francés;Movimiento marxista francés;D
+35;¿Qué afirmaba Sartre sobre el existencialismo?;Es un irracionalismo;Es un nihilismo;Es un materialismo;Es un humanismo;D
+36;¿A qué tipo de existencialismo pertenece el pensamiento de Sartre?;Existencialismo cristiano;Existencialismo teísta;Existencialismo humanista;Existencialismo ateo;D
+37;¿Qué expresión de Nietzsche analiza Sartre sobre la situación del hombre?;El superhombre ha llegado;El eterno retorno;La voluntad de poder;Dios ha muerto;D
+38;Según Sartre ¿qué precede a la esencia en el ser humano?;La razón;La consciencia;El espíritu;La existencia;D
+39;¿A qué está condenado el hombre según Sartre?;A la angustia;A la muerte;A ser libre;A la desesperación;C
+40;¿Qué tipo de ser describe Sartre como el ser urbano del siglo XX?;Un ser determinado;Un ser esencial;Un ser racional;Un ser extranjero en un mundo sin sentido;D
+41;¿En qué años vivió Simona de Beauvoir?;1889-1976;1913-1960;1905-1980;1908-1986;D
+42;¿Dónde conoció Juan Pablo Sartre a Simona de Beauvoir?;En la Sorbona;En un congreso filosófico;En la universidad;En un café parisino;D
+43;¿Qué obra escribió Simona de Beauvoir en 1949?;El ser y la nada;La condición humana;El extranjero;El segundo sexo;D
+44;¿Qué analiza Simona de Beauvoir en su obra principal?;La condición existencial;La condición proletaria;La condición humana universal;La condición femenina;D
+45;¿En qué siglo surgió el movimiento femenino según el documento?;Siglo XVIII;Siglo XX;Siglo XVII;Siglo XIX;D
+46;¿En qué país surgió el movimiento femenino?;Francia;Estados Unidos;Alemania;Inglaterra;D
+47;¿Quién fue una de las pioneras del movimiento femenino mencionada en el documento?;María Zambrano;Eleanor Marx;Simona de Beauvoir;Flora Tristán;D
+48;¿En qué fecha alunizó el Apolo 11?;6 de agosto de 1969;1 de septiembre de 1969;21 de junio de 1970;20 al 21 de junio de 1969;D
+49;¿Quién fue el primer hombre en pisar la Luna?;Buzz Aldrin;Michael Collins;John Glenn;Neil Armstrong;D
+50;¿Qué frase dijo Neil Armstrong al pisar la Luna?;Un momento histórico para la ciencia;Un logro de la tecnología;Este es el futuro de la humanidad;Un paso pequeño para un ser humano pero un gran paso para la humanidad;D
+51;¿Cómo se llamaba oficialmente la misión del Apolo 11?;Proyecto Luna;AS-506;Apolo Lunar;Misión Lunar 11;B
+52;¿Contra qué programa espacial competía la NASA con el Apolo 11?;Programa espacial chino;Programa espacial europeo;Programa espacial japonés;Programa espacial de la Unión Soviética;D
+53;¿En qué años vivió Alberto Camus?;1905-1980;1908-1986;1889-1976;1913-1960;D
+54;¿Qué característica tienen Alberto Camus y varios escritores de su tiempo?;El uso de la razón pura;El uso del método dialéctico;El uso de la fenomenología;El empleo de la palabra en el teatro del absurdo;D
+55;¿Qué explora Alberto Camus según el documento?;La razón absoluta;La esencia humana;La dialéctica histórica;La condición humana de aislamiento;D
+56;¿Qué tipo de humanismo esboza Alberto Camus?;Humanismo cristiano;Humanismo existencialista;Humanismo marxista;Humanismo liberal;D
+57;¿Qué rechazaba el humanismo de Camus?;Los valores universales;La razón humana;La libertad individual;Los aspectos dogmáticos del cristianismo y del marxismo;D
+58;¿En qué años vivió Hannah Arendt?;1905-1980;1908-1986;1913-1960;1906-1975;D
+59;¿Qué es Hannah Arendt según el documento?;Novelista y poeta;Filósofa y lógica;Socióloga y antropóloga;Escritora y teórica política;D
+60;¿Como qué es defendida la teoría política de Hannah Arendt?;Como un totalitarismo;Como un liberalismo;Como un comunitarismo;Como un pluralismo;D
+61;¿Qué tipo de democracia prefiere Hannah Arendt?;Democracia liberal;Democracia totalitaria;Democracia representativa;Democracia directa o sistema de consejos;D
+62;¿Qué es el raciovitalismo según el documento?;Teoría que funda el conocimiento en la razón pura;Teoría que funda el conocimiento en la intuición;Teoría que funda el conocimiento en la fe;Teoría que funda el conocimiento en la realidad radical de la vida;D
+63;¿Quién propuso el modelo de razón vital?;María Zambrano;Julián Marías;Miguel de Unamuno;José Ortega y Gasset;D
+64;¿En qué años vivió José Ortega y Gasset?;1889-1976;1904-1991;1905-1980;1883-1955;D
+65;¿Qué tipo de razón busca superar la razón vital propuesta por Ortega y Gasset?;La razón dialéctica;La razón histórica;La razón práctica;La razón pura;D
+66;¿En qué años vivió María Zambrano?;1883-1955;1906-1975;1908-1986;1904-1991;D
+67;¿Cuál es el núcleo central del pensamiento de María Zambrano?;La razón histórica;La razón dialéctica;La razón práctica;La razón poética;D
+68;¿A qué conduce la razón vital según Ortega y Gasset?;A la razón pura;A la razón práctica;A la razón poética;A la razón histórica;D
+69;¿Para qué se usa el término postmodernismo?;Para designar movimientos científicos del siglo XIX;Para designar movimientos religiosos;Para designar movimientos políticos;Para designar movimientos culturales artísticos y filosóficos del siglo XX;D
+70;¿Cuándo aparecieron las diferentes corrientes del movimiento postmoderno?;Durante la primera mitad del siglo XIX;Durante la primera mitad del siglo XX;Durante la segunda mitad del siglo XIX;Durante la segunda mitad del siglo XX;D
+71;¿Qué comparten todas las corrientes postmodernas según el documento?;Que el proyecto moderno triunfó;Que la modernidad es eterna;Que el progreso es inevitable;Que el proyecto moderno fracasó;D
+72;¿Quiénes son dos representantes del postmodernismo mencionados en el documento?;Heidegger y Sartre;Ortega y Gasset y Zambrano;Lyotard y Vattimo;Camus y Beauvoir;C
+73;¿Quién había analizado de cerca la evolución del progreso científico?;Karl Popper;Tomás Kuhn;Imre Lakatos;Gastón Bachelard;D
+74;¿Cómo procede el progreso científico según Bachelard?;Por acumulación y continuidad;Por deducciones lógicas;Por intuiciones;Por rupturas y discontinuidades;D
+75;¿Qué propone Tomás Kuhn sobre las revoluciones científicas?;Que la ciencia progresa linealmente;Que la ciencia no progresa;Que la ciencia es acumulativa;Que la ciencia progresa a saltos;D
+76;¿Qué es un paradigma según Kuhn?;Una teoría falsada;Un método científico;Un conjunto de datos;Algo encarnado frecuentemente por un genio;D
+77;¿Qué científicos menciona el documento como genios que encarnan paradigmas?;Newton Einstein y Bohr;Aristóteles Descartes y Kant;Bacon Hume y Comte;Copérnico Galilei y Darwin;D
+78;¿Qué pretende Karl Popper sobre el progreso de la ciencia?;Que progresa por acumulación;Que progresa por intuición;Que progresa por inducción;Que progresa cuando encuentra defectos de una teoría;D
+79;¿Qué es científico según Karl Popper?;Lo verificable;Lo observable;Lo inductivo;Lo falsable;D
+80;¿Qué surge frente a la crisis ecológica global según el documento?;La bioética;La tecnociencia;La ecología política;La ecosofía;D
+81;¿Qué han puesto en cuestión los ecofilósofos?;La teoría de la evolución biológica;El método científico;La razón humana;La propia idea de la evolución fundada en la modernidad;D
+82;¿Dónde coloca la modernidad al hombre según los ecofilósofos?;Junto a la naturaleza;Como parte de la naturaleza;Como observador de la naturaleza;Como dueño de la naturaleza en la posición más alta;D
+83;¿Quién propone que el hombre debe estar junto y en medio del agua la tierra las plantas y los animales?;Hannah Arendt;Karl Popper;Gastón Bachelard;Felix Guattari;D
+84;¿A qué han recurrido muchos ecofilósofos en su crítica a la manera moderna de pensar?;A las ciencias exactas;A la lógica formal;A la metafísica clásica;A ideas y pensamientos de otras culturas;D
+85;¿Qué han estudiado los ecofilósofos con el objetivo de reencontrar algo perdido?;Las civilizaciones antiguas;Los textos filosóficos clásicos;Las teorías científicas modernas;Ideas y costumbres de pueblos naturales o poblaciones autóctonas;D
+86;¿Qué principio se menciona para evitar acciones que pongan en peligro generaciones futuras?;Principio de causalidad;Principio de utilidad;Principio de autonomía;Principio de responsabilidad;D
+87;¿Dónde fue notificado por primera vez el brote de coronavirus?;En Tokio;En Nueva York;En Madrid;En la ciudad china de Wuhan;D
+88;¿En qué fecha fue notificado por primera vez el brote de coronavirus?;1 de enero de 2020;6 de marzo de 2020;20 de diciembre de 2019;31 de diciembre de 2019;D
+89;¿Durante qué años fue declarada pandemia el Covid-19?;2019 al 2020;2018 al 2019;2021 al 2022;2020 al 2021;D
+90;¿En qué siglo cuestionaron los sofistas la posibilidad del conocimiento fiable y objetivo?;Siglo IV a.C.;Siglo VI a.C.;Siglo III a.C.;Siglo V a.C.;D
+91;¿Qué argumentaba Gorgias sobre la existencia y el conocimiento?;Que todo existe y puede ser conocido;Que la existencia es evidente;Que el conocimiento es universal;Que nada realmente existe y si existiera no podría ser conocido;D
+92;¿Qué mantenía Protágoras sobre las opiniones?;Que existe una opinión verdadera universal;Que la razón determina la verdad;Que la ciencia establece la verdad;Que no se puede afirmar que la opinión de una persona sea más correcta que la de otra;D
+93;¿De qué se ocupa la epistemología según el documento?;Del estudio de los valores;Del estudio del ser;Del estudio de la lógica;Del estudio del conocimiento científico;D
+94;¿Qué busca explicar y prescribir la epistemología además de decir qué es la ciencia?;Métodos educativos;Valores morales;Estructuras lógicas;Criterios de cientificidad;D
+95;¿Qué significa literalmente epistemología?;Estudio de la verdad;Estudio del ser;Conocimiento del alma;Discursos sobre la ciencia;D
+96;¿Qué característica tienen las corrientes epistemológicas según el documento?;Son idénticas y complementarias;Son escasas y simples;Son unificadas y coherentes;Son diferentes y a veces contradictorias;D
+97;¿Qué tipo de ciencias surgieron de la reflexión filosófica según el documento?;Solo las ciencias sociales;Solo las ciencias naturales;Solo las ciencias formales;Las ciencias la investigación y la tecnología;D
+98;¿Qué llevó al hombre a la luna según el documento?;El desarrollo tecnológico;El poder político;La competencia militar;La extrañeza de la existencia;D
+99;¿Qué necesita el problema ecológico a escala planetaria según el documento?;Solo soluciones tecnológicas;Solo políticas ambientales;Solo cambios económicos;Respuestas a las dificultades ambientales y éticas de la tecnociencia;D
+100;¿Qué han señalado personas en círculos científicos durante los últimos años del siglo XX?;Que la ciencia ha llegado a su fin;Que la ciencia es perfecta;Que no hay cambios en la ciencia;Que la manera científica de pensar se encuentra ante un cambio de paradigma;D
+1;¿En qué año Guillermo Francovich estaba preocupado por la teoría de que la cultura occidental estaba en decadencia?;1939;1934;1945;1946;B
+2;¿Qué libro publicó Guillermo Francovich en 1939 que tuvo éxito rotundo en Brasil?;La filosofía en Bolivia;Filósofos brasileños;Despertar y proyecto del filosofar latinoamericano;Teoría y crítica del pensamiento latinoamericano;B
+3;¿En qué año Francisco Romero comenzó a publicar una sección de estudios sobre la filosofía en América?;1934;1939;1945;1954;C
+4;¿Quién propuso en 1945 un esquema de evolución histórica del pensamiento en casi todos los países latinoamericanos?;J. Gaos;M. Bunge;Francisco Romero;G. Francovich;B
+5;¿En qué año Francisco Miró Quesada Canturias publicó su libro sobre el filosofar latinoamericano?;1945;1954;1957;1968;B
+6;¿Cuántas generaciones distingue Francisco Miró Quesada en la actitud de los pensadores latinoamericanos respecto a la filosofía europea?;Tres;Cinco;Cuatro;Seis;C
+7;"¿Quién publicó ""Esbozo de una filosofía en el Brasil"" en 1957?";Leopoldo Zea;Joao Cruz Costa;Augusto Salazar Bondy;Francisco Romero;B
+8;"¿Desde qué año la Editorial Fondo de Cultura Económica publicó la serie ""La historia de las ideas en América""?";1945;1954;1956;1968;C
+9;¿Qué instituciones financiaron la publicación de la serie sobre historia de las ideas en América?;La OEA y UNESCO;La Comisión Panamericana de las Ideas y la Fundación Rockefeller;El Banco Mundial y la ONU;La Fundación Ford y el BID;B
+10;¿En qué año Augusto Salazar Bondy se preguntó si existe una filosofía en nuestra América?;1954;1963;1968;1981;C
+11;"¿Quién escribió ""Teoría y crítica del pensamiento latinoamericano"" en 1981?";Enrique Dussel;Arturo Andrés Roig;Rodolfo Kusch;Leopoldo Zea;B
+12;¿En qué mes y año Juan José Bautista Segales publicó su obra sobre pensar desde América Latina?;sep-14;ene-14;mar-14;dic-14;A
+13;¿Cuántos periodos históricos desarrolla Guillermo Francovich en su esquema cronológico?;Cinco;Seis;Siete;Ocho;C
+14;¿En qué año terminó de escribir Guillermo Francovich su esquema de periodos históricos?;1939;1941;1945;1954;B
+15;¿Cómo se conoce al pensamiento de la época prehispánica en el esquema de Francovich?;La mentalidad indígena;La mentalidad primitiva;El pensamiento autóctono;La cultura ancestral;B
+16;¿Qué produjo dramáticas transformaciones en la organización de la vida de los pobladores del continente según el texto?;La revolución industrial;La llegada de los conquistadores españoles;Las guerras de independencia;El comercio con Europa;B
+17;¿Qué caracterizó al enciclopedismo como periodo según Francovich?;El desarrollo del comercio;La ilustración de maestros y clérigos universitarios;La independencia política;El desarrollo agrícola;B
+18;¿Quién fue Antonio Destutt de Tracy?;Un filósofo escolástico;Un militar y filósofo enciclopedista;Un teólogo jesuita;Un político revolucionario;B
+19;¿En qué década se introdujo el pensamiento escocés de la Escuela de Edimburgo en Bolivia?;1820;1830;1840;1850;B
+20;¿Con qué ley se reorganizó la instrucción pública en Bolivia en 1845?;Ley de Reforma Educativa;Ley Orgánica;Ley de Instrucción Superior;Ley General de Educación;B
+21;¿En la filosofía de qué pensador se inspira el método eclecticismo?;Auguste Comte;Víctor Cousin;Antonio Destutt de Tracy;Hegel;B
+22;¿Qué corrientes filosóficas une el eclecticismo según el texto?;Idealismo, materialismo, escepticismo y misticismo;Positivismo, marxismo y existencialismo;Racionalismo, empirismo y criticismo;Fenomenología, hermenéutica y estructuralismo;A
+23;¿De quién es la filosofía que tuvo difusión universal e influyó en América del Sur a fines del siglo XIX?;Víctor Cousin;Auguste Comte;Karl Marx;Edmund Husserl;B
+24;¿A partir de qué año comenzaron a aplicarse las teorías marxistas en la región latinoamericana?;1900;1910;1920;1930;C
+25;¿Qué movimiento filosófico del siglo XX describe las estructuras de la experiencia tal como se presentan en la conciencia?;El existencialismo;El positivismo;La fenomenología;El marxismo;C
+26;¿En qué década nació la teología de la liberación en Sudamérica?;1950;1960;1970;1980;B
+27;¿Qué evento se realizó en 1968 que fue importante para la teología de la liberación?;El Concilio Vaticano II;La Conferencia Episcopal de Medellín;El Sínodo de Obispos;La Conferencia de Puebla;B
+28;¿Entre qué años se realizó el Concilio Vaticano II?;1960-1963;1962-1965;1965-1968;1958-1962;B
+29;¿En qué país surgió el movimiento de filosofía de la liberación a comienzos de la década de 1970?;Brasil;Perú;México;Argentina;D
+30;¿Cómo califica la filosofía de la liberación a la filosofía clásica?;Racionalista y abstracta;Eurocéntrica y opresora;Idealista y metafísica;Materialista y dialéctica;B
+31;¿Cómo se llama el método elaborado por la filosofía de la liberación que relaciona lo universal con lo particular?;Dialéctica;Hermenéutica;Analéctica;Fenomenológica;C
+32;"¿En qué año Enrique Dussel publicó su libro ""Filosofía de la Liberación"" en el exilio en México?";1970;1973;1977;1981;C
+33;¿En qué ciudad de Argentina sufrió Enrique Dussel un atentado?;Buenos Aires;Córdoba;Mendoza;Rosario;C
+34;¿Cuál es el contenido de la ética según la ética de la liberación?;La justicia social;La vida humana;La libertad política;Los derechos humanos;B
+35;¿Quién elaboró una teología económica de la liberación como alternativa a la teología neoliberal del mercado?;Enrique Dussel;Gustavo Gutiérrez;Franz Hinkelammert;Leonardo Boff;C
+36;¿Cuál es la categoría principal en la propuesta de Franz Hinkelammert?;El mercado;La libertad;La vida;La justicia;C
+37;¿Cuáles son los dos momentos constitutivos del poder según Dussel?;Poder político y poder económico;Potentia y potestas;Poder ejecutivo y legislativo;Poder material y formal;B
+38;¿En qué años vivió Alejandro Korn?;1850-1926;1860-1936;1870-1946;1880-1956;B
+39;¿En qué años vivió José Vasconcelos Calderón?;1872-1949;1882-1959;1892-1969;1902-1979;B
+40;¿En qué años vivió Guillermo Francovich Salazar?;1891-1983;1901-1993;1911-2003;1921-2013;B
+41;¿En qué años vivió Leopoldo Zea Aguilar?;1902-1994;1912-2004;1922-2014;1932-2024;B
+42;¿En qué años vivió Francisco Miró Quesada Canturias?;1908-2009;1918-2019;1928-2029;1938-2039;B
+43;¿En qué años vivió Manfredo Kempff Mercado?;1912-1964;1922-1974;1932-1984;1942-1994;B
+44;¿En qué años vivió Arturo Andrés Roig?;1912-2002;1922-2012;1932-2022;1942-2032;B
+45;¿En qué años vivió Rodolfo Kusch?;1912-1969;1922-1979;1932-1989;1942-1999;B
+46;¿En qué años vivió Augusto Salazar Bondy?;1915-1964;1925-1974;1935-1984;1945-1994;B
+47;¿Cuándo falleció Franz Hinkelammert?;2013;2018;2023;2025;C
+48;¿Cuándo falleció Enrique Dussel?;2018;2020;2023;2025;C
+49;¿En qué años vivió Juan José Bautista Segales?;1948-2011;1958-2021;1968-2031;1978-2041;B
+50;¿Quién fue Jaime Mendoza Gonzales según sus años de vida?;1864-1929;1874-1939;1884-1949;1894-1959;B
+51;¿En qué años vivió Franz Tamayo Solares?;1869-1946;1879-1956;1889-1966;1899-1976;B
+52;¿En qué años vivió Alcides Arguedas Díaz?;1869-1936;1879-1946;1889-1956;1899-1966;B
+53;¿Qué cordillera se bifurca al llegar a territorio boliviano según el texto?;La Cordillera Blanca;La Cordillera de los Andes;La Cordillera Oriental;La Cordillera Real;B
+54;¿Qué tipo de independencia de conocimientos tiene Bolivia según su variedad étnico cultural?;Absoluta;Relativa;Sui generis;Parcial;C
+55;¿Cuántas peculiaridades de la historia de las ideas filosóficas en Bolivia afirmaba J. Gaos en 1946?;Dos;Tres;Cuatro;Cinco;C
+56;¿En qué revista publicó J. Gaos su afirmación sobre las peculiaridades filosóficas bolivianas?;Revista de Filosofía;Cuadernos americanos;Diánoia;Filosofía y Letras;B
+57;¿En qué fecha específica publicó J. Gaos su artículo sobre filosofía boliviana?;Enero-febrero 1946;Marzo-abril 1946;Mayo-junio 1946;Julio-agosto 1946;B
+58;¿Quién consideraba que el movimiento de la mística de la tierra superó el autoctonismo?;David García Bacca;Humberto Muñoz Ramírez;Mario Bunge;Guillermo Francovich;B
+59;¿En qué semestre de 1945 publicó David García Bacca su artículo sobre filosofía en América?;Primer semestre;Segundo semestre;Tercer trimestre;Cuarto trimestre;A
+60;¿En qué boletín publicó García Bacca su artículo?;Boletín de la Academia;Boletín Bibliográfico del Centro de Estudios Filosóficos de México;Revista Filosófica;Cuadernos de Filosofía;B
+61;¿Qué problema plantea el panorama de la filosofía en América según García Bacca?;Un problema epistemológico;Un problema de filosofía de la cultura;Un problema ontológico;Un problema ético;B
+62;¿Por qué vías sugiere García Bacca que debería aproximarse Bolivia a la filosofía?;Por lo racional;Por lo científico;Por lo estético;Por lo político;C
+63;¿Entre qué décadas se implantaron la ideología y la filosofía escocesa en Bolivia?;1820 a 1840;1830 a 1850;1840 a 1860;1850 a 1870;B
+64;¿Qué corrientes filosóficas predominaron a finales del siglo XIX en Bolivia?;Marxismo, anarquismo y socialismo;Liberalismo, positivismo y modernismo;Nacionalismo, indigenismo y populismo;Existencialismo, fenomenología y estructuralismo;B
+65;¿Con el triunfo de qué partido se inicia el siglo XX en Bolivia?;Partido Conservador;Partido Liberal;Partido Republicano;Partido Nacionalista;B
+66;¿En qué año aparece por primera vez el marxismo en Bolivia?;1910;1915;1920;1925;C
+67;¿Cuántas corrientes filosóficas nuevas se desarrollan a mediados del siglo XX en Bolivia?;Dos;Tres;Cuatro;Cinco;B
+68;¿Cuáles son las tres corrientes filosóficas que surgen a mediados del siglo XX en Bolivia?;Liberalismo, positivismo y modernismo;Nacionalismo, socialismo e indigenismo;Marxismo, anarquismo y populismo;Existencialismo, fenomenología y estructuralismo;B
+69;¿En qué décadas gobernó el régimen del MNR?;Años 40 y 50;Años 50 y 60;Años 60 y 70;Años 70 y 80;B
+70;¿En qué décadas se produjeron las dictaduras mencionadas en el texto?;Años 50 y 60;Años 60 y 70;Años 70 y 80;Años 80 y 90;C
+71;¿En qué años vivió Mamerto Oyola Cuellar?;1828-1892;1838-1902;1848-1912;1858-1922;B
+72;¿En qué años vivió José Antonio Arze?;1894-1945;1904-1955;1914-1965;1924-1975;B
+73;¿En qué años vivió Luis Carranza Siles?;1908-1983;1918-1993;1928-2003;1938-2013;B
+74;¿En qué años vivió Mario Miranda Pacheco?;1915-1998;1925-2008;1935-2018;1945-2028;B
+75;¿En qué años vivió Rubén Carrasco de la Vega?;1916-2012;1926-2022;1936-2032;1946-2042;B
+76;¿En qué años vivió Marvin Sandi Espinoza?;1928-1958;1938-1968;1948-1978;1958-1988;B
+77;¿Qué obra publicó Jaime de Zudáñez en 1809?;Curso completo de Derecho Natural;El Catecismo Político cristiano;Al margen del bergsonismo;La filosofía en Bolivia;B
+78;¿Qué obra publicó Luis Velasco en 1848?;El Catecismo Político cristiano;Curso completo de Derecho Natural;Fundamentos filosóficos de la educación;Mismidad;B
+79;¿Qué obra publicó Ignacio Prudencio Bustillo en 1913?;La filosofía en Bolivia;Al margen del bergsonismo;Estética Idealista;Mismidad;B
+80;¿Qué obra publicó Teodoro Oroza Deuer en 1950?;La filosofía en Bolivia;Fundamentos filosóficos de la educación;Estética Idealista;Mismidad;C
+81;¿Qué obra publicó Luis Carranza Siles en 1963?;La filosofía en Bolivia;Estética Idealista;Fundamentos filosóficos de la educación;Mismidad;C
+82;¿Qué obra publicó Numa Romero del Carpio en 1969?;Fundamentos filosóficos de la educación;Estética Idealista;La filosofía en Bolivia;Mismidad;D
+83;¿Qué obra publicó Luis Eduardo Caballero B. en 2024?;La filosofía en Bolivia;400 años: la filosofía en la USFX (1624-2024);Mismidad;Fundamentos filosóficos de la educación;B
+84;¿Qué periodo abarca la obra de Caballero sobre la filosofía en la USFX?;1524-1924;1624-2024;1724-2024;1824-2024;B
+85;¿Qué enfatiza la generación de la fe mencionada en el texto?;La razón ilustrada;La ciencia positiva;La fuerza telúrica;El progreso material;C
+86;¿Qué aspecto destacaron pensadores como Jaime Mendoza respecto a Bolivia?;Los factores económicos;Los factores geográficos;Los factores políticos;Los factores religiosos;B
+87;¿A qué llamó Franz Tamayo según Mario Bunge?;La raza mestiza;La raza criolla;La raza de bronce;La raza andina;C
+88;"¿Quién fue autor de la novela ""Raza de bronce""?";Franz Tamayo;Alcides Arguedas;Jaime Mendoza;Gabriel René Moreno;B
+89;¿A qué se oponía el pensamiento de Tamayo y Arguedas según el texto?;Al liberalismo europeo;Al racismo positivista de Gabriel René Moreno;Al indigenismo radical;Al nacionalismo conservador;B
+90;¿Qué característica mínima tiene la filosofía boliviana según el texto?;Razón práctica y aplicada;Razón filosófica pura y original;Razón científica y técnica;Razón política y social;B
+91;¿De qué influencia no ha podido despojarse la filosofía latinoamericana según el texto?;De la influencia oriental;De la influencia greco-europea;De la influencia africana;De la influencia anglosajona;B
+92;¿Qué tipo de materialismo dice Mario Bunge que resulta de la mística de la tierra?;Un materialismo dialéctico;Un materialismo histórico;Un crudo materialismo;Un materialismo científico;C
+93;¿Qué tipo de capacidades destaca García Bacca en el alma latinoamericana?;Capacidades abstractas y teóricas;Capacidades técnicas y manuales;Capacidades científicas y matemáticas;Capacidades lingüísticas y literarias;B
+94;¿Cuáles corrientes son importantes en Bolivia a principios del siglo XXI según el texto?;Liberalismo e indigenismo;Nacionalismo y liberalismo;Socialismo e indigenismo;Positivismo y marxismo;C
+95;¿Qué sistema debilitó las corrientes filosóficas a finales del siglo XX en Bolivia?;El sistema socialista;El sistema neoliberal;El sistema corporativista;El sistema populista;B
+96;¿Qué problema identifica el texto respecto a las energías filosóficas en Bolivia?;Están puestas en el desarrollo académico;Están puestas en ser oposición del oficialismo;Están puestas en la investigación pura;Están puestas en la docencia;B
+97;¿Qué deberían elaborar los filósofos bolivianos en lugar de solo hacer oposición?;Tratados académicos;Síntesis propias y creativas;Manuales didácticos;Críticas literarias;B
+98;¿Qué busca proponer Franz Hinkelammert según el texto?;Una economía de mercado;Una cultura de la esperanza y una sociedad sin exclusión;Un sistema capitalista reformado;Una democracia liberal;B
+99;¿Cuál es la primera peculiaridad que J. Gaos identifica en la filosofía boliviana?;La originalidad de sus pensadores;Cierto retraso en la aparición de las corrientes filosóficas;La abundancia de producción filosófica;La independencia de Europa;B
+100;¿Qué tarea considera Dussel que cuenta con poca prensa y prestigio?;Considerar a los pobres, oprimidos y excluidos en la política;El desarrollo económico;La administración pública;La educación superior;A

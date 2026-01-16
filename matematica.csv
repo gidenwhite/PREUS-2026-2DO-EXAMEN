@@ -1,0 +1,615 @@
+﻿id;question;option_a;option_b;option_c;option_d;answer_letter
+1;¿Cuál es la forma canónica de una ecuación de segundo grado?;ax² + bx + c = 0;ax + b = 0;ax³ + bx² + c = 0;ax² + c = 0;A
+2;¿Cuántas raíces o soluciones tiene toda ecuación de segundo grado?;Una raíz;Dos raíces;Tres raíces;Cuatro raíces;B
+3;En una ecuación incompleta de la forma ax² + c = 0, ¿qué término carece?;Término cuadrático;Término lineal bx;Término independiente;Coeficiente a;B
+4;En una ecuación incompleta de la forma ax² + bx = 0, ¿qué término carece?;Término lineal;Término independiente c;Término cuadrático;Coeficiente b;B
+5;¿Cuál es la fórmula de Carnot para resolver ecuaciones de segundo grado?;x = (-b ± √(b² - 4ac))/2a;x = (-b ± √(b² + 4ac))/2a;x = (b ± √(b² - 4ac))/2a;x = (-b ± √(b² - 4ac))/a;A
+6;Si el discriminante Δ > 0, ¿qué tipo de raíces tiene la ecuación?;Raíces complejas;Raíces reales e iguales;Raíces reales y diferentes;No tiene raíces;C
+7;Si el discriminante Δ = 0, ¿qué tipo de raíces tiene la ecuación?;Raíces reales y diferentes;Raíces reales e iguales;Raíces complejas;Raíces imaginarias;B
+8;¿Qué representa el discriminante en una ecuación de segundo grado?;b² - 4ac;b² + 4ac;2b - ac;4ac - b²;A
+9;Según el teorema de Cardano-Viete, ¿cuál es la suma de las raíces x₁ + x₂?;#¿NOMBRE?;c/a;b/a;-c/a;A
+10;Según el teorema de Cardano-Viete, ¿cuál es el producto de las raíces x₁ · x₂?;#¿NOMBRE?;c/a;b/a;-c/a;B
+11;¿Cuál es la solución de x² - 4 = 0?;x = ±2;x = ±4;x = 2;x = 4;A
+12;¿Cuál es una de las raíces de x² + x = 0?;x = 1;x = -1;x = 0;x = 2;C
+13;¿Cuál es la primera raíz de la ecuación x² - 2x - 35 = 0?;x = 7;x = -7;x = 5;x = -5;A
+14;Al resolver 2x² - 8x + 6 = 0, ¿cuál es una de las raíces?;x = 1;x = 2;x = 4;x = 0;A
+15;¿Cuál es el discriminante de la ecuación x² - 2x + 1 = 0?;Δ = 0;Δ = 4;Δ = -4;Δ = 1;A
+16;Para la ecuación 4x² - 20x + 25 = 0, ¿cuál es el valor del discriminante?;Δ = 0;Δ = 100;Δ = 25;Δ = -25;A
+17;Si una ecuación tiene raíces 3 y -5, ¿cuál es su suma?;-2;2;8;-8;A
+18;Si las raíces de una ecuación son 2 y 6, ¿cuál es su producto?;8;12;4;-12;B
+19;¿Cuál es la ecuación si las raíces son -1 y 3?;x² + 2x - 3 = 0;x² - 2x - 3 = 0;x² - 2x + 3 = 0;x² + 2x + 3 = 0;B
+20;Al completar cuadrados en x² - 2x = 3, ¿qué se suma a ambos miembros?;1;2;4;9;A
+21;¿Cuál es una raíz de 4x² - 9 = 0?;x = 3/2;x = 2/3;x = 3;x = 9/4;A
+22;En la ecuación 3x² - 5x - 12 = 0, ¿cuál es el valor de a?;a = 3;a = -5;a = -12;a = 1;A
+23;Para que una ecuación tenga raíces iguales, el discriminante debe ser igual a;0;1;-1;Cualquier número positivo;A
+24;¿Cuál es una raíz de 4x² + 12x + 9 = 0?;x = -3/2;x = 3/2;x = -2/3;x = 2;A
+25;¿Cuál es la solución positiva de x² - 225 = 0?;15;25;0;-15;A
+26;En x² - 81 = 0, ¿cuál es una de las raíces?;x = 9;x = 3;x = 1;x = 81;A
+27;Para 3x² - 75 = 0, ¿cuál es una raíz?;x = 5;x = 25;x = -25;x = 0;A
+28;¿Cuál es una raíz de 3x² - 5x + 2 = 0?;x = 1;x = 2/3;x = 5/3;x = 1/3;A
+29;Al resolver 4x² - 13x + 3 = 0, ¿cuál es una solución?;x = 3;x = 1;x = 1/3;x = 2;A
+30;Al resolver 3x² - 10x + 3 = 0, ¿cuál es una raíz?;x = 3;x = 1/3;x = -1/3;x = 2;A
+31;Si el producto de las raíces es 24 y k = 2 en x² - (k + 3)x + k = 0, ¿cuál es el valor correcto de k?;k = 6;k = 8;k = 4;k = 10;B
+32;Para que 4x² + 20x + k = 0 tenga raíces iguales, k debe ser;k = 25;k = 16;k = 4;k = -1;A
+33;¿Cuál es una raíz de (3x - 2)(3x + 2) = 77?;x = 3;x = -3;x = 1;x = 0;B
+34;En 3x² - 2x - 1 = 0, ¿cuál es una solución?;x = 1;x = -1/3;x = 1/3;x = 2;A
+35;Al resolver x⁴ - 9x² + 2 = 0 con sustitución m = x², la ecuación se transforma en;m² - 9m + 2 = 0;m² + 9m + 2 = 0;m² - 9m - 2 = 0;m² + 9m - 2 = 0;A
+36;¿Cuál es el primer paso para resolver ecuaciones incompletas ax² + bx = 0?;Factorizar el término común;Aplicar la fórmula general;Completar cuadrados;Elevar al cuadrado;A
+37;Al resolver una ecuación fraccionaria, ¿qué se debe hacer primero?;Eliminar denominadores;Factorizar;Aplicar fórmula de Carnot;Transponer términos;A
+38;En el método de completar cuadrados, ¿qué se suma a ambos miembros?;El cuadrado de la mitad del coeficiente de x;El doble del coeficiente de x;La mitad del coeficiente de x;El coeficiente de x al cuadrado;A
+39;Si Δ < 0, ¿qué tipo de raíces tiene la ecuación?;Raíces complejas;Raíces reales;Raíces iguales;Raíces racionales;A
+40;Para 2x² + 3x² - 4 = 28, simplificando se obtiene;x² - 4 = 28;x² = 28;2x² = 28;3x² = 28;A
+41;¿Cuál es la ecuación si S = -7 y P = 2?;x² + 7x + 2 = 0;x² - 7x + 2 = 0;x² + 7x - 2 = 0;x² - 7x - 2 = 0;A
+42;Para que x² + mx = 0 tenga una raíz el doble de la otra, m debe valer;m = -6;m = 6;m = ±8;m = -12;C
+43;Si las raíces son recíprocas en 7x² + 9x + a = 0, entonces a =;a = 7;a = 8;a = 9;a = -7;A
+44;Al resolver 4x² - 12x + 9 = 0, las raíces son;Iguales;Diferentes;Complejas;Irracionales;A
+45;¿Cuál es el método más directo para ax² + c = 0?;Despejar x²;Factorizar;Fórmula general;Completar cuadrados;A
+46;En una ecuación literal 3x² - 4mx + 2nx = mn, ¿cuál es el coeficiente de x?;-4m + 2n;3;mn;-4m;A
+47;Si x² - 5x + 13 = -x, transponiéndo términos se obtiene;x² - 4x + 13 = 0;x² - 6x + 13 = 0;x² + 5x + 13 = 0;x² - 5x - 13 = 0;A
+48;Para resolver ecuaciones irracionales, ¿qué operación se aplica?;Elevar al índice de la raíz;Multiplicar por el denominador;Factorizar;Aplicar fórmula;A
+49;En (x + 3)(x - 3) = -9, desarrollando se obtiene;x² - 9 = -9;x² + 9 = -9;x² - 6 = -9;x² = -9;A
+50;Al resolver 3x² - x² + 5 = 12, simplificando resulta;2x² = 7;4x² = 7;x² = 7;3x² = 7;A
+51;Si en una ecuación a = 2, b = -8, c = 6, el discriminante es;Δ = 16;Δ = 64;Δ = 36;Δ = 4;A
+52;La ecuación cuyas raíces son 2 - 3i y 2 + 3i es;x² - 4x + 13 = 0;x² + 4x + 13 = 0;x² - 4x - 13 = 0;x² + 4x - 13 = 0;A
+53;En x² + 12x = -1, completando cuadrados se suma;36;6;12;144;A
+54;Al resolver 10⁽¹/x⁾ - 33·5⁽¹/x⁾ + 32 = 0, la sustitución adecuada es;z = 5⁽¹/x⁾;z = x;z = 10x;z = 1/x;A
+55;Si dos números suman -15 y su producto es 56, los números son;-8 y -7;-7 y -8;8 y 7;-15 y 56;A
+56;Para que 2x² - (m + 3)x + m = 0 tenga producto de raíces igual a 12, m =;m = 24;m = 12;m = 6;m = -12;A
+57;¿Qué es una sucesión?;Una colección de números dispuestos uno a continuación de otro;Una serie de operaciones matemáticas;Un conjunto de funciones;Una ecuación de segundo grado;A
+58;¿Qué es el término general de una sucesión?;Una fórmula que permite conocer el valor de un término según su posición;El último término de la sucesión;La suma de todos los términos;La diferencia entre términos consecutivos;A
+59;En una progresión aritmética, ¿qué es la razón o diferencia r?;El número fijo que se suma al término anterior;El número que se multiplica;El primer término;La suma de todos los términos;A
+60;¿Cuál es la fórmula del término general de una progresión aritmética?;aₙ = a₁ + (n - 1) × r;aₙ = a₁ × rⁿ⁻¹;aₙ = a₁ - (n - 1) × r;aₙ = a₁ + n × r;A
+61;¿Cuál es la fórmula de la suma de n términos en una P.A.?;Sₙ = n(a₁ + aₙ)/2;Sₙ = n × a₁;Sₙ = (a₁ - aₙ)/2;Sₙ = n(a₁ - aₙ);A
+62;En la progresión aritmética 8, 3, -2, -7, -12, ¿cuál es la razón?;r = -5;r = 5;r = -3;r = 3;A
+63;Para la P.A. 1, 3, 5, 7, 9, el término general es;aₙ = 2n - 1;aₙ = 2n + 1;aₙ = n + 1;aₙ = 3n - 1;A
+64;Si en una P.A. el primer término es 5 y la razón es 3, ¿cuál es el vigésimo término?;62;67;57;52;A
+65;¿Cuántos términos tiene la P.A.: 18, 24, 30, 36, ..., 282?;45;25;19;20;C
+66;En una progresión geométrica, ¿qué es la razón r?;El número fijo por el que se multiplica cada término;El número que se suma;La diferencia entre términos;El cociente de términos no consecutivos;A
+67;¿Cuál es la fórmula del término general de una progresión geométrica?;aₙ = a₁ × rⁿ⁻¹;aₙ = a₁ + (n - 1) × r;aₙ = a₁ × rⁿ;aₙ = a₁ ÷ rⁿ⁻¹;A
+68;Para verificar si una sucesión es P.G., ¿qué debe cumplirse?;El cociente entre cada término y el anterior debe ser constante;La suma debe ser constante;La diferencia debe ser constante;El producto debe ser constante;A
+69;En la P.G. 3, 6, 12, 24, 48, ¿cuál es la razón?;r = 2;r = 3;r = 4;r = 6;A
+70;¿Cuál es la fórmula de la suma de n términos en una P.G. cuando r ≠ 1?;Sₙ = a₁(rⁿ - 1)/(r - 1);Sₙ = a₁(1 - rⁿ)/(1 + r);Sₙ = a₁ × rⁿ;Sₙ = n(a₁ + aₙ)/2;A
+71;El décimo término de la P.G.: 4, 8, 16, ... es;2048;1024;4096;512;A
+72;Para interpolar medios aritméticos entre a y b, la razón se calcula como;r = (b - a)/(n + 1);r = (b + a)/n;r = (b - a)/n;r = b/a;A
+73;En una P.A. donde a₁ = 23 y r = -6, ¿en qué posición está el elemento -13?;Posición 7;Posición 6;Posición 8;Posición 4;A
+74;Si tres números están en P.A. y su suma es 24, ¿cuál es el término central?;8;6;12;4;A
+75;El milésimo impar positivo es;1999;2001;999;1001;A
+76;En una P.A. de primer término 2 y razón 3, el término trigésimo primero es;92;98;63;65;A
+77;Una P.A. de 9 términos tiene razón 2 y la suma de sus términos es 0. El sexto término es;2;0;6;7;A
+78;El término 19 de la P.A.: 3, 9, 15, ... es;111;91;103;100;A
+79;¿Cuántos términos tiene la P.A.: 100, 98, 96, ..., 22?;40;38;22;11;A
+80;La suma de los primeros 40 números enteros positivos es;820;800;780;580;A
+81;Para que (3a, 6a+3, 15a+21) sea P.A., el valor de a es;-2,5;-3,5;5-feb;7-feb;A
+82;Si en una P.A. a₅ = 30 y a₁₀ = 50, entonces a₅₀ es;210;200;250;300;A
+83;El término general de la P.A.: 4, 7, 10, 13, ... es;aₙ = 4 + (n - 1) × 3;aₙ = 3n + 4;aₙ = 4n + 2;aₙ = 3(n - 1) × 4;A
+84;El término 15° de la P.A.: 4, 2, 0, ... es;a₁₅ = -24;a₁₅ = -22;a₁₅ = 24;a₁₅ = 22;A
+85;La suma de los 100 primeros términos de la P.A.: 4, 2, 0, ... es;S = -9700;S = -9500;S = -9400;S = 9500;A
+86;La suma de los 28 términos de la P.A.: 36, 40, 44, ... es;2520;7080;2600;3200;D
+87;La P.A.: 40, 44, 48, 52, ... tiene como trigésimo término;156;200;130;207;A
+88;La suma de los 57 términos de una P.A. es 228. El término central es;4;7;10;12;A
+89;Hallar la razón de una P.A. si a₁ = 14 y a₁₁ = 94;8;4;6;3;A
+90;El primer término de una P.A. si a₁₀ = 57 y r = 5 es;12;8;7;11;A
+91;Interpolar 3 medios aritméticos entre 13 y 21. El término central es;17;12;14;15;A
+92;El término 12° de la P.A.: 5, 10, 15, ... es;60;50;70;65;A
+93;¿Cuántos términos tiene la progresión: 9, 12, ..., 150?;48;68;40;58;A
+94;En una P.A. si a₆ = 28 y r = 5, entonces a₁ es;3;1;5;8;A
+95;Los primeros tres términos de una P.A. son 4, 7, 10. El decimoquinto es;46;49;42;15;A
+96;Si en una P.A. a₃ = -7 y r = 5, entonces a₁₀ es;28;20;25;17;A
+97;En la P.G.: 1, 2, 4, 8, ... la razón es;2;4;1-feb;8;A
+98;El término general de la P.G.: 2, 6, 18, ... es;aₙ = 2 × 3ⁿ⁻¹;aₙ = 6 × 3ⁿ⁻¹;aₙ = 3 × 2ⁿ⁻¹;aₙ = 3ⁿ × 2;A
+99;El término 7° de la P.G.: 1, 3, 9, 27, ... es;729;30;38;39;A
+100;En la P.G.: 32, -16, 8, -4, ... la razón es;-0,5;2;1-feb;-2;A
+101;La suma de los 8 primeros términos de una P.G. con r = 2 y a₁ = 1 es;255;200;254;129;A
+102;La suma de los 10 primeros términos de la P.A.: 4, 7, 10, 13, ... es;175;546;182;98;A
+103;La suma de los 30 primeros términos de la P.G.: -4, -4, -4, ... es;-120;-40;80;-80;A
+104;Si el tercer término de una P.G. es 10 y el sexto es 80, la razón es;2;-1;3;1;A
+105;Si x, x+9, x+45 están en P.G., el valor de x es;3;9;7;4;A
+106;En la P.G.: 8, -6, x, el valor de x es;9-feb;5-feb;7-feb;6;A
+107;En una P.G. si a₁ + a₂ + a₃ + a₄ + a₅ + a₆ = 7 y a₁ × a₆ = 56, entonces a₁ + a₄ es;9;8;63;49;D
+108;En la sucesión 2, 6, 18, x, ... el término x es;54;48;12;32;A
+109;Si aₙ = (4 - 3n)/n, entonces a₃ es;-1,666666667;9n+4;9n+12;3n+12;A
+110;La progresión 2, 4, 6, 8, ... es;Una P.A. de diferencia 2;Una P.A. de diferencia -2;Una P.G. de razón 2;Una P.G. de razón -2;A
+111;Para interpolar 4 medios geométricos entre 128 y 4, la razón es;1-feb;2;-0,5;4;A
+112;El producto de los primeros n términos de una P.G. es;Pₙ = ±√(a₁ × aₙ)ⁿ;Pₙ = a₁ × aₙ;Pₙ = (a₁ + aₙ)ⁿ;Pₙ = n(a₁ × aₙ);A
+113;En una P.G. con a₁ = 3 y a₅ = 1875, si r = 5, la suma de 5 términos es;1563;3126;2343;1875;A
+114;La suma de términos de la P.G.: 5, 50, ..., 500000 es;555555;555550;666666;505000;A
+115;Para que la suma de 20 términos de la P.A.: -11, -4, 3, 10, ... sea 570, cuántos términos hay;15;76;20;30;A
+116;El término sexagésimo de la sucesión: 1/2, 2/3, 3/4, 4/5, ... es;60/61;61/62;59/60;60/59;A
+117;La suma de términos entre a₂₄ y a₃₆ en la P.A.: 8, 3, -2, -7, -12, ... con 13 términos es;1781;-1781;1800;-1800;A
+118;Si en una P.G. a₁ = 2(r) y la suma de los dos primeros es 24, entonces r es;2;4;3;5;A
+119;Interpolar 3 medios geométricos entre 3 y 48 con r = 2 da la progresión;3, 6, 12, 24, 48;3, 9, 27, 81, 48;3, 12, 24, 36, 48;3, 8, 16, 32, 48;A
+120;La suma de los primeros 15 términos de la P.G.: 3/2, 9/2, 27/2, ... es;(3/2)(3¹⁵ - 1)/2;(3/2)(3¹⁵ + 1)/2;3¹⁵/2;(3¹⁶ - 1)/4;A
+121;En una P.A. el término aₙ se define como;a₁ más (n-1) veces la razón;a₁ más n veces la razón;a₁ menos (n-1) veces la razón;n veces a₁;A
+122;Para sumar términos consecutivos en P.A. se usa la fórmula;Sₙ = n(a₁ + aₙ)/2;Sₙ = (a₁ + aₙ)/n;Sₙ = n(a₁ - aₙ)/2;Sₙ = (a₁ × aₙ)/2;A
+123;Los medios aritméticos entre dos términos a y b son;Los términos entre los extremos en una P.A.;Los términos entre los extremos en una P.G.;La suma de a y b;El producto de a y b;A
+124;Los medios geométricos entre dos términos a y b son;Los términos entre los extremos en una P.G.;Los términos entre los extremos en una P.A.;La raíz de a y b;El cociente de a y b;A
+125;¿Cuál es el resultado de log₇ 7?;0;1;7;-1;B
+126;¿Cuál es el valor de log₈ 1?;1;8;-1;0;D
+127;Si log₂ 128 = x, ¿cuál es el valor de x?;6;8;7;5;C
+128;¿Cuál es el resultado de log₃ 81?;3;4;5;2;B
+129;Si log₂₄₃ x = 5, ¿cuál es el valor de x?;3;9;27;243;A
+130;En la ecuación log₂(x-4) = 5, ¿cuál es el valor de x?;32;36;28;40;B
+131;¿Cuál es el valor de x en log₂(log₅ a) = 0?;2;0;5;7;C
+132;Si 9ᵘ = 81, ¿cuál es el valor de u?;1-feb;4;2;3;C
+133;¿Cuál es el resultado de log(x × y) según las propiedades logarítmicas?;log x - log y;log x + log y;log x × log y;log x ÷ log y;B
+134;¿Cuál es el resultado de log(x/y) según las propiedades?;log x + log y;log x × log y;log x - log y;log x ÷ log y;C
+135;Si log x^n según las propiedades, ¿cuál es el resultado?;n + log x;n - log x;n × log x;n ÷ log x;C
+136;En la ecuación 2^(2x-1) = 4, ¿cuál es el valor de x?;1;2;3-feb;5-feb;C
+137;Si 3^(2x) × 3^(x-1) = 27, ¿cuál es el valor de x?;1;2;3;4;D
+138;¿Cuál es el valor de x en log₅(2x-1) = 2?;13;12;11;14;A
+139;Si 625 = 5^(2+m), ¿cuál es el valor de m?;0;1;2;-1;C
+140;¿Cuál es la expresión equivalente a 3log_a x - 2log_a y?;log_a(x³/y²);log_a(x²/y³);log_a(3x/2y);log_a(x³ × y²);A
+141;Si log x + log 5 = log 125, ¿cuál es el valor de x?;5;25;75;3;B
+142;¿Cuál es el valor de p en log₄(3p² - 5p - 49) = 0?;-5;10-mar;3√10;4;B
+143;En la ecuación 3^x × 4^(x+2) = 48, ¿cuál es el valor de x?;-12;4;2;3;A
+144;¿Cómo se escribe 4³ = 81 en notación logarítmica?;log₄ 81 = 3;log₃ 81 = 4;log₈₁ 3 = 4;log₂ 81 = 4;A
+145;Si log₃(x-8) = 2, ¿cuál es el valor de x?;11;17;26;46;B
+146;¿Cuál es el valor de Antilog₃ 7?;343;2187;2781;2078;B
+147;Si 7^(3x-2) = 27, ¿cuál es el valor de x?;1;3;5;7;B
+148;¿Cuál es el valor de x en log₉(x+1) = 2?;7;9;80;13;C
+149;¿Cuál es el valor aproximado de la base e de los logaritmos naturales?;5,718281;4,718281;3,718281;2,718281;D
+150;Si log_a 2700 y log_a x = 2, log_a y = 3, log_a z = 5, ¿cuál es el resultado?;2x + 3y + 2z;2 - 3x + y + 2z;x + y + z;#¿NOMBRE?;A
+151;Si log₇ m = 4 y log₇ n = 5, ¿cuál es log₇ 7980?;-m - n - 2;-m + n - 2;m + n + 2;2 - m - n;C
+152;Si 2^(x+1) × 2^x × 2^(x-2) = 28, ¿cuál es el valor de x?;1;2;3;4;C
+153;¿Cuál es el desarrollo de log_b(u²v/w)?;log_b u + log_b v - log_b w;2log_b u + log_b v - log_b w;2log_b u - log_b v - log_b w;2log_b u + log_b v + log_b w;B
+154;Si log 100^a = 2/3, ¿cuál es el valor de a?;1000;100;³√100;10;C
+155;En la ecuación log(x) + log(x-3) = log(5), ¿cuál es el valor de x?;-1;1;5;-5;C
+156;Si log(2x-6) = log(x), ¿cuál es el valor de x?;3;6;-6;12;B
+157;¿Cuál es el resultado de log_b ⁿ√A?;log_b A/n;n × log_b A;log_b A - n;n + log_b A;A
+158;Si x² - 6x - 5 = 0 proviene de log₅(2x-5) = log₅(12-5x), ¿cuál es una solución?;√10;-√10;10;-10;A
+159;En log₃[log₂(x-3)] = 2, ¿cuál es el valor de x?;8;11;12;13;B
+160;Si 5^(m-2) = 625, ¿cuál es el valor de m?;-1;2;1;6;D
+161;¿Cuál es el valor de x en 9^n = 81?;2;4;3;2;A
+162;Si log₃(3x-6) = 2, ¿cuál es el valor de x?;3;4;5;6;C
+163;Si 2log x = 1, ¿cuál es log x?;1;10;46054;√10;C
+164;¿Cuál es log_a b × log_b N según cambio de base?;log_a N;log_b a;N;log_N a;A
+165;Si log₅ 16^A = log₅ 6^36, ¿cuál es log_A 16?;5;4;3;2;D
+166;¿Cuál es E = log₂ 7³ - log₃ 8² + log₁₀ 6⁰?;7;6;5;4;C
+167;Si log₇(AB) = 4, ¿cuál es E = log_a b + log_b a?;46089;46086;46121;46091;D
+168;¿Cuál es log₃(zx)^(1/4) si log_x 2 = 1/4 y log₇₂₉ z = 3?;5;3;2;1;C
+169;¿Cuál es R = log₄[log₂(log₂ 4)]?;3;2;4;5;B
+170;¿Cuál es el resultado de log 8 + 2log 5 - log 2?;1;3;2;4;C
+171;¿Cuál es el resultado de log₄(256) - log₄(16)?;46054;2;1;4;B
+172;Si log(4x-9) = 2, ¿cuál es el valor de x?;4;9;16;109/4;D
+173;¿Cuál es log₃(27√3)?;4;8;16;46060;D
+174;Si log₃ x = -4, ¿cuál es el valor de x?;29587;-0,012345679;-81;81;A
+175;En log(x²-7x-18) = 0, ¿cuál es un valor de x?;9;-2;-9;2;A
+176;Si log₂[log₅(log₃ 1)] = x, ¿cuál es x?;0;1;-1;indefinido;D
+177;¿Cuál es el valor de 3^(log₃ 2)?;2;3;6;9;A
+178;Si log_ab a = 4, ¿cuál es log_b a?;46113;4;16;42370;B
+179;En la ecuación exponencial 2^(x-1) = 2², ¿cuál es x?;1;2;3;4;C
+180;¿Cuál es log₈ 16 × log₃ 12 × log₅ 8 ÷ (log₉ 16 × log₅ 12)?;3;2;46145;4;B
+181;Si log x² - log(x-5) = 1 en base 3, ¿cuál es x?;25;40;-40;-25;B
+182;¿Cuál es log₄ 256 + log₃ 729 - log₂ 256?;1;4;2;8;B
+183;¿Cuál es F = log₈ 16/log₂₇ 4 + log₉ 125/log₃ 5?;8;125;64;89;A
+184;"¿Cuál es la expresión matemática para ""El logaritmo de 15 en base 5""?";log₅(15);log₁₅(5);log(15/5);log₃(5);A
+185;Si log₂ 4 = x, ¿cuál es el valor de x?;1;2;3;4;B
+186;En log₃ 243 = x, ¿cuál es el valor de x?;3;4;5;6;C
+187;Si (x-7)(x-17) = 0 proviene de una ecuación logarítmica, ¿cuál es la solución válida?;7;17;-7;-17;B
+188;¿Cuál es el resultado de log₆ 1?;6;1;-1;0;D
+189;Si 3^(3x-1) = 8, ¿cuál es el valor aproximado de x?;1;46089;3;46082;A
+190;En log₃[log₂ 3] × log₂[log₃ 1], ¿cuál es el resultado?;0;1;-1;indefinido;A
+191;¿Cuál propiedad NO es correcta?;log(A×B) = log A × log B;log(A/B) = log A - log B;log A^n = n × log A;log_b b = 1;A
+192;Si 2^x = 4 y x = log₂ 4, ¿cuál es x?;1;2;3;4;B
+193;En la ecuación log(x-2) + log(x+3) = log(5), resolviendo se obtiene aproximadamente x igual a:;1;-1;5;-5;C
+194;Si log₂ 8 × log₃ 9 = E, ¿cuál es el valor de E?;5;6;7;8;B
+195;Si AC + BC = 28m y M es punto medio de AB, ¿cuál es la longitud de MC?;10m;12m;14m;16m;C
+196;En una recta con puntos A, B, C, D donde 1/AB + 1/AD = 2/AC, AB = 2 y CD = 3, ¿cuál es BC?;1;2;3;4;A
+197;Si AB = x, DE = x, BC = 4x, CD = 2AB y AE = 25, ¿cuál es el valor de x?;4;5;6;7;C
+198;En puntos consecutivos A, B, C, D si AC = 14m, BD = 18m y CD = 2AB, ¿cuál es AB?;2m;3m;4m;5m;C
+199;Si BC/CD = 2/7, AD = 25 y AB = 5, ¿cuál es AC?;85/9;94/9;100/9;110/9;B
+200;¿Cuál es la suma de los ángulos interiores de un triángulo?;90°;120°;180°;360°;C
+201;Si un ángulo exterior de un triángulo es β = α + δ, ¿qué teorema se aplica?;Teorema 1;Teorema 2;Teorema 3;Teorema 4;B
+202;¿Cuál es la suma de los ángulos exteriores de un triángulo?;180°;270°;360°;540°;C
+203;Si DE une puntos medios de dos lados de un triángulo, ¿cuánto mide DE respecto a AB?;AB/4;AB/3;AB/2;2AB;C
+204;En un triángulo equilátero, ¿cuánto mide cada ángulo interior?;45°;60°;90°;120°;B
+205;Si en un triángulo con ángulos x + 6°, 2x y 3x, ¿cuál es el valor de x?;25°;29°;30°;35°;B
+206;Si los ángulos de un triángulo son 47°, 121° y un ángulo C, ¿cuál es el valor de C?;58°;68°;74°;84°;C
+207;Si el ángulo exterior A = 5x - 15°, B = 4x - 10° y C = 45°, ¿cuál es x?;15°;20°;25°;30°;B
+208;Si el ángulo exterior A = 5x - 15°, B = 4x - 10° y C = 45°, ¿cuál es el ángulo B?;50°;60°;70°;80°;C
+209;Si π = 180°, ¿cuál es x en la ecuación x + 3π/4 = π - 12°?;65°;70°;75°;80°;C
+210;En un triángulo rectángulo con catetos x y x + 4, e hipotenusa 20, ¿cuál es x?;8;10;12;14;C
+211;¿Cuántas diagonales pueden trazarse desde un vértice de un polígono de n lados?;n - 1;n - 2;n - 3;n - 4;C
+212;¿Cuál es el número total de diagonales de un polígono de n lados?;n(n-2)/2;n(n-3)/2;(n-2)(n-3)/2;n(n-1)/2;B
+213;Si la suma de ángulos interiores es 180°(n-2), ¿cuál es n si la suma es 1620°?;9;10;11;12;C
+214;¿Cuál es el nombre del polígono con suma de ángulos interiores de 3960°?;Icoságono;Pentadecágono;Icositetrágono;Octadecágono;C
+215;¿Cuál es el ángulo interior de un dodecágono regular?;120°;135°;144°;150°;D
+216;Si un polígono tiene 135 diagonales totales, ¿cuántos lados tiene?;15;16;17;18;D
+217;¿Cuál es la suma de ángulos exteriores de cualquier polígono convexo?;180°;270°;360°;540°;C
+218;Si el ángulo exterior de un polígono regular es 360°/n, ¿cuál es para n = 12?;20°;25°;30°;36°;C
+219;Si la suma de ángulos interiores de un pentágono es S, ¿cuál es S?;360°;450°;540°;720°;C
+220;Si cuatro ángulos de un pentágono son 125°, 87°, 97° y 123°, ¿cuál es el quinto?;98°;104°;108°;112°;C
+221;En un polígono con ángulos interiores sumando 3960°, ¿qué fórmula se usa?;S = 180°n;S = 360°(n-1);S = 180°(n-2);S = 90°(n-2);C
+222;¿Cuál es el ángulo central de un polígono regular de n lados?;180°/n;270°/n;360°/n;90°/n;C
+223;¿Qué es el radio de una circunferencia?;Segmento que une dos puntos;Recta que toca un punto;Segmento del centro a la circunferencia;Diámetro dividido por tres;C
+224;¿Qué es una cuerda en una circunferencia?;Segmento que pasa por el centro;Segmento que une dos puntos sin pasar por centro;Recta tangente;Radio doble;B
+225;¿Cuánto mide el diámetro respecto al radio?;r;2r;3r;4r;B
+226;Si una tangente es perpendicular al radio en T, ¿qué ángulo forman?;45°;60°;90°;180°;C
+227;Si dos cuerdas equidistan del centro, ¿qué relación tienen?;Son paralelas;Son congruentes;Son perpendiculares;No tienen relación;B
+228;Si AB² = BD × BC en tangente-secante, ¿qué teorema es?;Teorema 1;Teorema 2;Teorema 4;Teorema 5;C
+229;Cuando dos circunferencias se intersecan, ¿qué ángulo forman los radios?;45°;60°;90°;180°;C
+230;En un cuadrilátero inscrito, ¿cuánto suman ángulos opuestos?;90°;120°;180°;360°;C
+231;En un cuadrilátero inscrito, ¿qué relación tienen ángulos formados por diagonales?;Son complementarios;Son iguales;Son suplementarios;No tienen relación;B
+232;En el Teorema de Poncelet, AC + BC =;R + 2r;2R + r;AB + 2r;R - r;B
+233;En el Teorema de Pitot, AB + DC =;AC + BD;AD + BC;2(AD + BC);AB - DC;B
+234;Si r = 4cm y EO = 9cm en tangente, ¿cuál es la longitud de tangente?;6,08cm;7,06cm;8,06cm;9,06cm;C
+235;Si la distancia entre centros de circunferencias secantes es 5u y r₁ = 3u, ¿cuál es r₂?;2u;3u;4u;5u;C
+236;Si arco DE = 39° y arco FH = 45°, ¿cuál es x en ángulo por cuerdas?;42°;84°;126°;138°;D
+237;En cuadrilátero inscrito con ángulo 113°, ¿cuál es su opuesto?;57°;67°;77°;87°;B
+238;En cuadrilátero inscrito con ángulo 68°, ¿cuál es su opuesto?;102°;112°;122°;132°;B
+239;Si arco GH = 146° y arco EF = 31° en ángulo exterior, ¿cuál es α?;47,5°;52,5°;57,5°;62,5°;C
+240;¿Cuál es el perímetro de un triángulo equilátero de lado a?;2a;3a;4a;5a;B
+241;¿Cuál es el área de un triángulo equilátero de lado a?;a²√2/2;a²√3/4;a²√3/2;a²√2/4;B
+242;¿Cuál es el área de un rectángulo de lados a y b?;2(a + b);ab;a²b²;2ab;B
+243;¿Cuál es el perímetro de un cuadrado de lado a?;2a;3a;4a;a²;C
+244;¿Cuál es el área de un rombo con diagonales D y d?;Dd;Dd/2;2Dd;Dd/4;B
+245;¿Cuál es el área de un trapecio con bases b, d y altura h?;(b + d)h;(b + d)h/2;(b - d)h/2;2(b + d)h;B
+246;¿Cuál es el área de un círculo de radio r?;2πr;πr;πr²;2πr²;C
+247;¿Cuál es el perímetro de un círculo de radio r?;πr;2πr;πr²;4πr;B
+248;Si R = 8cm y r = 2cm en semicírculo con círculo inscrito, ¿cuál es área sombreada?;2π cm²;4π cm²;6π cm²;8π cm²;B
+249;Si un cuadrado de lado 12m tiene círculo inscrito, ¿cuál es r?;3m;4m;6m;8m;C
+250;En cuadrado inscrito en círculo de r = 5cm, ¿cuál es lado del cuadrado interior?;5cm;5√2 cm;10cm;10√2 cm;B
+251;Si cuadrado exterior tiene lado 10cm y cuadrado interior lado 5√2 cm, ¿cuál es área sombreada?;25 cm²;40 cm²;50 cm²;75 cm²;C
+252;Si segmento circular tiene 90° y r = 18cm, ¿cuál es área del sector?;254,47 cm²;354,47 cm²;454,47 cm²;554,47 cm²;A
+253;Si triángulo rectángulo tiene catetos 18cm y área = 162 cm², ¿cuál es área segmento circular 90°?;82,47 cm²;92,47 cm²;102,47 cm²;112,47 cm²;B
+254;Si rectángulo tiene perímetro 46m y diagonal 17m, ¿cuál es su área?;110 m²;115 m²;120 m²;125 m²;C
+255;Si rectángulo tiene lados 8m y 18m, ¿cuál es lado de cuadrado con igual perímetro?;10m;12m;13m;15m;C
+256;Si diagonales de rombo miden 6cm y 8cm, ¿cuál es el lado?;3cm;4cm;5cm;6cm;C
+257;Si circunferencias ortogonales tienen r₁ = 3cm y r₂ = 4cm, ¿cuál es distancia entre centros?;5cm;7cm;12cm;25cm;A
+258;¿Cuál es el complemento del suplemento de 130°?;30°;40°;50°;60°;C
+259;Si el complemento de un ángulo es α, ¿cuál es su valor si el ángulo es 47°?;33°;43°;53°;63°;B
+260;En triángulo isósceles con base 30cm y perímetro 72cm, ¿cuánto mide cada lado igual?;14cm;18cm;21cm;24cm;C
+261;Si B es punto medio de AD y C es punto medio de BD con AD = 20, ¿cuáles son los segmentos AB, BC, CD?;10, 5, 5;5, 5, 10;4, 4, 12;12, 4, 4;A
+262;Si α - (180° - α) = 3(90° - α), ¿cuál es α?;30°;45°;60°;90°;D
+263;Si (90° - α) + (180° - α) = 140°, ¿cuál es α?;50°;55°;60°;65°;A
+264;En polígono regular con 24 lados y cada lado = 6cm, si diagonales en cm = perímetro, ¿cuántos lados tiene?;9;12;15;18;A
+265;¿Cuál es el símbolo del radián en el sistema radial o circular?;deg;rad;gon;rev;B
+266;¿A cuántos grados sexagesimales equivale un ángulo recto?;45°;60°;90°;180°;C
+267;¿Cuántos minutos sexagesimales tiene un grado sexagesimal?;30';60';90';100';B
+268;¿Cuántos segundos sexagesimales tiene un minuto sexagesimal?;30'';60'';90'';100'';B
+269;¿A cuántas partes divide la circunferencia un grado centesimal?;180;200;360;400;D
+270;¿Cuántos minutos centesimales tiene un grado centesimal?;60m;80m;100m;120m;C
+271;¿Cuántos segundos centesimales tiene un minuto centesimal?;60s;80s;100s;120s;C
+272;¿A cuántos radianes equivalen 180°?;π rad;2π rad;π/2 rad;π/4 rad;A
+273;¿A cuántos grados centesimales equivalen 180°?;100g;200g;300g;400g;B
+274;Al convertir 210° al sistema radián, ¿qué valor se obtiene?;2π/3;7π/3;3π/4;7π/6;D
+275;Al convertir 720° al sistema centesimal, ¿qué valor se obtiene?;800g;600g;400g;200g;A
+276;Al convertir 2π/3 al sistema sexagesimal, ¿qué valor se obtiene?;150°;120°;210°;180°;B
+277;Al convertir 80g al sistema radial, ¿qué valor se obtiene?;5π/3;2π/5;5π/6;3π/9;B
+278;¿Cuál es el valor de E = (2π/3 + 60°)/(3π/2 - 300°)?;2;4;6;0;D
+279;Si un círculo tiene radio 4√3 m y longitud de arco 12π/36 m, ¿cuál es el ángulo?;π/2;π/3;π/4;4π/9;D
+280;¿A cuántos radianes equivalen 150°?;6π/5;2π/3;5π/6;3π/2;C
+281;¿A cuántos grados equivale 5π/2?;270°;450°;360°;180°;B
+282;Si el radio es 9 m y el ángulo central π/3, ¿cuál es la longitud del arco?;π;2π;3π;3π;C
+283;¿A cuántos grados equivale 7π/3?;450°;360°;420°;180°;C
+284;Si la longitud de arco es 3 m y el radio es 2 m, ¿cuál es el ángulo central?;3;3-feb;15;2-mar;B
+285;Si un triángulo tiene ángulos internos de 35° y 5π/9 rad, ¿cuánto mide el tercer ángulo en sexagesimal?;45°;30°;40°;35°;A
+286;¿A cuántos grados centesimales equivalen 3π/2?;255g;300g;400g;350g;B
+287;Si un arco tiene 15 m de longitud y el ángulo central es 3 rad, ¿cuál es el radio?;5m;3m;4m;2m;A
+288;¿A cuántos grados sexagesimales equivalen π/5 rad?;45°;36°;50°;38°;B
+289;¿Cuál es la medida en radianes de 230°?;23π/18;18π/23;3π/8;8π/3;A
+290;¿A cuántos grados centesimales equivalen 150°?;300g/8;200g/3;700g/3;500g/3;D
+291;Si el ángulo es 1.8 rad y el radio es 10 cm, ¿cuál es la longitud del arco?;15m;13m;18m;12m;C
+292;Al convertir 2π/5 rad a sexagesimal, ¿qué valor se obtiene?;45°;72°;50°;30°;B
+293;¿A cuántos radianes equivalen 450g?;9π/5;2π/3;9π/4;3π/2;C
+294;Si una circunferencia tiene radio 4 m y ángulo π/6 rad, ¿cuál es la longitud del arco?;π/3 m;2π m;2π/3 m;2π/3 m;D
+295;¿A cuántos radianes equivalen 300g?;3π/2;π/3;7π/4;2π/3;A
+296;Si un arco tiene 20 m de longitud y el ángulo central es 5π rad, ¿cuál es el radio?;3/π;4/π;7/π;2/π;B
+297;¿A cuántos grados sexagesimales equivalen 230g?;205°;236°;207°;308°;C
+298;¿A cuántos grados centesimales equivalen 2π rad?;200g;400g;300g;500g;A
+299;Si el radio es 20 m y la longitud del arco es 25 m, ¿cuál es el ángulo en radianes?;5-feb;3-may;2-mar;5-abr;D
+300;¿A cuántos radianes equivalen 90°?;π/3;π/4;π/2;π/5;C
+301;Si el radio es 10 m y el ángulo central π/5, ¿cuál es la longitud del arco?;π m;2π m;2π m;3π m;C
+302;Si el ángulo central es 1.8 rad y el arco es 27 cm, ¿cuál es el radio?;15 m;12 m;13 m;11 m;A
+303;¿A cuántos grados sexagesimales equivalen 40g?;18°;20°;24°;36°;D
+304;¿A cuántos radianes equivalen 15°?;π;0.26;15π;π/2;B
+305;¿A cuántos radianes equivalen 150°?;2.62;0.262;26.2;262;A
+306;¿A cuántos radianes equivalen 90°?;π;2π;π/2;3π/2;C
+307;¿A cuántos radianes equivalen 45°?;π;2π;π/2;π/4;D
+308;¿A cuántos grados sexagesimales equivalen π/5 rad?;46°;56°;36°;90°;C
+309;¿A cuántos grados sexagesimales equivalen π/10 rad?;10°;15°;20°;18°;D
+310;¿A cuántos grados sexagesimales equivalen π/2 rad?;0°;90°;180°;270°;B
+311;¿A cuántos grados sexagesimales equivalen 17π/4?;765°;755°;760°;800°;A
+312;¿A cuántos grados sexagesimales equivalen 7π/20 rad?;60°;62°;63°;64°;C
+313;¿Cuál es el complemento de 30° expresado en el sistema circular?;π/3 rad;π/6 rad;π/4 rad;π/5 rad;A
+314;¿Cuál es el suplemento de 100g expresado en el sistema radial?;π/3 rad;π/6 rad;π/8 rad;π/2 rad;D
+315;¿Cuál es el suplemento de 60° expresado en el sistema radial?;π/3 rad;π/6 rad;π/4 rad;2π/3 rad;D
+316;¿Cuál es el complemento de 20g expresado en el sistema sexagesimal?;70°;72°;82°;56°;B
+317;¿A cuántos grados centesimales equivalen 33π/25 rad?;260g;264g;266g;270g;B
+318;¿A cuántos grados centesimales equivalen π/10 rad?;10g;20g;30g;40g;B
+319;Si el ángulo central es 75° en una circunferencia de 24 m de radio, ¿cuál es la longitud del arco?;5π m;10π m;15π m;20π m;B
+320;Si la longitud del arco es 4π cm y el ángulo central es 50g, ¿cuánto mide el radio?;14 cm;15 cm;16 cm;12 cm;C
+321;Si el ángulo central es 70g y el radio 1 m, ¿cuánto mide el arco?;35π cm;5π cm;15π cm;14π cm;A
+322;Si el arco mide 4π m y el ángulo central es 50g, ¿cuánto mide el radio?;16 m;8 m;24 m;28 m;A
+323;¿Cuál es la fórmula para calcular la longitud de arco?;s = θ + r;s = θ × r;s = θ/r;s = r/θ;B
+324;¿En qué unidad se mide la longitud de arco?;Radianes;Grados;Unidad lineal;Grados centesimales;C
+325;Al convertir 63.5° a grados, minutos y segundos, ¿qué valor se obtiene?;63°15';63°30';63°45';63°60';B
+326;Al convertir 30.75° a grados y minutos, ¿qué valor se obtiene?;30°30';30°45';30°60';30°75';B
+327;¿Cuál es el ángulo completo en radianes?;π rad;3π/2 rad;2π rad;4π rad;C
+328;Si 80° se convierte a radianes, ¿cuál es el resultado?;4π/9;2π/9;π/9;8π/9;A
+329;Si π/4 rad se convierte a grados, ¿cuál es el resultado?;30°;45°;60°;90°;B
+330;Si 45° se convierte a grados centesimales, ¿cuál es el resultado?;40g;50g;60g;70g;B
+331;Si 70g se convierte a grados sexagesimales, ¿cuál es el resultado aproximado?;55°;63°;70°;78°;B
+332;Si π/3 se convierte a grados centesimales, ¿cuál es el resultado aproximado?;60g;66.67g;70g;75g;B
+333;Si 30g se convierte a radianes, ¿cuál es el resultado?;π/15;3π/20;π/10;π/5;B
+334;Si el ángulo es 60° y el radio es 6 cm, ¿cuál es la longitud del arco?;π cm;2π cm;3π cm;4π cm;B
+335;¿Cuál es la fórmula del seno de un ángulo en un triángulo rectángulo?;cateto adyacente/hipotenusa;cateto opuesto/hipotenusa;cateto opuesto/cateto adyacente;hipotenusa/cateto opuesto;B
+336;¿Cuál es la fórmula del coseno de un ángulo en un triángulo rectángulo?;cateto opuesto/hipotenusa;cateto adyacente/hipotenusa;hipotenusa/cateto adyacente;cateto adyacente/cateto opuesto;B
+337;¿Cuál es la fórmula de la tangente de un ángulo en un triángulo rectángulo?;cateto adyacente/cateto opuesto;hipotenusa/cateto opuesto;cateto opuesto/cateto adyacente;cateto opuesto/hipotenusa;C
+338;¿Cuál es la fórmula de la cotangente de un ángulo?;cateto opuesto/cateto adyacente;cateto adyacente/cateto opuesto;hipotenusa/cateto adyacente;cateto adyacente/hipotenusa;B
+339;¿Cuál es la fórmula de la secante de un ángulo?;cateto adyacente/hipotenusa;hipotenusa/cateto adyacente;cateto opuesto/hipotenusa;hipotenusa/cateto opuesto;B
+340;¿Cuál es la fórmula de la cosecante de un ángulo?;cateto opuesto/hipotenusa;hipotenusa/cateto adyacente;hipotenusa/cateto opuesto;cateto adyacente/hipotenusa;C
+341;¿Cuál es el radio del círculo trigonométrico?;0.5 unidades;1 unidad;2 unidades;π unidades;B
+342;¿Dónde se encuentra el centro del círculo trigonométrico?;(1, 0);(0, 1);(0, 0);(1, 1);C
+343;En el círculo trigonométrico, ¿qué representa la coordenada x del punto?;sen θ;cos θ;tan θ;cot θ;B
+344;En el círculo trigonométrico, ¿qué representa la coordenada y del punto?;cos θ;tan θ;sen θ;sec θ;C
+345;¿Cuál es el signo del seno en el cuadrante II?;Negativo;Positivo;Cero;Indefinido;B
+346;¿Cuál es el signo del coseno en el cuadrante II?;Positivo;Negativo;Cero;Indefinido;B
+347;¿Cuál es el signo de la tangente en el cuadrante III?;Negativo;Cero;Positivo;Indefinido;C
+348;¿Cuál es el signo del coseno en el cuadrante IV?;Negativo;Cero;Indefinido;Positivo;D
+349;¿Cuál es el valor de sen 30°?;√3/2;1/2;√2/2;1;B
+350;¿Cuál es el valor de cos 60°?;√3/2;√2/2;1-feb;1;C
+351;¿Cuál es el valor de sen 45°?;1/2;√3/2;√2/2;1;C
+352;¿Cuál es el valor de tan 60°?;1;√2;√3;2;C
+353;¿Cuál es el valor de tan 45°?;√3;1/2;√2;1;D
+354;¿Cuál es el valor de cos 30°?;1/2;√2/2;√3/2;1;C
+355;¿Cuál es el valor de sen 120°?;1/2;√2/2;-√3/2;√3/2;D
+356;¿Cuál es el valor de tan 30°?;√3;1;√3/3;1/2;C
+357;¿Cuál es el valor de cos 45°?;1/2;√3/2;√2/2;1;C
+358;¿Cuál es el valor de cot π/6?;√3/3;0;√3;1/2;C
+359;¿Cuál es el valor de sen π/4?;√3/2;√2/2;1/3;1/2;B
+360;¿Cuál es el valor de sen π/3?;1/2;√2/2;1/3;√3/2;D
+361;¿Cuál es el valor de cos π/3?;1/2;√3/2;1/4;√2/2;A
+362;¿Cuál es el valor de sen π/6?;1/2;√3/2;1/3;1/4;A
+363;¿Cuál es el valor de tan π/3?;√3/2;√3;1;0;B
+364;¿Cuál es el valor de cos π/4?;√2/2;1/4;√3/2;1/3;A
+365;¿Cuál es el valor de cos 120°?;2;-1;-0,5;√3;C
+366;¿Cuál es el valor de tan 315°?;2;-1;-0,5;√3;B
+367;¿Cuál es el valor de csc 300°?;2√3;√3/3;-2√3/3;√3;C
+368;¿Cuál es el valor de cot 150°?;√3;√3/3;2√3/3;-√3;D
+369;¿Cuál es el valor de sec 210°?;2√3;√3/3;-2√3/3;√3;C
+370;¿Cuál es el valor de sen 135°?;√2;-1;√2/2;1-feb;C
+371;¿Cuál es el valor de cos 720°?;2;-1;1;2;C
+372;¿Cuál es el valor de csc 450°?;1;√3/3;-2√3/3;√3;A
+373;¿Cuál es el valor de sec 900°?;2√3;√3/3;-1;√3;C
+374;¿Cuál es el valor de cot 1050°?;2√3;√3/3;-2√3/3;-√3;D
+375;Si un ángulo α pertenece al II cuadrante, ¿cómo se reduce?;360° - α;α - 180°;180° - α;α - 90°;C
+376;Si un ángulo α pertenece al III cuadrante, ¿cómo se reduce?;α - 180°;360° - α;180° - α;α - 90°;A
+377;Si un ángulo α pertenece al IV cuadrante, ¿cómo se reduce?;α - 180°;180° - α;α - 90°;360° - α;D
+378;¿Cuál es el valor equivalente de sen 320° reducido al primer cuadrante?;sen 40°;-sen 40°;sen 50°;-sen 50°;B
+379;Al reducir cos 120° al primer cuadrante, ¿cuál es el resultado?;cos 60°;-cos 60°;cos 30°;-cos 30°;B
+380;Al reducir tan 210° al primer cuadrante, ¿cuál es el resultado?;-tan 30°;tan 30°;-tan 60°;tan 60°;B
+381;Al reducir sen 300° al primer cuadrante, ¿cuál es el resultado?;sen 60°;-sen 60°;sen 30°;-sen 30°;B
+382;¿Cuál es el valor de sen 0°?;1;0;-1;√2/2;B
+383;¿Cuál es el valor de cos 0°?;0;-1;√2/2;1;D
+384;¿Cuál es el valor de sen 90°?;0;√2/2;1;-1;C
+385;¿Cuál es el valor de cos 90°?;1;-1;√2/2;0;D
+386;¿Cuál es el valor de sen 180°?;1;-1;0;√2/2;C
+387;¿Cuál es el valor de cos 180°?;0;1;√2/2;-1;D
+388;¿Cuál es el valor de sen 270°?;0;1;√2/2;-1;D
+389;¿Cuál es el valor de cos 270°?;-1;1;0;√2/2;C
+390;¿Cuál es el resultado de sen 30° + tan 45° × cos 30°?;2;3;1;2;C
+391;¿Cuál es el resultado de cos 60° + sen² 45°?;1;2;3;ninguno;A
+392;¿Cuál es el resultado de 2sen 30° + 2cos 45°?;2 + √2;√2 + 2;2√2;4√2/3;A
+393;Al reducir sen 250° al primer cuadrante, ¿cuál es la función equivalente?;sen 270°;sen 20°;sen 70°;sen 160°;C
+394;¿Cuál es el resultado de sen 315°?;-√2/2;√2/2;√3/2;-2√3;A
+395;Al reducir sen 115° al primer cuadrante, ¿cuál es el resultado?;sen 30°;sen 65°;cos 65°;1;B
+396;¿Cuál es el valor de la expresión cos 30° × sen 30°?;1/2;√3;√3/2;2/3;C
+397;¿Cuál es el resultado de sen² 45° + cos² 30°?;1;5/4;4/5;1/2;B
+398;¿Cuál es el valor de cos 225°?;√2/2;-√2/2;√3/2;-2√2;B
+399;¿Cuál es el valor de sen 315°?;2√3;-2√3;-√2/2;√3/2;C
+400;Para un ángulo mayor a 360°, ¿cómo se reduce al primer cuadrante?;α - 360°;residuo de α ÷ 360°;360° - α;α + 360°;B
+401;¿Cuál es la relación entre tan θ, sen θ y cos θ?;tan θ = cos θ / sen θ;tan θ = sen θ × cos θ;tan θ = sen θ / cos θ;tan θ = 1 / (sen θ × cos θ);C
+402;En el círculo trigonométrico, ¿cuántos cuadrantes hay?;2;3;4;5;C
+403;¿Cuál es el valor de M = (sen² 30° + sen² 60° - sen² 90°)?;2;3/4;1/2;0;C
+404;¿Cuál es el valor de P = sen² 45° + cos² 30°?;2/3;5/4;5/2;5/4;B
+405;¿Cuál es la identidad trigonométrica fundamental que relaciona sen²x y cos²x?;sen²x - cos²x = 1;sen²x + cos²x = 1;sen²x × cos²x = 1;sen²x / cos²x = 1;B
+406;¿Cuál es la identidad recíproca del seno?;sec θ = 1/sen θ;csc θ = 1/sen θ;cot θ = 1/sen θ;tan θ = 1/sen θ;B
+407;¿Cuál es la identidad recíproca del coseno?;csc θ = 1/cos θ;sec θ = 1/cos θ;cot θ = 1/cos θ;tan θ = 1/cos θ;B
+408;¿Cuál es la identidad recíproca de la tangente?;sec θ = 1/tan θ;csc θ = 1/tan θ;cot θ = 1/tan θ;sen θ = 1/tan θ;C
+409;¿Cuál es la relación entre sen x y tan x según las identidades?;sen x = tan x × cos x;sen x = tan x / cos x;sen x = cos x / tan x;sen x = tan x + cos x;A
+410;¿Cuál es la relación entre cos x y cot x según las identidades?;cos x = cot x - sen x;cos x = cot x + sen x;cos x = cot x / sen x;cos x = cot x × sen x;D
+411;¿Cuál es la identidad sec²x = ?;1 - tan²x;1 / tan²x;1 + tan²x;tan²x - 1;C
+412;¿Cuál es la identidad csc²x = ?;1 - cot²x;1 + cot²x;cot²x - 1;1 / cot²x;B
+413;¿Cuál es la fórmula del seno de la suma de dos ángulos sen(α + β)?;sen α × cos β - cos α × sen β;sen α × cos β + cos α × sen β;cos α × cos β - sen α × sen β;cos α × cos β + sen α × sen β;B
+414;¿Cuál es la fórmula del coseno de la suma de dos ángulos cos(α + β)?;cos α × cos β + sen α × sen β;sen α × cos β + cos α × sen β;cos α × cos β - sen α × sen β;sen α × sen β - cos α × cos β;C
+415;¿Cuál es la fórmula de la tangente de la suma tan(α + β)?;(tan α - tan β)/(1 + tan α × tan β);(tan α + tan β)/(1 - tan α × tan β);(tan α × tan β)/(1 + tan α + tan β);(tan α + tan β)/(1 + tan α × tan β);B
+416;¿Cuál es la fórmula del seno del ángulo doble sen 2θ?;2sen θ;sen θ × cos θ;2sen θ × cos θ;sen²θ + cos²θ;C
+417;¿Cuál es la fórmula del coseno del ángulo doble cos 2θ?;2cos²θ - 1;cos²θ - sen²θ;sen²θ - cos²θ;cos²θ + sen²θ;B
+418;¿Cuál es la fórmula de la tangente del ángulo doble tan 2θ?;2tan θ/(1 + tan²θ);tan²θ/(1 - tan θ);2tan θ/(1 - tan²θ);tan θ/(1 - 2tan²θ);C
+419;Al reducir sen x × cot x - cos x, ¿cuál es el resultado?;1;0;sen x;tan x;B
+420;Al simplificar tan x(1 + cos x) - cos x, ¿cuál es el resultado?;sen x;1;0;cot x;A
+421;Al reducir (sec x - 1)(sec x + 1)/(sec x × cos x), ¿cuál es el resultado?;cos x;0;1;-1;C
+422;Al reducir (sen x + cos x)² + (sen x - cos x)², ¿cuál es el resultado?;1;0;-1;2;D
+423;Al simplificar (tan x + 1)/(cot x + 1), ¿cuál es el resultado?;tan x;cot x;sec x;csc x;A
+424;Al reducir (sec x + csc x)(sen x - tan x), ¿cuál es el resultado?;1;2;csc x;cot x;D
+425;Al reducir (tan x + cot x)(sen x × cos x), ¿cuál es el resultado?;sec x;tan x;cot x;1;D
+426;Al simplificar csc x(tan x - sen x), ¿cuál es el resultado?;cos x;1;sec x;csc x;C
+427;Al simplificar (tan x + 1)/(sen x + cos x), ¿cuál es el resultado?;sen x;cos x;sec x;csc x;C
+428;Al resolver tan(225° + 135°), ¿cuál es el resultado?;0;1;-1;2;A
+429;¿Cuál es el equivalente de sec²x(1 - sen²x)?;sen x;cos x;tan x;ninguno;B
+430;¿Cuál es el valor de la expresión cos²α + sen²α?;-1;0;1;∞;C
+431;¿Cuál es el valor de la expresión (1 + ctg²θ)sen²θ?;1 + ctg²θ;sen²θ;1 + cos²θ;1;D
+432;¿Cuál es la expresión equivalente a cos θ × cot θ × csc θ?;tan θ;sec θ;cot θ;ninguno;C
+433;¿Cuál es la simplificación de sec²θ - sen²θ × sec θ?;cos θ - 1;sen²θ + 1;cos²θ;cos θ;D
+434;¿Cuál es el valor equivalente de cos²x + 2sen²x?;sen x × cos 2x;1;tan 2x;sen²x;B
+435;¿Cuál es la expresión sen α(ctg θ + csc θ) igual a?;1 + ctg²θ;sen 2θ;cos θ + 1;1;C
+436;¿Cuál es la simplificación de csc²θ(1 - cos²θ)?;1;1/(2sen θ) + 1;cos 2θ;cos θ;A
+437;¿Cuál es la simplificación de sec²A - 1/(sen A)?;cos 2A;sen A/cos 2A;tan A;sen A;D
+438;Al resolver sen(60° - 30°), ¿cuál es el resultado?;-1;1-feb;-0,5;1;B
+439;¿Cuál es la simplificación de 1 + tan²θ - sec²θ?;1;-1;0;2;C
+440;Al simplificar cos β + sen β × ctg β, ¿cuál es el resultado?;cos β;sen β;ctg β;csc β;D
+441;¿Cuál es el resultado de simplificar sen θ × sec θ × ctg θ?;sec²θ;cos θ;sen²θ;1;D
+442;Al simplificar cos²θ + sen³θ/sen θ, ¿cuál es el resultado?;cos θ;sen θ;tan θ;1;D
+443;Al simplificar sen θ × tan θ + cos θ, ¿cuál es el resultado?;sec θ;csc θ;tan θ;1;A
+444;Al simplificar (cos²θ - sen²θ)/(cos θ - sen θ), ¿cuál es el resultado?;csc θ;cos θ;sec θ;tan θ;B
+445;Al simplificar 1 + cos²x + sen²x, ¿cuál es el resultado?;sen α;cos α;1;ctg α;C
+446;¿Cuál es el valor de (1 + tg α)² - (1 - tg α)²?;sec α;4tg α;cos α;tg α;B
+447;Al reducir cot²x(cos x + sen x)/sen x, ¿cuál es el resultado?;cos x;sen x;sec x;csc x;D
+448;Al reducir (sec²x - 1)(1 - cot²x)/(1 - sen²x), ¿cuál es el resultado?;sen x × cos x;sen²x;cos²x;sen⁴x;B
+449;Al reducir (tan³x + tan x)/(cot³x + cot x), ¿cuál es el resultado?;tan²x;cot²x;tan⁴x;cot⁴x;C
+450;Al reducir (sen⁴x - cos⁴x)/(cos x + sen x) + cos x, ¿cuál es el resultado?;sen x;sen x + 2cos x;cos x;2cos x;A
+451;Al reducir cot²x/(csc⁴x - 1) + 1, ¿cuál es el resultado?;cot x;tan x;cot²x;tan²x;C
+452;Al reducir (3sen²x + 2cos²x)/(2sen²x - 3cos²x), ¿cuál es el resultado?;cot x;tan x;9;13;A
+453;Al reducir (sec x + tan x - 1)/(csc x - cot x + 1), ¿cuál es el resultado?;sec x;csc x;tan x;cot x;A
+454;Al reducir (cot x - cos x)/(csc²x - 1) - 2sen x, ¿cuál es el resultado?;sen x;cos x;cot x;tan x;C
+455;¿Cuál es la expresión equivalente a (1 + tan α)² + (1 - tan α)²?;4tan²α;cos²α;2;2sec²α;D
+456;Al reducir (tan²x + cot²x) - (tan x - cot x)², ¿cuál es el resultado?;1;2;3;4;D
+457;Al reducir (1 + sen x)² + cos²x - 2sen x, ¿cuál es el resultado?;1;2;3;4;D
+458;Al reducir cos A + sen A × tan A/(sen A × sec A), ¿cuál es el resultado?;csc A;sec A;tan A;cot A;A
+459;Al reducir sen²x/(tan x + cot x), ¿cuál es el resultado?;csc x;sec x;tan x;cot x;D
+460;Al reducir (1 + cos x)/(sen x) + sen x/(1 + cos x), ¿cuál es el resultado?;2;4;tan x;cos x;A
+461;Si cos β = 1/4 y β ∈ 1er Cuadrante, ¿cuál es cos β + sen β?;1;2;1-feb;√2;B
+462;Si cos θ × sen θ = 0.25, ¿cuál es cos θ + sen θ?;2;√6;√6/2;√2;B
+463;Si tan θ + cot θ = 3, ¿cuál es (sen θ + cos θ)²?;1-feb;5-mar;1-abr;0;B
+464;Si cos x - sen x = 1/3, ¿cuál es sec²x + csc²x?;4-sep;9-abr;1-abr;3-abr;B
+465;¿Cuál es la identidad tan²x + 1 = ?;sec²x;csc²x;cot²x;sen²x;A
+466;¿Cuál es la identidad cot²x + 1 = ?;sec²x;tan²x;csc²x;cos²x;C
+467;¿Cuál es la relación sen x × csc x = ?;tan x;0;sec x;1;D
+468;¿Cuál es la relación cos x × sec x = ?;cot x;1;csc x;0;B
+469;¿Cuál es la relación tan x × cot x = ?;0;sec x;1;csc x;C
+470;Al reducir sen⁴x - cos⁴x, ¿es igual a?;sen²x + cos²x;sen²x - cos²x;sen²x × cos²x;(sen x - cos x)²;B
+471;Al simplificar tan x = sen x/cos x, ¿qué identidad se verifica?;Identidad pitagórica;Identidad del cociente;Identidad recíproca;Identidad del ángulo doble;B
+472;¿Cuál es la expresión (sen α + β)?;sen α × cos β + cos α × sen β;sen α × cos β - cos α × sen β;cos α × cos β + sen α × sen β;cos α × cos β - sen α × sen β;A
+473;Si tan x = 2(1 + cos x)/(sen x + 1) y x ∈ 3er Cuadrante, ¿cuál es sec x × csc x?;3-feb;5-feb;7-feb;3-abr;B
+474;Si sec x × csc x = 4cot x y x ∈ 2do Cuadrante, ¿cuál es x?;135°;150°;120°;143°;A
+475;¿Cuál es la fórmula correcta para sen(A+B)?;sen(A)cos(B)+cos(A)sen(B);sen(A)sen(B)+cos(A)cos(B);sen(A)cos(B)-cos(A)sen(B);cos(A)cos(B)-sen(A)sen(B);A
+476;¿Cuál es la fórmula para cos(A-B)?;cos(A)cos(B)-sen(A)sen(B);cos(A)cos(B)+sen(A)sen(B);sen(A)cos(B)+cos(A)sen(B);sen(A)sen(B)-cos(A)cos(B);B
+477;La fórmula tan(A+B) es igual a:;(tan(A)-tan(B))/(1+tan(A)tan(B));(tan(A)+tan(B))/(1-tan(A)tan(B));(tan(A)+tan(B))/(1+tan(A)tan(B));(tan(A)tan(B))/(1-tan(A)-tan(B));B
+478;¿Cuál es la fórmula para sen(2A)?;sen(A)cos(A);2sen(A)cos(A);sen²(A)+cos²(A);2sen(A)+cos(A);B
+479;La expresión cos(2A) es equivalente a:;2cos²(A)-1;2cos(A)-1;cos²(A)+sen²(A);cos(A)-sen(A);A
+480;¿Cuál es otra forma de expresar cos(2A)?;cos²(A)-sen²(A);cos²(A)+sen²(A);2cos(A)sen(A);sen²(A)-cos²(A);A
+481;La fórmula tan(2A) es igual a:;2tan(A)/(1-tan²(A));tan(A)/(1-tan²(A));2tan(A)/(1+tan²(A));tan²(A)/(1-tan(A));A
+482;¿Cuál es la fórmula para sen(A/2)?;±√((1-cos(A))/2);±√((1+cos(A))/2);±√((1-sen(A))/2);±√(cos(A)/2);A
+483;La expresión cos(A/2) es igual a:;±√((1+cos(A))/2);±√((1-cos(A))/2);±√((1+sen(A))/2);±√((cos(A)+1)/4);A
+484;¿Cuál es la fórmula para sen(3A)?;3sen(A)-4sen³(A);4sen³(A)-3sen(A);3sen(A)+4sen³(A);sen³(A)-3sen(A);A
+485;La fórmula cos(3A) es equivalente a:;4cos³(A)-3cos(A);3cos(A)-4cos³(A);4cos³(A)+3cos(A);cos³(A)-3cos(A);A
+486;Al simplificar (1+tan²(x))+(1-tan²(x)) se obtiene:;2sec²(x);2;2cos²(x);sec²(x);A
+487;Si cos(x)=2a/3 y sen(x)=b, entonces 3a²+b equivale a:;3;1;4;6;B
+488;Al reducir cos²(x)+sen²(x)+cos(x)-sen(x) se tiene:;2;1;3;1+2senx;B
+489;La expresión (1+sen(x))/(1-sen(x)) es equivalente a:;2sec²(x);sec²(x);2csc²(x);csc²(x);A
+490;sec²(x)-tan²(x) es igual a:;1;2;3;1-feb;A
+491;La expresión (1+cos(2x))/sen²(x) equivale a:;sec(x);cot(x);csc(x);tan(x);C
+492;Al simplificar cot(x)·sec(x) se obtiene:;csc(x);ctg(x);sen(x);tan(x);A
+493;Simplificando sec(x)/(tan(x)+cot(x)) tenemos:;sen(x);cos(x);csc(x);ctg(x);A
+494;Al reducir 1-sen(x)·cos(x)·tan(x) tenemos:;cos²(x);cos(x);sen(x);ctg(x);A
+495;La expresión sen(x)·tan(x)+cos(x) es igual a:;sec(x);ctg(x);csc(x);tan(x);A
+496;Simplificando csc(x)/sec(x)+tan(x) tenemos:;csc(x);tan(x);sec(x);ctg(x);D
+497;Al simplificar (1+sen(x)+cos(x))² tenemos:;2sen(x)·cos(x);csc(x)·sen(x);sec(x);ctg(x);A
+498;tan(x)+cot(x) es equivalente a:;csc(x)·sen(x);tan(x)·ctg(x);2sec(x);tan(x);B
+499;La expresión (1+sen²(x))/(1+cotan²(x)) es igual a:;1;3;1-feb;2;A
+500;cos(x+30°)+cos(x-30°) es igual a:;√3cos(x);sen(x);cos(x);sen(30°);A
+501;Al simplificar sen(x+30°)+sen(x-30°) se tendrá:;sen(x);cos(x);sen(30°);cos(30°);A
+502;(1-cos²(x))·cosec²(x) simplificado da:;1;cos²(x);sen⁴(x);2;A
+503;Al simplificar sec²(x)-sen²(x) se obtiene:;cos(x);sen(x);sen(30°);cos(30°);A
+504;El valor de sen(120°) será:;√3/2;(√6-√2)/4;(√6+√3)/4;√6/4;A
+505;El valor de tan(π/12) será:;2-√3;√3/3;3-√3;(√3-3)/(√3+3);A
+506;La expresión sen(7x)+sen(5x)/cos(7x)-cos(5x) es igual a:;-COT(x);tan(x);sen(x);cos(x);A
+507;La afirmación sen²(x)+cos²(x)=1 es:;verdadera;falsa;depende del cuadrante;verdadera solo para ángulos agudos;A
+508;La expresión sen(x)/(sen(x)+cos(x)) simplificada será igual a:;1+cotan(x);1-cotan(x);sen²(x);cos²(x);A
+509;cos(x)·cotan(x) simplificado es igual a:;cos(x);sen(x);tan(x);cot(x);A
+510;sen(x)/cos(x)+cos(x)/sec(x) simplificado es igual a:;1;cos(x);sen(x);-1;A
+511;tan(x)/sen(x) simplificado es igual a:;sec(x);sen(x);tan(x);csc(x);A
+512;cosec(x)/cotan(x) simplificado es igual a:;sec(x);csc(x);tan(x);cot(x);A
+513;(1-cos²(x))/cosec²(x) simplificado es igual a:;1;cos⁴(x);sen⁴(x);0;C
+514;(cosec²(x)-1)/cos²(x) simplificado es igual a:;1;csc(x);tan(x);cot(x);A
+515;Si tan(α)=3 y tan(α+β)=1, entonces tan(β) es:;-0,5;1;1-mar;1-feb;A
+516;La expresión (sen(75°)·cos(30°)-cos(75°)·sen(30°))/cos(60°) simplificada da:;1;1-feb;2;2-mar;A
+517;Si cos(3x)·sen(x)+sen(3x)·cos(x)=√3/2, entonces x vale:;20°;15°;10°;5°;C
+518;Si sen(α)=1/2 (2do cuadrante) y cos(β)=-√2/2 (4to cuadrante), entonces sen(α+β) es:;(√6-√2)/4;(√6+√2)/4;(√2-√6)/4;#¿NOMBRE?;A
+519;Simplificar (sen(x+30°)+sen(x-30°))/sen(x) da:;2cot(x);csc(x);cot(x);tan(x);C
+520;La expresión (cos(α)-cos(x))/(sen(α)-sen(x))·tan(x) es igual a:;cot(α);tan(x);cot(x);tan(2x);C
+521;Simplificar tan(α)/(cos(x-α)+cos(x+α)) da:;tan(x);tan(α);cot(α);cot(x);A
+522;Si tan(α+45°)=4/5 y tan(α)=3/4, entonces tan(β) es:;1-sep;1;2;4;A
+523;La expresión (sen(x+y)+sen(x-y))/(sen(x)·sen(y)) es igual a:;2tan(y);tan(y);cot(y);2cot(y);D
+524;Si sen(α)=3/5 con 0°<α<90°, entonces sen(α+30°) es:;(3√3+4)/10;(3+√3)/10;(3√3-4)/10;(3√3+4)/5;A
+525;Si sen(α)=3/5 con 0°<α<90°, entonces cos(α+45°) es:;(4-3√2)/10;(√3-10)/3;(√2-10)/3;√2/10;A
+526;La fórmula tan(A-B) es igual a:;(tan(A)-tan(B))/(1+tan(A)tan(B));(tan(A)+tan(B))/(1-tan(A)tan(B));(tan(A)-tan(B))/(1-tan(A)tan(B));(tan(A)tan(B)-1)/(tan(A)+tan(B));A
+527;¿Cuál es otra expresión para tan(2A)?;(cot(A)-tan(A))/2;cot(A)-tan(A);2cot(A)-tan(A);(cot(A)-tan(A))/1;B
+528;La expresión sen(2A) también puede escribirse como:;2sen(A)√(1-sen²(A));sen(A)+cos(A);2sen²(A);sen(A)·cos(A);A
+529;tan(A/2) es igual a:;±√((1-cos(A))/(1+cos(A)));±√((1+cos(A))/(1-cos(A)));±√((1-sen(A))/(1+sen(A)));(1-cos(A))/sen(A);A
+530;La fórmula tan(3A) es:;(3tan(A)-tan³(A))/(1-3tan²(A));(3tan(A)+tan³(A))/(1-3tan²(A));3tan(A)-tan³(A);(tan(A)-3tan³(A))/(1-3tan²(A));A
+531;sen(A-B) es igual a:;sen(A)cos(B)-cos(A)sen(B);sen(A)cos(B)+cos(A)sen(B);cos(A)cos(B)-sen(A)sen(B);cos(A)sen(B)-sen(A)cos(B);A
+532;cos(A+B) es igual a:;cos(A)cos(B)-sen(A)sen(B);cos(A)cos(B)+sen(A)sen(B);sen(A)cos(B)+cos(A)sen(B);sen(A)sen(B)-cos(A)cos(B);A
+533;La expresión (1+sec²(y))/(2cos²(y)) es equivalente a:;sec²(y/2);sec(y/2);2sec²(y);sec(y);A
+534;sec²(x)=1+tan²(x) es una identidad:;verdadera;falsa;válida solo en el primer cuadrante;válida solo para ángulos de 45°;A
+535;Al simplificar sen(A/2)/(cos(A/2)) se obtiene:;tan(A/2);cot(A/2);sen(A);cos(A);A
+536;La expresión 2sen(A)cos(A) es equivalente a:;sen(2A);cos(2A);tan(2A);sen(A)+cos(A);A
+537;cos²(A)-sen²(A) es otra forma de escribir:;cos(2A);sen(2A);2cos(A);2sen(A);A
+538;La expresión (sen(x+y)-sen(x-y))/(2cos(x)) es igual a:;sen(y);cos(y);tan(y);cot(y);A
+539;Al reducir (cos(10°)+cos(x-10°))/(2cos(x)) se obtiene:;cos(10°);sen(10°);sen(15°);cos(20°);A
+540;La expresión sen(A/2) también puede escribirse como:;±sen(A)/(√(2+2cos(A)));±√(2-2cos(A))/2;±√((1-cos(A))/2);±√((1+cos(A))/2);C
+541;cos(A/2) también se expresa como:;±√((1+cos(A))/2);±√((1-cos(A))/2);±√(2/(1+cos(A)));±cos(A)/2;A
+542;La fórmula sen²(x)+cotan²(x)·sen²(x) es igual a:;1;sen²(x);cos²(x);tan²(x);A
+543;Al simplificar (cos(x+y)+cos(x-y))/(2cos(x)) se obtiene:;cos(y);sen(y);tan(y);cot(y);A
+544;La expresión 1-2sen²(A) es equivalente a:;cos(2A);sen(2A);tan(2A);cot(2A);A
+545;¿Qué consiste en hallar en la resolución de triángulos?;Lados, ángulos y área;Solo lados;Solo ángulos;Solo el área;A
+546;¿Qué ángulo interior tiene un triángulo rectángulo?;Un ángulo de 45°;Un ángulo recto de 90°;Un ángulo de 60°;Tres ángulos iguales;B
+547;¿Cómo se llama el lado de mayor longitud en un triángulo rectángulo?;Cateto;Base;Hipotenusa;Altura;C
+548;¿Cuántos datos conocidos se necesitan para resolver un triángulo rectángulo?;Uno;Dos;Tres;Cuatro;B
+549;¿Cuál es la relación de ángulos en un triángulo rectángulo?;α+β=180°;α+β=90°;α+β=60°;α+β=45°;B
+550;¿Cuál es el teorema de Pitágoras?;hipotenusa²=cateto²+cateto²;hipotenusa=cateto+cateto;hipotenusa²=cateto²-cateto²;hipotenusa=cateto²+cateto²;A
+551;La fórmula sen(φ) en un triángulo rectángulo es:;cateto adyacente/hipotenusa;cateto opuesto/hipotenusa;hipotenusa/cateto opuesto;cateto opuesto/cateto adyacente;B
+552;La fórmula cos(φ) en un triángulo rectángulo es:;cateto opuesto/hipotenusa;cateto adyacente/hipotenusa;hipotenusa/cateto adyacente;cateto adyacente/cateto opuesto;B
+553;La fórmula tan(φ) es igual a:;cateto opuesto/cateto adyacente;cateto adyacente/cateto opuesto;cateto opuesto/hipotenusa;hipotenusa/cateto opuesto;A
+554;El perímetro de un triángulo rectángulo es:;a+b+c;2(a+b);a·b/2;a²+b²+c²;A
+555;El área de un triángulo rectángulo es:;(cateto·cateto)/2;cateto+cateto;cateto²+cateto²;2·cateto·cateto;A
+556;Si a=2√5 y b=2√3, entonces la hipotenusa es:;4√2;2√8;4√2;8;A
+557;Si la hipotenusa es 5m y un cateto es 3m, el otro cateto es:;3m;4m;6m;7m;B
+558;Si un triángulo tiene área 270cm² y un cateto de 10cm, el otro cateto es:;20cm;25cm;27cm;30cm;C
+559;Si la base es 10 y la altura es 5, el área es:;25u²;50u²;100u²;15u²;A
+560;Si sen(60°)=24/hip, entonces hip es igual a:;12√3;16√3;20√3;24√3;B
+561;Desde un edificio de 50m con ángulo de 30°, la distancia x es:;25√3m;50√3m;75√3m;100√3m;B
+562;Si tan(60°)=h/3, entonces h es igual a:;3m;3√2m;3√3m;6m;C
+563;Si la sombra es 15m y el ángulo es 60°, la altura h es:;15m;15√2m;15√3m;30m;C
+564;Un triángulo con catetos 3 y 4, tiene hipotenusa de longitud:;5;6;7;8;A
+565;¿Qué es un triángulo oblicuángulo?;Tiene un ángulo de 90°;Ningún ángulo es recto;Todos los ángulos son iguales;Tiene dos ángulos rectos;B
+566;Un triángulo acutángulo tiene:;Un ángulo mayor a 90°;Tres ángulos menores a 90°;Un ángulo de 90°;Dos ángulos de 90°;B
+567;Un triángulo obtusángulo tiene:;Tres ángulos menores a 90°;Un ángulo mayor a 90°;Un ángulo de 90°;Todos los ángulos iguales;B
+568;La suma de ángulos interiores en un triángulo es:;90°;180°;270°;360°;B
+569;El teorema de senos establece que:;a/sen(α)=b/sen(β)=c/sen(θ);a·sen(α)=b·sen(β);a+sen(α)=b+sen(β);a²/sen(α)=b²/sen(β);A
+570;La fórmula del teorema de cosenos para a² es:;b²+c²-2bc·cos(α);b²+c²+2bc·cos(α);b²-c²-2bc·cos(α);b²+c²-bc·cos(α);A
+571;Si a=5, b=3 y C=60°, entonces c² es igual a:;16;19;25;28;B
+572;Si A=120°, B=30°, entonces C es igual a:;20°;30°;40°;50°;B
+573;Si a=10, A=30°, B=120°, entonces b es igual a:;5√3;10√3;10√3/3;20√3;B
+574;Si b=9, B=45°, C=60°, entonces b es igual a:;3√6;6√3;9√6;12√3;A
+575;Si B=45°, C=60°, entonces A es igual a:;60°;75°;90°;105°;B
+576;¿Cuál afirmación sobre el teorema de Pitágoras es correcta?;El cuadrado de la hipotenusa es igual a la suma de los cuadrados de los catetos;Un cateto es igual al cuadrado de los otros dos lados;El cuadrado de un lado es igual a la suma de los otros dos lados;La hipotenusa es igual a la suma de los catetos;D
+577;¿Cuándo es aplicable la ley de senos a triángulos rectángulos?;Cuando se conocen dos lados y el ángulo comprendido;Solo a triángulos rectángulos;Cuando se conocen solamente dos ángulos;Ninguna de las respuestas anteriores;D
+578;¿A qué triángulos se aplica la ley de cosenos?;Solo triángulos oblicuángulos;Solo triángulos rectángulos;Cualquier tipo de triángulos;Solo cuando se conoce Pitágoras;C
+579;Para hallar el ángulo A con teorema de cosenos se usa:;cos(A)=(b²+c²-a²)/(2bc);cos(A)=(c²+a²-b²)/(2ca);cos(A)=(a²+b²-c²)/(2ab);cos(A)=(b²+a²-c²)/(2ca);A
+580;Si A=30°, a=√3m, b=√6m, entonces B es igual a:;30°;45°;60°;90°;C
+581;Si el hilo del volantín es 16m y el ángulo es 30°, la altura es:;4m;6m;8m;10m;C
+582;Si la hipotenusa es 4m y un cateto es 2m, el otro cateto es:;2m;2√3m;3m;2√6;B
+583;Si a=5m, b=3m, C=60°, entonces c es igual a:;√10;√15;√19;√25;C
+584;Si los catetos son 6 y 8, el perímetro es:;14;20;24;28;C
+585;Si sen(x)=0.5, entonces la hipotenusa es:;1;2;3;4;B
+586;Si la altitud es 1000m y el ángulo con la vertical es 60°, la distancia es:;500m;1000m;1500m;2000m;D
+587;Si la altura de las torres es 60m y el ángulo de depresión es 60°, la distancia es:;10m;20√3m;60√3/3m;100m;C
+588;Si 2cos(α)=cotan(α), entonces α es:;0°;30°;45°;60°;C
+589;En un triángulo isósceles con ángulo del vértice 90° y lados iguales 50m, la altura es:;25√2;30√2;50√2/4;50√2;A
+590;Si sen(α)=1, la hipotenusa vale:;0.5;1;2;√2;D
+591;Si los catetos son 9 y 12, la hipotenusa es:;5;10;15;20;C
+592;¿Cuál afirmación es correcta sobre triángulos?;Un rectángulo tiene ángulo mayor a 90°;Los acutángulos tienen lados menores a 90°;Pitágoras se aplica a cualquier triángulo;Los acutángulos tienen un ángulo mayor a 90°;B
+593;Si dos lados miden 5m cada uno y el ángulo comprendido es recto, es:;Solo rectángulo;Solo isósceles;Rectángulo e isósceles;No tiene solución;C
+594;Si los ángulos son 30°, 40° y 50°, entonces:;No es triángulo;Tiene solución;Se aplica Pitágoras;Ninguna correcta;A
+595;Si los catetos son 5 y 8, el área es:;20;34;40;60;A
+596;Para resolver un triángulo oblicuángulo con dos lados y un ángulo se usa:;Ley de senos;Ley de cosenos;Senos o cosenos;Teorema de Pitágoras;C
+597;Si nos dan tres lados de un triángulo oblicuángulo se aplica:;Ley de senos;Ley de cosenos;Senos o cosenos;Teorema de Pitágoras;B
+598;Si nos dan dos ángulos y un lado en triángulo oblicuángulo se usa:;Ley de senos;Ley de cosenos;Función seno del ángulo;Teorema de Pitágoras;A
+599;Si m∠A=30°, m∠C=45° y AB=16, entonces BC es:;6√3;8√2;8√3;16√2;C
+600;Para calcular distancia AB con datos dados, ¿cuál planteo es incorrecto?;x=(40·sen(45°))/sen(50°);x²=40²+50²-2·40·50·cos(45°);x=(50·sen(45°))/sen(85°);x=(sen(45°)·sen(50°))/(40);D
+601;Si a=2, c=3, B=60°, entonces b es:;√5;√7;√10;√13;B
+602;Si a=√3, b=4, C=120°, entonces c es:;√19;√26;√37;√43;C
+603;Si a=2, b=1, C=135°, entonces c es:;√3;√5;√6;2;B
+604;Si A=60°, B=45°, entonces E=a/b es:;√3/2;√6/2;√3;√6;B
+605;Si A=2C, a=√3 y c=2, entonces cos(C) es:;1/4;1/3;1/2;3/4;A
+606;El mayor ángulo de un triángulo con lados proporcionales a 7, 8 y 13 es:;60°;90°;120°;135°;C
+607;Si A=π/6, a=1, b=√3, entonces el ángulo B es:;30°;45°;60°;90°;C
+608;En un triángulo ABC, E=b·sen(C)-c·sen(B) es igual a:;a;b;c;0;D
+609;En un triángulo ABC, simplificar E=(b+c·sen(B))/(c-sen(C)) da:;0;1;a;b;B
+610;Si a=2b, entonces E=(a·sen(C)+c·sen(A))/(b·sen(C)+c·sen(B)) es:;1/3;1/2;1;2;D
+611;Si a=5, b=6, c=7, entonces E=(sen(A)+sen(C))/(sen(B)-sen(A)) es:;9;10;11;12;D
+612;Si AB=3, A=45°, B=105°, entonces BC es:;1/2;√3;2√2;3√2;D
+613;Si C=135°, b=2p, a=4√2p, c=√13p, entonces p es:;1;2;3;4;B
+614;¿Cuántos elementos tiene un triángulo oblicuángulo?;Dos lados y un ángulo;Tres lados;Tres ángulos;Tres lados y tres ángulos;D

@@ -1,0 +1,410 @@
+﻿id;question;option_a;option_b;option_c;option_d;answer_letter
+1;¿Cómo se llama el signo ortográfico que representa gráficamente el acento?;Acento;Tilde;Diéresis;Apóstrofo;B
+2;¿Cuántas combinaciones de diptongos existen en el idioma español según el texto?;Diez;Doce;Catorce;Dieciséis;C
+3;¿Qué tipo de diptongo se forma con la combinación vocal fuerte + vocal débil?;Diptongo creciente;Diptongo decreciente;Diptongo homogéneo;Diptongo mixto;B
+4;¿Qué tipo de diptongo se forma con la combinación vocal débil + vocal fuerte?;Diptongo decreciente;Diptongo creciente;Diptongo homogéneo;Diptongo heterogéneo;B
+5;¿Qué tipo de diptongo se forma con la combinación vocal débil + vocal débil?;Diptongo creciente;Diptongo decreciente;Diptongo homogéneo;Diptongo irregular;C
+6;¿Cuáles son las vocales débiles o cerradas?;a-e;e-o;i-u;a-o;C
+7;¿Cuáles son las vocales fuertes o abiertas?;i-u;a-e-o;e-i-o;a-i-u;B
+8;"¿Qué palabra contiene un diptongo decreciente con la combinación ""ai""?";Viaje;Bailar;Ciudad;Cuadro;B
+9;"¿Qué palabra contiene un diptongo creciente con la combinación ""ie""?";Reina;Tierra;Boina;Pausa;B
+10;"¿Qué palabra contiene un diptongo homogéneo con la combinación ""ui""?";Viaje;Fuerza;Cuidado;Pausa;C
+11;¿Qué impide la formación del diptongo según el texto?;La h intermedia;El uso de h intermedia no impide la formación;La presencia de consonantes;Las vocales iguales;B
+12;¿Cuántas vocales se pronuncian en un triptongo?;Dos;Tres;Cuatro;Cinco;B
+13;¿Qué tipo de vocales conforman un triptongo?;VF+VF+VF;VD+VD+VD;VD+VF+VD;VF+VD+VF;C
+14;¿Qué palabra del texto es un ejemplo de triptongo?;Prohibido;Estudiáis;Poeta;Canción;B
+15;¿Qué es el hiato?;La reunión de dos vocales en la misma sílaba;El encuentro de dos vocales que pertenecen a sílabas distintas;La presencia de tres vocales juntas;El acento prosódico;B
+16;¿Cuántos tipos de hiato existen según el texto?;Uno;Dos;Tres;Cuatro;B
+17;¿Qué tipo de hiato se forma cuando se encuentran dos vocales fuertes juntas?;Hiato acentual;Hiato simple;Hiato formal;Hiato irregular;C
+18;¿Qué tipo de hiato se forma cuando la vocal débil lleva obligatoriamente tilde?;Hiato formal;Hiato acentual;Hiato simple;Hiato básico;B
+19;¿En qué sílaba llevan el acento las palabras agudas?;Penúltima;Última;Antepenúltima;Antes de la antepenúltima;B
+20;¿Cuándo llevan tilde las palabras agudas?;Cuando terminan en consonante;Cuando terminan en n, s o vocal;Siempre llevan tilde;Nunca llevan tilde;B
+21;¿En qué sílaba llevan el acento las palabras graves o llanas?;Última;Penúltima;Antepenúltima;Antes de la antepenúltima;B
+22;¿Cuándo llevan tilde las palabras graves?;Cuando terminan en n, s o vocal;Cuando terminan en cualquier consonante menos n, s o vocal;Siempre llevan tilde;Nunca llevan tilde;B
+23;¿En qué sílaba llevan el acento las palabras esdrújulas?;Última;Penúltima;Antepenúltima;Antes de la antepenúltima;C
+24;¿Cuándo llevan tilde las palabras esdrújulas?;Cuando terminan en vocal;Cuando terminan en consonante;Siempre llevan tilde;Nunca llevan tilde;C
+25;¿En qué posición llevan el acento las palabras sobreesdrújulas?;En la antepenúltima sílaba;En la penúltima sílaba;Antes de la antepenúltima sílaba;En la última sílaba;C
+26;¿Cuándo llevan tilde las palabras sobreesdrújulas?;Solo cuando terminan en vocal;Solo cuando terminan en consonante;Siempre llevan tilde;Nunca llevan tilde;C
+27;¿Qué son los monosílabos?;Palabras de dos sílabas;Palabras de una sola sílaba;Palabras de tres sílabas;Palabras sin sílabas;B
+28;¿Por qué algunos monosílabos llevan tilde diacrítica?;Para indicar que son palabras largas;Para diferenciar su función gramatical;Para señalar palabras extranjeras;Para indicar que son verbos;B
+29;"¿Cuándo se usa ""mi"" sin tilde?";Como pronombre personal;Como adjetivo posesivo o nota musical;Como verbo;Como adverbio;B
+30;"¿Cuándo se usa ""mí"" con tilde?";Como adjetivo posesivo;Como nota musical;Como pronombre personal después de preposición;Como verbo;C
+31;"¿Cuándo se usa ""tu"" sin tilde?";Como pronombre personal;Como adjetivo posesivo;Como verbo;Como adverbio;B
+32;"¿Cuándo se usa ""tú"" con tilde?";Como adjetivo posesivo;Como pronombre personal;Como verbo;Como artículo;B
+33;"¿Cuándo se usa ""el"" sin tilde?";Como pronombre personal;Como verbo;Como artículo determinado;Como adverbio;C
+34;"¿Cuándo se usa ""él"" con tilde?";Como artículo;Como pronombre personal;Como verbo;Como adjetivo;B
+35;"¿Cuándo se usa ""de"" sin tilde?";Como verbo dar;Como preposición;Como pronombre;Como adverbio;B
+36;"¿Cuándo se usa ""dé"" con tilde?";Como preposición;Como pronombre;Como verbo dar;Como artículo;C
+37;"¿Cuándo se usa ""te"" sin tilde?";Como sustantivo (infusión);Como pronombre personal;Como verbo;Como adjetivo;B
+38;"¿Cuándo se usa ""té"" con tilde?";Como pronombre;Como verbo;Como sustantivo (infusión);Como adverbio;C
+39;"¿Cuándo se usa ""se"" sin tilde?";Como verbo saber o ser;Como pronombre reflexivo;Como adverbio;Como artículo;B
+40;"¿Cuándo se usa ""sé"" con tilde?";Como pronombre reflexivo;Como adjetivo;Como verbo saber o ser;Como preposición;C
+41;"¿Cuándo se usa ""mas"" sin tilde?";Como adverbio de cantidad;Como conjunción adversativa;Como verbo;Como pronombre;B
+42;"¿Cuándo se usa ""más"" con tilde?";Como conjunción;Como adverbio de cantidad;Como verbo;Como preposición;B
+43;"¿Cuándo se usa ""si"" sin tilde?";Como adverbio de afirmación o pronombre;Como conjunción condicional o nota musical;Como verbo;Como artículo;B
+44;"¿Cuándo se usa ""sí"" con tilde?";Como conjunción o nota musical;Como verbo;Como adverbio de afirmación o pronombre personal;Como preposición;C
+45;"¿Cuándo se usa ""aun"" sin tilde?";Cuando puede sustituirse por todavía;Cuando puede sustituirse por incluso o inclusive;Como verbo;Como artículo;B
+46;"¿Cuándo se usa ""aún"" con tilde?";Cuando puede sustituirse por incluso;Cuando puede sustituirse por todavía;Como verbo;Como preposición;B
+47;¿Qué palabra es un ejemplo de aguda con tilde según el texto?;Silla;Café;Mármol;Química;B
+48;¿Qué palabra es un ejemplo de grave con tilde según el texto?;Colibrí;Balón;Lápiz;Música;C
+49;¿Qué palabra es un ejemplo de esdrújula según el texto?;Cantar;Papel;Química;Comer;C
+50;¿Qué palabra es un ejemplo de sobreesdrújula según el texto?;Teléfono;Fácilmente;Mármol;Perdió;B
+51;¿Qué tipo de acento no se representa gráficamente?;Acento ortográfico;Acento prosódico;Acento diacrítico;Acento tónico;B
+52;¿Cómo se llama la sílaba que recibe la mayor fuerza de voz?;Sílaba átona;Sílaba débil;Sílaba tónica;Sílaba secundaria;C
+53;"¿Qué palabra contiene el diptongo ""au""?";Tierra;Pausa;Viaje;Ciudad;B
+54;"¿Qué palabra contiene el diptongo ""ei""?";Reina;Cuadro;Boina;Fuerza;A
+55;"¿Qué palabra contiene el diptongo ""oi""?";Bailar;Neutral;Boina;Viaje;C
+56;"¿Qué palabra contiene el diptongo ""ua""?";Tierra;Cuadro;Fuerza;Canción;B
+57;"¿Qué palabra contiene el diptongo ""ue""?";Pausa;Neutral;Fuerza;Cuadro;C
+58;"¿Qué palabra contiene el diptongo ""io""?";Canción;Viaje;Tierra;Cuadro;A
+59;¿Qué palabra es ejemplo de hiato formal según el texto?;Día;Raúl;Cooperar;Conocía;C
+60;¿Qué palabra es ejemplo de hiato acentual según el texto?;Teatro;León;Fría;Poeta;C
+61;¿Qué característica tiene el hiato acentual?;Dos vocales fuertes juntas;La vocal débil lleva obligatoriamente tilde;Tres vocales juntas;No lleva tilde;B
+62;"¿Por qué la palabra ""mas"" sin tilde puede sustituirse por otra palabra?";Por pero;Por todavía;Por también;Por nunca;A
+63;"¿Qué palabra del texto ejemplifica un triptongo con ""güéis""?";Estudiáis;Limpiéis;Averigüéis;Anunciáis;C
+64;"¿Qué función gramatical tiene ""tu"" sin tilde?";Pronombre personal;Adjetivo posesivo;Verbo;Sustantivo;B
+65;"¿Qué función tiene ""el"" sin tilde?";Pronombre personal;Verbo;Artículo determinado masculino singular;Adverbio;C
+66;¿Qué se forma cuando aparece la combinación VD+VF+VD en una sola sílaba?;Diptongo;Hiato;Triptongo;Acento;C
+67;"¿En qué casos la ""h"" intermedia impide la formación de diptongo o hiato?";Siempre lo impide;Nunca lo impide;Solo en palabras esdrújulas;Solo en palabras agudas;B
+68;¿Qué diferencia al hiato acentual del diptongo?;El número de vocales;Que la vocal débil lleva obligatoriamente tilde destruyendo el diptongo;La posición de las vocales;El tipo de consonantes;B
+69;"¿Cuál es la función de ""mí"" con tilde después de una preposición?";Adjetivo posesivo;Nota musical;Pronombre personal;Verbo;C
+70;¿Qué indica que las palabras esdrújulas y sobreesdrújulas tienen en común?;Terminan en vocal;Siempre llevan tilde;Nunca llevan tilde;Solo llevan tilde si terminan en n, s o vocal;B
+71;"¿Qué letra del abecedario español es la ""b""?";La primera;La segunda;La tercera;La cuarta;B
+72;"¿Qué combinaciones se forman cuando la ""b"" va seguida de ""l""?";bla, ble, bli, blo, blu;bal, bel, bil, bol, bul;lab, leb, lib, lob, lub;alb, elb, ilb, olb, ulb;A
+73;"¿Qué combinaciones se forman cuando la ""b"" va seguida de ""r""?";bar, ber, bir, bor, bur;bra, bre, bri, bro, bru;arb, erb, irb, orb, urb;rab, reb, rib, rob, rub;B
+74;¿Cuáles son las excepciones a la regla de sustantivos terminados en -bilidad?;Movilidad y civilidad;Habilidad y debilidad;Posibilidad y durabilidad;Amabilidad y sociabilidad;A
+75;"¿Qué sílabas al inicio de palabra se escriben con ""b"" según el texto?";ba, be, bi;bu, bur, bus;bi, bis, biz;bra, bre, bri;B
+76;¿Cuál es la excepción a la regla de palabras que comienzan con bu, bur y bus?;Vudú;Búfalo;Burla;Bucle;A
+77;"¿Qué letra siempre se escribe después de ""m""?";v;b;p;d;B
+78;¿Qué significan los prefijos bi-, bis- y biz-?;Tres veces;Dos veces;Una vez;Cuatro veces;B
+79;¿Qué significan los prefijos bene-, ben- o bien-?;Mal o maldad;Bien o bondad;Lejos o distancia;Cerca o proximidad;B
+80;¿Cuáles son las excepciones a la regla de palabras con bien- según el texto?;Vientre, viento, venenoso, venerar;Bienestar, bienhechor, bienal;Benévolo, beneficio, bendecir;Bienvenido, bienaventurado, bienandanza;A
+81;¿Qué significa el prefijo bio-?;Libro;Vida;Dos;Bajo;B
+82;¿Qué significa el prefijo biblio-?;Vida;Libro;Dos;Bajo;B
+83;¿Qué significa el prefijo sub-?;Alto;Medio;Bajo;Arriba;C
+84;"¿Qué terminaciones de verbos en infinitivo requieren ""b"" en sus flexiones según el texto?";-aver y -ever;-aber y -eber;-abir y -ebir;-acer y -ecer;B
+85;¿Cuáles son las excepciones a la regla de verbos terminados en -aber y -eber?;Saber y caber;Deber y beber;Precaver y prever;Absorber y haber;C
+86;"¿Qué sílabas iniciales se escriben con ""b"" según el texto?";ab, abs, ob, obs, abo, abu;ba, be, bi, bo, bu;bra, bre, bri, bro, bru;bla, ble, bli, blo, blu;A
+87;"¿Qué terminación de verbos en infinitivo requiere ""b"" en sus flexiones?";-vir;-bir;-tir;-mir;B
+88;¿Cuáles son las excepciones a la regla de verbos terminados en -bir?;Escribir, subir, prohibir;Recibir, sucumbir, exhibir;Hervir, servir, vivir;Escribir, recibir, subir;C
+89;"¿Qué número de letra es la ""v"" en el abecedario?";Vigésima;Vigésimoprimera;Vigésimoquinta;Vigésimosexta;C
+90;"¿Qué terminaciones de adjetivos se escriben con ""v""?";-aba, -abo, -ebe, -ebo;-ava, -ave, -avo, -eva, -eve, -evo, -iva, -ivo, -ive;-iba, -ibe, -ibo, -uba, -ube;-ada, -ade, -ado, -eda, -ede;B
+91;"¿Qué letras antes de ""v"" requieren que siempre se escriba con ""v""?";a y e;b y n;c y d;m y p;B
+92;"¿Después de qué sílaba inicial se escribe ""v""?";ab;ob;ad;sub;C
+93;¿Qué significa la terminación -voro?;Beber;Dormir;Comer;Caminar;C
+94;¿Qué significa el prefijo viti-?;Vino;Vid;Vida;Villa;B
+95;¿Qué significa el prefijo vini-?;Vid;Vino;Vida;Villa;B
+96;¿Qué significa villa- en las palabras compuestas?;Ciudad grande;Casa de campo o población pequeña;Edificio alto;Palacio real;B
+97;"¿Qué número de letra es la ""c"" en el alfabeto?";La segunda;La tercera;La cuarta;La quinta;B
+98;"¿Cuántos sonidos tiene la letra ""c""?";Uno;Dos;Tres;Cuatro;B
+99;"¿Qué terminación de verbos se escribe con ""c""?";-sir;-tir;-cir;-mir;C
+100;¿Cuál es la excepción a la regla de verbos terminados en -cir?;Decir;Conducir;Asir y sus compuestos;Traducir;C
+101;"¿Qué terminaciones se escriben con ""c"" según el texto?";-isia, -isie, -isio;-icia, -icie, -icio;-izia, -izie, -izio;-ixia, -ixie, -ixio;B
+102;"¿De qué adjetivos provienen las palabras con terminación -ción que se escriben con ""c""?";Terminados en -so o -do;Terminados en -to o -do;Terminados en -ro o -lo;Terminados en -no o -mo;B
+103;"¿Qué terminación de sustantivos se escribe con ""c""?";-azia;-asia;-acia;-axia;C
+104;¿Cuáles son las excepciones a la regla de terminación -acia?;Democracia, farmacia, desgracia;Amasia, idiosincrasia, gimnasia, anastasia, Asia;Tecnocracia, burocracia, aristocracia;Abogacía, diplomacia, supremacía;B
+105;"¿Qué terminación de verbos se escribe con ""c""?";-zer;-cer;-ser;-ter;B
+106;¿Cuáles son las excepciones a la regla de verbos terminados en -cer?;Nacer, crecer, conocer;Hacer, deshacer, ofrecer;Toser, coser;Mecer, atardecer, anochecer;C
+107;"¿Qué terminación de verbos se escribe con ""c""?";-ziar;-siar;-ciar;-tiar;C
+108;¿Cuáles son las excepciones a la regla de verbos terminados en -ciar?;Financiar, pronunciar, divorciar;Anunciar, renunciar, vaciar;Asear, lisiar, extasiar;Espaciar, propiciar, viciar;C
+109;"¿Qué terminaciones de sustantivos se escriben con ""c""?";-ansio, -ansia, -ensia;-ancio, -ancia, -encia;-anzio, -anzia, -enzia;-anxio, -anxia, -enxia;B
+110;¿Cuáles son las excepciones a la regla de terminaciones -ancio, -ancia, -encia?;Cansancio, elegancia, presencia;Rancio, fragancia, decencia;Ansia, Hortensia;Importancia, constancia, inocencia;C
+111;"¿Qué sucede con las palabras terminadas en ""z"" al formar el plural?";La z se mantiene;La z se convierte en c formando -ces;La z se convierte en s;La z desaparece;B
+112;"¿Qué letra se escribe antes de ""e"" en las flexiones de verbos terminados en -zar?";s;z;c;x;C
+113;"¿Qué terminaciones de diminutivos se escriben con ""c""?";-sito/a, -sillo/a;-cito/a, -cillo/a, -cico/a;-zito/a, -zillo/a;-tito/a, -tillo/a;B
+114;"¿Qué número de letra es la ""s"" en el alfabeto?";Vigésima;Vigesimoprimera;Vigesimosegunda;Vigesimoséptima;C
+115;"¿Qué terminaciones de adjetivos se escriben con ""s""?";-civo, -civa;-zivo, -ziva;-sivo, -siva;-tivo, -tiva;C
+116;¿Cuál es la excepción a la regla de terminaciones -sivo y -siva?;Decisivo;Expansivo;Nocivo;Agresivo;C
+117;¿De qué adjetivos se derivan los sustantivos con terminación -sión?;Terminados en -to, -tor;Terminados en -so, -sor, -sible, -sivo;Terminados en -do, -dor;Terminados en -ro, -ror;B
+118;"¿Qué terminaciones de gentilicios se escriben con ""s""?";-ense, -és;-ence, -éz;-ense, -éz;-ence, -és;A
+119;"¿Qué terminación de adjetivos en grado superlativo se escribe con ""s""?";-ísima;-ízimo;-ícimo;-ísimo;D
+120;"¿Qué terminaciones de adjetivos se escriben con ""s""?";-oza, -ozo;-osa, -oso;-oca, -oco;-ova, -ovo;B
+121;¿Cuáles son las excepciones a la regla de terminaciones -osa y -oso?;Amorosa, gracioso, hermosa;Preciosa, leproso, virtuoso;Alborozo, calabozo, mozo, sollozo, trozo, destrozo;Grandiosa, estudioso, trabajoso;C
+122;"¿Qué terminación de nombres se escribe con ""s""?";-izmo;-ismo;-icmo;-isto;B
+123;"¿Qué terminación de adjetivos y numerales se escribe con ""s""?";-ésima;-écima;-ézima;-ésimo/a;D
+124;¿Cuáles son las excepciones a la regla de terminación -ésimo/a?;Vigésimo, trigésimo, centésimo;Cuadragésimo, quincuagésimo, sexagésimo;Décimo y sus compuestos;Milésimo, millonésimo, pésimo;C
+125;¿Qué letra es la última del alfabeto?;y;x;z;w;C
+126;¿Con qué terminación se escriben aumentativos y palabras ponderativas?;-aso/a;-azo/a;-aco/a;-ato/a;B
+127;¿Qué significa la terminación -azo cuando indica golpe?;Tamaño grande;Alabanza;Golpe;Desprecio;C
+128;"¿Qué sufijos se usan para formar diminutivos y despectivos con ""z""?";-suelo/a, -esno/a;-cuelo/a, -ecno/a;-zuelo/a, -ezno/a;-tuelo/a, -emno/a;C
+129;¿Qué tipo de apellidos se escriben con terminaciones -az, -ez, -iz, -oz, -uz?;Apellidos extranjeros;Apellidos modernos;Apellidos patronímicos españoles;Apellidos compuestos;C
+130;"¿Qué tipo de sustantivos tienen terminaciones -ez y -eza con ""z""?";Sustantivos concretos;Sustantivos colectivos;Sustantivos abstractos;Sustantivos propios;C
+131;"¿Qué terminación de algunos sustantivos se escribe con ""z""?";-asgo;-azgo;-asco;-atgo;B
+132;¿Cuál es la excepción a la regla de terminación -azgo?;Hallazgo;Liderazgo;Rasgo;Noviazgo;C
+133;¿Qué palabra es ejemplo de sustantivo terminado en -bilidad?;Movilidad;Habilidad;Civilidad;Sensibilidad;B
+134;¿Qué palabra es ejemplo de verbo terminado en -cir?;Asir;Esparcir;Hervir;Servir;B
+135;¿Qué palabra es ejemplo de adjetivo terminado en -sivo?;Nocivo;Agresivo;Activo;Pasivo;B
+136;¿Qué palabra es ejemplo de gentilicio terminado en -ense?;Francés;Japonés;Sucrense;Inglés;C
+137;¿Qué palabra es ejemplo de apellido patronímico terminado en -ez?;Alcaraz;Martínez;Muñoz;Ruiz;B
+138;¿Qué palabra es ejemplo de sustantivo abstracto terminado en -eza?;Belleza;Honradez;Timidez;Escasez;A
+139;¿Qué significa nocivo según el texto?;Beneficioso;Perjudicial;Neutro;Positivo;B
+140;¿Cuántas letras causan más dificultades ortográficas según el texto?;Tres pares de letras;Cuatro pares de letras;Cinco letras diferentes;Dos pares de letras;A
+141;"¿Cuál es la posición de la letra ""g"" en el alfabeto?";Séptima;Octava;Novena;Décima;B
+142;"¿Qué vocal se intercala entre la ""g"" para mantener el sonido suave antes de ""e"" o ""i""?";a;o;u;i;C
+143;"¿Cómo se llaman los dos puntos que se colocan sobre la ""u"" en palabras como ""pingüino""?";Tilde;Diéresis o crema;Acento;Punto;B
+144;¿Qué palabra es un ejemplo correcto del uso de la diéresis?;Guia;Guitara;Bilingüe;Entregue;C
+145;"¿Qué prefijo significa ""tierra"" y se escribe con ""g""?";germ-;geo-;gest-;leg-;B
+146;"¿Cuál de las siguientes palabras NO se escribe con ""g"" inicial?";Germinar;Gestación;Jerárquico;Gérmenes;C
+147;"¿Qué significan las raíces latinas ""leg-"" o ""legis-""?";Tierra;Ley;Gesto;Germen;B
+148;¿Cuál es la forma correcta de escribir el verbo en infinitivo?;Exijir;Exigir;Ecsigir;Exijir;B
+149;¿Qué verbos son excepciones a la regla de terminaciones en -gir y -ger?;Crujir y brujir;Dirigir y exigir;Corregir y proteger;Afligir y recoger;A
+150;¿Con qué letra se escribe la palabra que significa mecer?;Mejer;Meger;Meher;Meser;A
+151;"¿Cómo se escribe correctamente la flexión del verbo ""proteger"" en primera persona singular del presente subjuntivo?";Protega;Proteje;Proteja;Protega;C
+152;"¿Qué terminación numérica ordinal se escribe con ""g""?";-jésimo;-gésimo;-césimo;-sésimo;B
+153;"¿Cuál es la posición de la letra ""j"" en el abecedario?";Décima;Undécima;Duodécima;Novena;B
+154;"¿Qué terminación de sustantivos se escribe con ""j""?";-age;-aje;-ague;-ache;B
+155;¿Cuál de estas palabras se escribe correctamente?;Arbitrage;Sabotage;Aprendizaje;Lenguage;C
+156;"¿Qué prefijo inicial se escribe con ""j""?";adje-;adg-;adj-;adye-;C
+157;"¿Cuál palabra comienza correctamente con ""eje-""?";Ejecusión;Ejercicio;Egsercicio;Egercicio;B
+158;"¿Qué terminación de oficio o lugar se escribe con ""j""?";-gero y -gería;-jero y -jería;-hero y -hería;-geiro y -geiría;B
+159;¿Cómo se escribe correctamente la profesión relacionada con relojes?;Relojero;Relogero;Relohero;Relocero;A
+160;"¿Cuál es la forma correcta del verbo ""trabajar"" en primera persona singular del pretérito?";Trabajé;Trabagé;Travajé;Travagé;A
+161;"¿Qué diptongos al inicio de palabra requieren ""h""?";ia, ie, ue, ui;ai, ei, ou, oi;ea, eo, au, eu;ao, ae, io, iu;A
+162;"¿Cuál de estas palabras se escribe correctamente con ""h"" inicial?";Ielo;Huelo;Ueso;Ierro;B
+163;"¿Qué prefijo significa agua y se escribe con ""h""?";hidro-;idro-;ydro-;higro-;A
+164;¿Cuál palabra relacionada con agua se escribe correctamente?;Idratar;Hidratar;Ydratar;Igratar;B
+165;"¿Qué prefijo significa ""superioridad"" y se escribe con ""h""?";super-;hiper-;iper-;hyper-;B
+166;¿Cuál es la forma correcta de escribir la condición médica de presión arterial alta?;Ipertensión;Hypertensión;Hipertensión;Hipertenssión;C
+167;"¿Qué prefijo significa ""inferioridad"" y se escribe con ""h""?";sub-;infra-;hipo-;ipo-;C
+168;¿Cómo se escribe correctamente la palabra que significa temperatura corporal baja?;Ipotermia;Hypotermia;Hipotermia;Opotermia;C
+169;"¿Cuál es una interjección que se escribe con ""h""?";¡Ay!;¡Oh!;¡Uh!;¡Oy!;C
+170;"¿En qué caso la ""g"" suena como ""j""?";"Antes de ""a""";"Antes de ""e"" o ""i""";"Antes de ""o""";"Antes de ""u""";B
+171;"¿Qué palabra es ejemplo de la raíz ""gest-""?";Gesticular;Jesticular;Desticular;Resticular;A
+172;¿Cuál es el ordinal correcto para el número 70?;Setentésimo;Septuagésimo;Setenta;Septagésimo;B
+173;"¿Cómo se conjuga ""dirigir"" en tercera persona singular del presente indicativo?";Dirije;Dirige;Dirigue;Dirigue;B
+174;"¿Qué palabra se escribe con ""j"" por comenzar con ""obj-""?";Ovjetivo;Objetivo;Obgetivo;Ovgetivo;B
+175;"¿Cuál es la forma correcta de la flexión del verbo ""hojear""?";Hogee;Hojee;Hogear;Hogié;B
+176;"¿Qué palabra relacionada con geografía se escribe con ""g""?";Jeografía;Geografía;Geographía;Yeografía;B
+177;¿Cuál es la excepción correcta en los verbos terminados en -ger?;Meger;Mejer;Teger;Teher;B
+178;¿Cómo se escribe la palabra que significa línea de descendencia?;Linage;Linaje;Linage;Linague;B
+179;"¿Qué palabra combina correctamente ""ue"" inicial con ""h""?";Uevo;Huevo;Wuevo;Uebo;B
+180;"¿Cuál es la forma correcta del verbo ""exigir"" en primera persona singular del presente subjuntivo?";Exiga;Exija;Exije;Exigua;B
+181;"¿Qué palabra significa estudio de la tierra y se escribe con ""g""?";Jeología;Geolojía;Geología;Yeología;C
+182;¿Cómo se escribe correctamente el ordinal del número 90?;Noventésimo;Nonagésimo;Novagésimo;Novenagésimo;B
+183;¿Qué palabra relacionada con hidrógeno se escribe correctamente?;Idrogeno;Hidrógeno;Ydrogeno;Hidrogéno;B
+184;¿Cuál es la forma correcta de escribir el lugar donde se almacenan cosas?;Almasenaje;Almacenage;Almacenaje;Almasenage;C
+185;¿Qué palabra significa persona de otro país?;Estrangero;Extranjero;Estranjero;Extrangero;B
+186;¿Cómo se escribe la palabra que significa acción de legislar?;Legislasión;Lejislación;Legislación;Legilación;C
+187;"¿Qué palabra relacionada con ""hipo-"" (caballo) se escribe correctamente?";Ipódromo;Hipódromo;Ypódromo;Hipódrome;B
+188;¿Cuál es la forma correcta de la palabra que significa legalmente válido?;Lejítimo;LeJítimo;Legítimo;Legitimó;C
+189;"¿Cómo se escribe correctamente la flexión del verbo ""corregir"" en tercera persona singular del presente?";Corrije;Corrige;Corrigue;Corrigge;B
+190;¿Qué es el razonamiento verbal según el documento?;La capacidad de memorizar palabras;La facultad que permite demostrar la capacidad idiomática reflexiva;La habilidad de escribir rápido;La capacidad de leer en voz alta;B
+191;¿Qué implica la capacidad idiomática reflexiva?;Solo memorizar reglas;La capacidad de establecer relaciones y dar sentido en función del idioma;Escribir sin errores;Hablar varios idiomas;B
+192;¿Cuándo se alcanza el dominio de un idioma según el texto?;Al nacer;Cuando se ha enriquecido nuestro vocabulario;Al terminar la escuela;Al viajar mucho;B
+193;¿Para qué nos permiten expresarnos las palabras cuando dominamos el idioma?;Con dudas;Con propiedad y claridad al transmitir nuestras ideas;Con dificultad;Con lentitud;B
+194;¿Qué buscan evaluar los ejercicios de razonamiento verbal?;La velocidad de escritura;La comprensión y el uso adecuado del lenguaje;La memoria fotográfica;La capacidad de dibujar;B
+195;¿Qué capacidad permiten medir los ejercicios de razonamiento verbal?;De cantar;De reconocer relaciones entre palabras, completar ideas y utilizar con precisión los recursos idiomáticos;De calcular;De dibujar;B
+196;¿Cuáles son los dos tipos de ejercicios que se destacan en el tema?;Dictados y lecturas;Oraciones incompletas y analogías;Resúmenes y ensayos;Poemas y cuentos;B
+197;¿Qué es una oración según el documento?;Solo un verbo;La palabra o conjunto de palabras que tiene sentido completo y autonomía sintáctica;Una letra;Un párrafo largo;B
+198;¿Qué significa completar una oración?;Alargarla;Completar un pensamiento, dotarla de sentido pleno;Copiarla;Memorizarla;B
+199;¿Qué miden las preguntas de oraciones incompletas?;La velocidad de lectura;La comprensión de ideas involucradas en una oración gramatical y el empleo de estas;El tamaño de la letra;La cantidad de palabras;B
+200;¿Qué exigen las oraciones incompletas para resolverlas correctamente?;Solo intuición;Una clara comprensión y un buen sentido de conjunto;Solo suerte;Solo memoria;B
+201;¿Cuál NO es un criterio para resolver oraciones incompletas?;Lógica de la oración;Forma gramatical;Longitud de las palabras;Sentido objetivo de la oración;C
+202;"En el ejemplo ""La amistad verdadera se basa en la confianza y no en buscar beneficios personales o _____"", ¿cuál es la respuesta correcta?";Egoísmo;Intereses;Afecto;Respeto;B
+203;"En el ejemplo ""El fuego se apaga con agua, así como la ignorancia se disipa con _____"", ¿cuál es la respuesta correcta?";Deporte;Pereza;Estudio;Experiencia;C
+204;"En el ejemplo ""María no pudo asistir a la reunión de trabajo porque estaba ____ con otro compromiso"", ¿cuál es la respuesta correcta?";Ocupada;Enferma;Alegría;Lejana;A
+205;¿Qué son las analogías verbales?;Diferencias entre palabras;Las semejanzas que existen entre parejas de palabras;Palabras largas;Sinónimos solamente;B
+206;¿Qué se trata de establecer en las analogías?;Diferencias entre cosas;Una analogía entre relaciones y no entre cosas;Solo palabras iguales;Solo palabras contrarias;B
+207;¿Qué significa el signo (::) en las analogías?;Es a;Como;Igual;Diferente;B
+208;¿Qué significa el signo (:) en las analogías?;Como;Es a;Diferente;Similar;B
+209;¿Cuándo se establece la relación de sinonimia?;Cuando son opuestos;Cuando ambos términos poseen un significado muy parecido o equivalente;Cuando suenan igual;Cuando se escriben igual;B
+210;¿Qué ejemplo corresponde a la relación de sinonimia?;Caliente : Frío;Avaro : Mezquino;Coser : Cocer;Río : Río;B
+211;¿Cuándo se da la relación de antonimia?;Cuando suenan igual;Cuando se escriben igual;Cuando los términos tienen significados opuestos o contrarios entre sí;Cuando son sinónimos;C
+212;¿Qué tipo de oposición puede tener la relación de antonimia?;Solo total;Total o parcial;Solo parcial;Ninguna;B
+213;¿Qué ejemplo corresponde a la relación de antonimia?;Avaro : Mezquino;Caliente : Frío;Coser : Cocer;Actitud : Aptitud;B
+214;¿Cuándo ocurre la relación de paronimia?;Cuando son sinónimos;Entre palabras que se parecen mucho en su forma o sonido, pero difieren en su significado;Cuando son antónimos;Cuando suenan exactamente igual;B
+215;¿Qué puede causar el parecido en las palabras parónimas?;Nada;Confusiones ortográficas o semánticas;Solo alegría;Solo claridad;B
+216;¿Qué ejemplo corresponde a la relación de paronimia?;Caliente : Frío;Coser : Cocer;Actitud : Aptitud;Río : Río;C
+217;¿Cuándo se establece la relación de homofonía?;Cuando son sinónimos;Cuando se escriben igual;Entre palabras que suenan igual al pronunciarse, pero se escriben diferente y tienen significados distintos;Cuando son antónimos;C
+218;¿Qué ejemplo corresponde a la relación de homofonía?;Caliente : Frío;Actitud : Aptitud;Coser : Cocer;Dulce : Amargo;C
+219;¿Cuándo se presenta la relación de homografía?;Cuando suenan igual pero se escriben diferente;Entre palabras que se escriben de la misma forma, aunque sus significados son diferentes;Cuando son sinónimos;Cuando son antónimos;B
+220;¿En qué casos pueden diferir las palabras homógrafas?;Solo en significado;En la pronunciación como acentuación o entonación;Solo en tamaño;En nada;B
+221;¿Qué ejemplo corresponde a la relación de homografía?;Coser : Cocer;Actitud : Aptitud;Río : Río;Caliente : Frío;C
+222;¿Cuándo se establece la relación de sujeto a función?;Cuando son sinónimos;Cuando un término corresponde a un ser animado y el otro expresa su función, acción u oficio característico;Cuando son antónimos;Cuando suenan igual;B
+223;¿Qué ejemplo corresponde a la relación de sujeto a función?;Caliente : Frío;Coser : Cocer;Profesor : Educar;Río : Río;C
+224;¿Cuándo se presenta la relación de causa a efecto?;Cuando son sinónimos;Cuando uno de los términos designa la causa o motivo que genera una consecuencia;Cuando suenan igual;Cuando se escriben igual;B
+225;¿Puede invertirse la relación de causa a efecto?;No, nunca;Sí, puede partir del efecto para deducir la causa;Solo a veces;No está permitido;B
+226;¿Qué ejemplo corresponde a la relación de causa a efecto?;Profesor : Educar;Río : Río;Herida : Dolor;Rueda : Auto;C
+227;¿Cuándo se da la relación de parte a todo?;Cuando son sinónimos;Cuando un término hace referencia a una parte o componente de un objeto, y el otro corresponde al todo;Cuando son antónimos;Cuando suenan igual;B
+228;¿Puede plantearse la relación de parte a todo al revés?;No;Sí, del todo hacia una de sus partes;Solo en casos especiales;Nunca está permitido;B
+229;¿Qué ejemplo corresponde a la relación de parte a todo?;Profesor : Educar;Herida : Dolor;Rueda : Auto;Coser : Cocer;C
+230;¿Cuándo ocurre la relación de obra a autor?;Cuando son sinónimos;Cuando un término hace referencia a una obra determinada y el otro se refiere a la persona que la creó;Cuando son antónimos;Cuando suenan igual;B
+231;¿Qué tipos de obras pueden estar en la relación obra a autor?;Solo literarias;Literarias, artísticas o científicas;Solo artísticas;Solo científicas;B
+232;¿Puede invertirse la relación de obra a autor?;No;Sí, del autor hacia su obra;Solo a veces;Está prohibido;B
+233;¿Qué obra corresponde a Gaby Vallejos según el documento?;La Noche;Hijo de Opa;Nacer Hombre;La Balada de Claribel;B
+234;¿Qué obra corresponde a Adela Zamudio según el documento?;Hijo de Opa;La Noche;Nacer Hombre;La Balada de Claribel;C
+235;¿Qué obra corresponde a Jaime Saenz según el documento?;Hijo de Opa;La Noche;Nacer Hombre;La Balada de Claribel;B
+236;¿Qué obra corresponde a Franz Tamayo según el documento?;Hijo de Opa;La Noche;Nacer Hombre;La Balada de Claribel;D
+237;¿Qué característica importante tienen todas las relaciones mencionadas?;Son irreversibles;Son reversibles;Son únicas;Son complejas;B
+238;¿Qué significa que las relaciones son reversibles?;No se pueden invertir;Que se puede establecer la relación en ambos sentidos;Que son complicadas;Que no funcionan;B
+239;¿Cuál es el propósito principal del razonamiento verbal según el documento?;Memorizar palabras;Demostrar capacidad idiomática reflexiva mediante relaciones y sentido del lenguaje;Escribir rápido;Leer mucho;B
+240;¿Qué son las formas elocutivas en la literatura?;Tipos de poemas;Los distintos estilos o maneras de expresión que utilizan los escritores;Reglas gramaticales;Tipos de novelas;B
+241;¿Qué es la narración según el documento?;Un tipo de poema;Una forma de expresión literaria que consiste en relatar una serie de eventos o sucesos;Una descripción detallada;Un diálogo entre personajes;B
+242;¿En qué orden se relatan generalmente los eventos en la narración?;Orden alfabético;Orden cronológico;Orden de importancia;Orden aleatorio;B
+243;¿Qué tipos de historias puede contar la narración?;Solo reales;Solo imaginarias;Reales, imaginarias o increíbles;Solo increíbles;C
+244;¿Qué requiere la narración del escritor según el documento?;Solo imaginación;Mucha destreza, porque engloba descripción y diálogo;Solo velocidad;Solo conocimiento;B
+245;¿Cuáles son las dos formas elocutivas que engloba la narración?;Exposición y diálogo;La descripción y el diálogo;Poesía y prosa;Retrato y topografía;B
+246;¿De qué formas literarias es la narración la principal forma de expresión?;Solo poesía;Novela, cuento, historia, anécdota, biografía;Solo ensayo;Solo teatro;B
+247;¿En qué formas puede hacerse la narración?;Solo en prosa;Solo en verso;Tanto en prosa como en verso;Solo en diálogo;C
+248;¿Qué presenta el narrador en una narración?;Solo tiempo;Personajes, acciones, tiempo y espacio;Solo personajes;Solo acciones;B
+249;¿Cuál es la estructura general que sigue la narración?;Solo inicio;Inicio, desarrollo y desenlace;Solo desarrollo;Solo desenlace;B
+250;¿Cuál es la máxima cualidad de la narración según el documento?;Claridad;Verosimilitud;Interés;Brevedad;C
+251;¿De dónde nace el interés en la narración?;De la extensión del texto;De la habilidad con que el escritor despierta la curiosidad del lector;Del tipo de letra;Del número de personajes;B
+252;¿Qué debe elegir el narrador para que una narración sea interesante?;Un final sorprendente;Un arranque o inicio prometedor y mantener cierto clima de incertidumbre;Muchos personajes;Un lugar exótico;B
+253;¿Qué caracteriza a la cualidad de claridad en la narración?;Uso de palabras complejas;Que todos los incidentes narrados sean claros y ordenados para ser comprendidos fácilmente;Brevedad extrema;Muchos diálogos;B
+254;¿Qué significa verosimilitud en la narración?;Que sea verdadera;Que los hechos parezcan verdaderos y creíbles;Que sea breve;Que tenga muchos personajes;B
+255;¿Qué debe existir para que los hechos parezcan verosímiles?;Solo imaginación;Armonía entre los personajes, los hechos, los lugares y las demás circunstancias;Solo diálogos;Solo descripciones;B
+256;¿Qué debe estudiar bien el autor para que una narración sea verosímil?;Solo el lugar;La psicología de los personajes que intervienen;Solo el tiempo;Solo la acción;B
+257;¿Qué aspectos del personaje debe tener en cuenta el autor?;Solo la edad;El grado de cultura, educación, posición social, virtudes, pasiones y constitución física;Solo el nombre;Solo la profesión;B
+258;¿Cómo deben explicarse los hechos en una narración verosímil?;De manera mágica;De manera lógica, sin recurrir a sueños, revelaciones sobrenaturales o seres extraterrestres;Con muchos misterios;Con finales abiertos;B
+259;¿Quiénes son los personajes en la narración?;Los lectores;Individuos que participan en la historia;Los autores;Los editores;B
+260;¿Qué es el narrador?;El protagonista;La persona que narra o cuenta la historia;El lector;El editor;B
+261;¿Qué tipos de narrador existen según el documento?;Solo omnisciente;Omnisciente o limitado;Solo limitado;Solo testigo;B
+262;¿Qué conoce el narrador omnisciente?;Solo acciones externas;Todos los pensamientos y acciones de los personajes;Solo un personaje;Nada;B
+263;¿Qué conoce el narrador limitado?;Todo;Solo los pensamientos y acciones de un personaje o grupo de personajes;Nada;Solo el final;B
+264;¿Cuáles son las tres partes de la narrativa?;Inicio, medio, fin;Introducción, nudo, desenlace;Presentación, conflicto, solución;Apertura, desarrollo, cierre;B
+265;¿Qué se presenta en la introducción de la narrativa?;El final;El contexto y los personajes;Solo el conflicto;Solo la acción;B
+266;¿Qué ocurre en el nudo de la narrativa?;Se presenta el contexto;Desarrollo de la trama y los conflictos;Se resuelve todo;Se introduce a los personajes;B
+267;¿Qué sucede en el desenlace de la narrativa?;Se presentan personajes nuevos;Resolución de los conflictos y cierre de la historia;Se inicia la trama;Se desarrolla el conflicto;B
+268;¿Qué es la descripción literaria según el documento?;Un tipo de narración;Un proceso similar al dibujo, pero utilizando palabras para retratar personas, animales, lugares u objetos;Un tipo de diálogo;Una forma de exposición;B
+269;¿Cuál es el objetivo de la descripción?;Contar una historia;Exponer características, cualidades y usos de manera detallada para que el lector visualice imágenes vívidas;Dialogar;Argumentar;B
+270;¿Qué tipo de detalles ofrece la descripción?;Solo físicos;No solo físicos, sino también de sentimientos y sensaciones;Solo emocionales;Solo visuales;B
+271;¿Qué tipo de forma elocutiva es la descripción?;Directa;Indirecta;Mixta;Ninguna;B
+272;¿Qué predomina en la descripción según sus características?;La subjetividad;La objetividad;La fantasía;El diálogo;B
+273;¿Qué es la topografía en la descripción?;Descripción de personas;Descripción de un lugar como ciudad, paisaje, cerro, río, casa, templo;Descripción de tiempo;Descripción de sentimientos;B
+274;¿De qué palabras deriva topografía?;Tiempo y escritura;Topo que significa lugar, y grafía que significa descripción;Tipo y grafía;Texto y grafía;B
+275;¿Qué es la cronografía?;Descripción de lugares;Descripción de personas;Descripción detallada de una época o período de tiempo o evento histórico;Descripción de objetos;C
+276;¿Qué es la prosopografía?;Descripción del carácter;Descripción del aspecto físico de una persona o animal, exclusivamente lo exterior;Descripción de lugares;Descripción de tiempo;B
+277;¿Qué es la etopeya?;Descripción física;Descripción de lugares;Descripción del carácter, manera de ser, cualidades, defectos, sentimientos de una persona;Descripción de tiempo;C
+278;¿Qué es el retrato en la descripción?;Solo prosopografía;Solo etopeya;Combinación de prosopografía y etopeya, describiendo características físicas y morales;Solo descripción de lugares;C
+279;¿Qué es el paralelo en la descripción?;Descripción simple;Descripción que compara dos elementos, resaltando similitudes y diferencias;Descripción de tiempo;Descripción física;B
+280;¿Qué es el diálogo según el documento?;Una narración;Una forma de expresión literaria que involucra la interacción verbal entre dos o más personajes;Una descripción;Una exposición;B
+281;¿Qué tipo de forma elocutiva es el diálogo?;Directa;Indirecta;Mixta;Objetiva;B
+282;¿Qué interviene en el diálogo según sus características?;Solo lo objetivo;Solo lo subjetivo;Tanto lo objetivo como lo subjetivo;Ninguno;C
+283;¿En qué tipo de obras es muy importante el diálogo?;Narrativas;Descriptivas;De carácter dramático;Expositivas;C
+284;¿Qué es el diálogo directo o teatral?;Diálogo narrado;Interacción verbal entre personajes que hablan directamente entre sí, intercambiando ideas de manera alternativa;Diálogo con narrador;Diálogo descriptivo;B
+285;¿Qué es el diálogo novelado?;Diálogo teatral;Interacción verbal de personajes que forma parte de la narración, con explicaciones o descripciones adicionales;Diálogo directo;Solo diálogo;B
+286;¿Qué es la exposición según el documento?;Una narración;Una descripción;Forma de expresión literaria en la que el autor manifiesta directamente sus propios sentimientos, ideas y punto de vista;Un diálogo;C
+287;¿Qué tipo de forma elocutiva es la exposición?;Indirecta;Directa;Mixta;Ninguna;B
+288;¿Qué tipo de exposición presenta información accesible para todo público sin conocimientos especializados?;Exposición especializada;Exposición técnica;Exposición divulgativa;Exposición académica;C
+289;¿A quién está dirigida la exposición especializada?;Al público general;A niños;A un público con conocimientos técnicos o especializados en un campo específico;A principiantes;C
+290;¿Qué es el lenguaje figurado según el documento?;El uso de palabras en su sentido exacto;El uso de palabras para expresar ideas de manera indirecta mediante comparaciones o asociaciones;El uso de palabras técnicas;El uso de palabras formales;B
+291;¿Dónde se utiliza comúnmente el lenguaje figurado?;En textos científicos;En la poesía y literatura;En manuales técnicos;En diccionarios;B
+292;¿Para qué se utiliza el lenguaje figurado en la literatura?;Para confundir al lector;Para darle mayor expresividad al lenguaje;Para alargar el texto;Para simplificar ideas;B
+293;¿Qué es el lenguaje figurado como conjunto?;Solo metáforas;Palabras, giros y maneras especiales de expresarse para generar colorido, gracia, esplendor y animación;Solo comparaciones;Solo hipérboles;B
+294;¿Cuál es la finalidad del lenguaje figurado?;Producir confusión;Producir belleza;Producir textos largos;Producir rapidez;B
+295;¿Cómo se diferencia el lenguaje figurado del lenguaje literal?;No hay diferencia;El literal usa las palabras en su sentido exacto mientras el figurado usa sentido indirecto;Son iguales;El literal es más complejo;B
+296;¿En cuántos grupos se clasifican las figuras literarias según el documento?;Dos;Cuatro;Tres;Cinco;C
+297;¿Cuáles son los tres grupos de clasificación de las figuras literarias?;Metáfora, símil e hipérbole;Figuras de significación o tropos, de dicción o de palabra, y de pensamiento;Narración, descripción y diálogo;Literales, figuradas y mixtas;B
+298;¿Qué hacen las figuras de significación o tropos?;Repiten palabras;Alteran el sentido literal de las palabras para crear analogías o metáforas;Solo describen;Solo narran;B
+299;¿Qué es la metáfora según el documento?;Una repetición de palabras;Un tropo que crea una relación basada en semejanza entre dos conceptos con analogía y similitud;Una exageración;Una comparación directa;B
+300;"En el ejemplo ""Tus ojos son dos silencios donde el mar se detiene a descansar"", ¿qué figura se utiliza?";Hipérbole;Anáfora;Metáfora;Comparación;C
+301;¿Cómo se llaman también las figuras de dicción?;Tropos del lenguaje;Elegancias del lenguaje;Figuras de pensamiento;Metáforas literarias;B
+302;¿Cómo embellecen la expresión las figuras de dicción?;Solo con metáforas;Mediante la repetición o el orden especial de palabras;Solo con exageraciones;Solo con comparaciones;B
+303;¿Qué es la anáfora?;Repetir palabras al final;Repetir las mismas palabras al comienzo de cada verso u oración con fines expresivos o estéticos;Exagerar una idea;Comparar dos elementos;B
+304;"En el fragmento de Quevedo ""Érase un hombre a una nariz pegado. Érase una nariz superlativa"", ¿qué figura se utiliza?";Metáfora;Hipérbole;Anáfora;Conversión;C
+305;¿Qué palabra se repite al comienzo de los versos en el ejemplo de Quevedo?;Nariz;Hombre;Érase;Pegado;C
+306;"En el fragmento ""La Ciega"" de María Josefa Mujía, ¿qué palabra se repite al inicio?";Ya;Hay;No;Flores;C
+307;¿Qué es la conversión en las figuras de dicción?;Repetir palabras al comienzo;Repetir una o más palabras al final de cada verso u oración;Exagerar ideas;Comparar elementos;B
+308;"En el ejemplo ""Prometió volver en primavera, soñó con su hogar en primavera"", ¿qué figura se utiliza?";Anáfora;Conversión;Metáfora;Hipérbole;B
+309;¿Qué palabra se repite al final en el ejemplo de la conversión sobre primavera?;Volver;Soñó;Primavera;Hogar;C
+310;¿Qué son las figuras de pensamiento?;Solo repeticiones;Modos especiales o distintas formas de presentar pensamientos para darles relieve y elegancia;Solo comparaciones;Solo exageraciones;B
+311;¿Qué otro nombre tiene la personificación?;Símil;Anáfora;Prosopopeya;Hipérbole;C
+312;¿Qué atribuye la personificación o prosopopeya?;Características a personas;A seres inanimados, abstractos o imaginarios, movimientos, vida o propiedades humanas;Solo movimiento;Solo colores;B
+313;"En el fragmento ""Bolivia triste y huérfana en el mundo, llora a su padre"", ¿qué figura se utiliza?";Metáfora;Hipérbole;Personificación o prosopopeya;Comparación;C
+314;"¿A qué se atribuye la capacidad de llorar en el ejemplo de ""A Bolívar""?";A una persona;A un niño;A Bolivia, un país;A un animal;C
+315;¿Qué es la comparación o símil?;Una repetición;La semejanza existente o imaginada entre dos ideas o seres para realzar una de ellas;Una exageración;Una personificación;B
+316;¿Qué palabra utiliza característicamente la comparación o símil?;Y;Pero;Como;Aunque;C
+317;"En el ejemplo ""Eres como una flor"", ¿qué figura literaria se utiliza?";Metáfora;Anáfora;Comparación o símil;Hipérbole;C
+318;¿Cuál es la diferencia principal entre metáfora y símil?;No hay diferencia;"El símil usa ""como"" para establecer la semejanza explícitamente";La metáfora es más larga;El símil es más corto;B
+319;"En ""Con el tiempo crecerá su fama, como crece la sombra cuando el sol declina"", ¿qué figura se usa?";Personificación;Hipérbole;Comparación o símil;Anáfora;C
+320;¿Qué es la hipérbole según el documento?;Una repetición;Una comparación;Exagerar una cualidad, verdad, suceso o defecto para enfatizarla;Una personificación;C
+321;¿Para qué se usa la hipérbole?;Para repetir ideas;Para comparar;Para enfatizar mediante exageración;Para describir literalmente;C
+322;"En el fragmento ""Balada de Claribel"" que dice ""Eres por siempre en mi vida"", ¿qué sugiere la expresión ""por siempre""?";Brevedad temporal;Exageración o hipérbole del sentimiento eterno;Comparación;Personificación;B
+323;"¿Quién es el autor del fragmento ""A una Nariz""?";Franz Tamayo;María Josefa Mujía;Quevedo;Bolívar;C
+324;"¿Quién es la autora del fragmento ""La Ciega""?";Quevedo;Franz Tamayo;María Josefa Mujía;Claribel;C
+325;"¿Quién es el autor del fragmento ""Habla Olimpo""?";Quevedo;María Josefa Mujía;Franz Tamayo;Bolívar;C
+326;"¿Quién escribió ""Balada de Claribel""?";Quevedo;María Josefa Mujía;Franz Tamayo;Shakespeare;C
+327;"¿Quién escribió el poema ""A Bolívar"" mencionado en el documento?";Franz Tamayo;Quevedo;María Josefa Mujía;Bolívar mismo;C
+328;"En ""Tus lágrimas son perlas que caen lentamente"", ¿qué figura literaria se identifica?";Comparación;Anáfora;Metáfora;Conversión;C
+329;"En ""El silencio gritaba en aquel salón vacío"", ¿qué figura literaria se utiliza?";Metáfora;Personificación;Hipérbole;Comparación;B
+330;"En ""Eres tan alto como una montaña"", ¿qué figura se presenta?";Metáfora;Personificación;Comparación o símil;Anáfora;C
+331;"En ""Te esperé siglos enteros frente a la estación"", ¿qué figura se utiliza?";Comparación;Personificación;Hipérbole;Metáfora;C
+332;"En ""Cae la lluvia, cae la pena, cae el olvido"", ¿qué figura se identifica?";Conversión;Anáfora;Hipérbole;Metáfora;B
+333;¿Qué figura consiste en exagerar una idea o sentimiento?;Comparación;Metáfora;Hipérbole;Anáfora;C
+334;¿Qué figura repite palabras al final de los versos?;Anáfora;Conversión;Metáfora;Personificación;B
+335;¿Qué figura da características humanas a objetos o fenómenos?;Comparación;Hipérbole;Personificación;Metáfora;C
+336;"¿Qué figura expresa una semejanza usando ""como""?";Metáfora;Anáfora;Comparación o símil;Hipérbole;C
+337;¿Qué figura sustituye el significado literal por otro con sentido figurado?;Anáfora;Conversión;Metáfora;Comparación;C
+338;¿Cuál es el propósito principal de usar figuras literarias en un texto?;Complicar la lectura;Embellecer la expresión y darle mayor expresividad;Alargar el contenido;Confundir al lector;B
+339;¿Por qué se estudian solo las figuras más usuales según el documento?;Por falta de tiempo;Por la amplitud en estas figuras;Porque son las únicas;Porque son más fáciles;B
+340;"¿En qué año se publicó la novela ""Juan de la Rosa""?";1883;1884;1885;1886;B
+341;"¿Quién es el autor de ""Juan de la Rosa""?";Alcides Arguedas;Augusto Céspedes;Nataniel Aguirre;Franz Tamayo;C
+342;"¿Qué género literario corresponde a ""Juan de la Rosa""?";Lírico;Dramático;Narrativo;Ensayo;C
+343;"¿Qué subgénero es ""Juan de la Rosa""?";Cuento;Poema;Novela;Ensayo;C
+344;"¿En qué ciudad se desarrollan los sucesos históricos narrados en ""Juan de la Rosa""?";La Paz;Sucre;Cochabamba;Potosí;C
+345;"¿Cómo se llamaba la madre de Juanito en ""Juan de la Rosa""?";Carmen;Teresa;Rosita la encajera;María;C
+346;¿Qué enfermedad terminó afectando a la madre de Juanito?;Neumonía;Tuberculosis;Cáncer;Fiebre amarilla;B
+347;¿Quién fue el mentor y protector incansable de Juanito?;Tío Alejo;Fray Justo;Pancho;Don Nataniel;B
+348;"¿Cuál es el tema principal de ""Juan de la Rosa""?";El amor romántico;La lucha por la Independencia y la búsqueda de la identidad personal;La vida rural;Los conflictos familiares;B
+349;¿Dónde nació Nataniel Aguirre?;La Paz;Sucre;Cochabamba;Potosí;C
+350;¿En qué año nació Nataniel Aguirre?;1840;1843;1845;1850;B
+351;¿Dónde murió Nataniel Aguirre?;La Paz;Buenos Aires;Montevideo;Lima;C
+352;¿Con quién se casó Nataniel Aguirre?;Teresa de Achá;Margarita de Achá;Rosita Aguirre;Carmen Sanjinés;B
+353;"¿En qué año se publicó ""Balada de Claribel""?";1910;1911;1912;1913;C
+354;"¿Quién es el autor de ""Balada de Claribel""?";Nataniel Aguirre;Alcides Arguedas;Franz Tamayo;Carlos Medinacelli;C
+355;"¿Qué género literario es ""Balada de Claribel""?";Narrativo;Dramático;Lírico;Expositivo;C
+356;"¿Cuál es el tema principal de ""Balada de Claribel""?";La guerra;Claribel, el amor irremediablemente perdido;La independencia;La naturaleza;B
+357;"¿Qué tipo de rima tienen los versos de ""Balada de Claribel""?";Asonante;Libre;Consonante;Sin rima;C
+358;"¿Cuántas estrofas tiene el poema ""Balada de Claribel"" sin contar la última?";Diez;Once;Doce;Trece;B
+359;¿Dónde nació Franz Tamayo?;Cochabamba;Sucre;La Paz;Potosí;C
+360;¿En qué año nació Franz Tamayo?;1875;1877;1879;1881;C
+361;¿A qué edad se graduó Franz Tamayo como abogado?;17 años;19 años;21 años;23 años;B
+362;¿En qué universidad estudió Franz Tamayo en París?;La Universidad de París;La Sorbona;La Universidad Autónoma;La Universidad Nacional;B
+363;"¿En qué año se publicó ""Raza de Bronce""?";1917;1918;1919;1920;C
+364;"¿Quién es el autor de ""Raza de Bronce""?";Nataniel Aguirre;Alcides Arguedas;Augusto Céspedes;Franz Tamayo;B
+365;"¿Cómo se llamaban los dos indígenas protagonistas de ""Raza de Bronce""?";Juanito y Rosita;Agiali y Wata Wara;Troche y Pantoja;Manuno y Carmen;B
+366;"¿Quién ultrajó a Wata Wara en ""Raza de Bronce""?";Agiali;Pantoja;Troche, el mayordomo;Manuno;C
+367;"¿Quién era Manuno en ""Raza de Bronce""?";El patrón;Símbolo del indígena que ama a sus animales y muere intentando salvar a su jumento;El mayordomo;El esposo de Wata Wara;B
+368;"¿Cuál es el tema principal de ""Raza de Bronce""?";El amor romántico;La rebelión indígena en contra de la opresión criollo mestiza;La guerra del Chaco;La independencia;B
+369;¿Dónde nació Alcides Arguedas?;Cochabamba;Sucre;La Paz;Potosí;C
+370;¿En qué año nació Alcides Arguedas?;1875;1877;1879;1881;C
+371;¿Cuál fue una de las primeras obras de Alcides Arguedas publicada en 1904?;Raza de Bronce;Wata Wara;Pueblo Enfermo;Juan de la Rosa;B
+372;"¿En qué año se publicó ""Sangre de Mestizos""?";1934;1935;1936;1937;C
+373;"¿Quién es el autor de ""Sangre de Mestizos""?";Alcides Arguedas;Nataniel Aguirre;Augusto Céspedes;Franz Tamayo;C
+374;"¿Qué subgénero literario es ""Sangre de Mestizos""?";Novela;Poema;Cuento;Ensayo;C
+375;"¿Cuál es uno de los cuentos más destacados de ""Sangre de Mestizos""?";La Noche;El Pozo;La Chaskañawi;El Círculo;B
+376;"¿Sobre qué evento histórico trata ""Sangre de Mestizos""?";La Independencia;La Guerra del Chaco;La Guerrilla del Che;La Revolución de 1952;B
+377;¿Dónde nació Augusto Céspedes?;La Paz;Sucre;Cochabamba;Potosí;C
+378;¿En qué año nació Augusto Céspedes?;1900;1901;1903;1905;C
+379;"¿En qué año se publicaron los ""Cuentos Breves"" de Adela Zamudio?";1941;1942;1943;1944;C
+380;"¿Cuántos cuentos conforman la colección ""Cuentos Breves"" de Adela Zamudio?";12;13;14;15;C
+381;¿Dónde nació Adela Zamudio?;La Paz;Sucre;Cochabamba;Potosí;C
+382;¿Hasta qué grado estudió formalmente Adela Zamudio?;Primero de primaria;Segundo de primaria;Tercero de primaria;Cuarto de primaria;C
+383;¿Bajo qué seudónimo escribía Adela Zamudio?;Claribel;Soledad;Teresa;Rosita;B
+384;¿Qué día se celebra como el Día de la Mujer Boliviana en honor a Adela Zamudio?;2 de junio;28 de febrero;11 de octubre;15 de junio;C
+385;"¿En qué año se publicó ""La Chaskañawi""?";1945;1946;1947;1948;C
+386;"¿Quién es el autor de ""La Chaskañawi""?";Alcides Arguedas;Franz Tamayo;Carlos Medinacelli;Augusto Céspedes;C
+387;"¿Cómo apodaban a Adolfo en ""La Chaskañawi""?";El Joven;El Estudiante;El Viejo;El Serio;C
+388;¿Cuál era el verdadero nombre de La Chaskañawi?;Carmen;Teresa;Claudina;Julia;C
+389;¿Qué estudiaba Adolfo en la ciudad de Sucre?;Medicina;Ingeniería;Derecho;Filosofía;C
+390;¿Dónde nació Carlos Medinacelli?;La Paz;Cochabamba;Sucre;Potosí;C
+391;¿En qué año nació Carlos Medinacelli?;1895;1896;1898;1900;C
+392;"¿En qué año se publicó ""Cerco de Penumbras""?";1956;1957;1958;1959;C
+393;"¿Quién es el autor de ""Cerco de Penumbras""?";Carlos Medinacelli;Jaime Sáenz;Óscar Cerruto;Renato Prada;C
+394;"¿Cuántos cuentos conforman ""Cerco de Penumbras""?";13;14;15;16;C
+395;¿Dónde nació Óscar Cerruto?;Cochabamba;Sucre;La Paz;Potosí;C
+396;"¿En qué año se publicó ""Fundadores del Alba""?";1967;1968;1969;1970;C
+397;"¿Quién es el autor de ""Fundadores del Alba""?";Óscar Cerruto;Jaime Sáenz;Renato Prada Oropeza;Edmundo Paz Soldán;C
+398;"¿Cómo se llamaba el protagonista de ""Fundadores del Alba""?";Adolfo;Martín;Javier;Juan José;C
+399;"¿Cuál es el tema principal de ""Fundadores del Alba""?";La Guerra del Chaco;La Independencia;La Guerrilla de Ñancahuazú;La Revolución de 1952;C
+400;¿Dónde nació Renato Prada Oropeza?;La Paz;Cochabamba;Potosí;Sucre;C
+401;"¿En qué año se publicó ""Hijo de Opa""?";1974;1975;1976;1977;C
+402;"¿Quién es la autora de ""Hijo de Opa""?";Adela Zamudio;María Josefa Mujía;Gaby Vallejo Canedo;Teresa Gisbert;C
+403;"¿Cuántos momentos organizan la novela ""Hijo de Opa""?";Dos;Tres;Cuatro;Cinco;B
+404;"¿Cómo se llamaba el hijo ilegítimo en ""Hijo de Opa""?";Juan José;Javier;Martín;Adolfo;C
+405;"¿En qué año se publicó ""La Noche"" de Jaime Sáenz?";1982;1983;1984;1985;C
+406;"¿Qué género literario es ""La Noche"" de Jaime Sáenz?";Narrativo;Dramático;Lírico;Expositivo;C
+407;"¿En qué forma está escrita ""La Noche"" de Jaime Sáenz?";En verso;En prosa;En diálogo;En estrofas métricas;B
+408;"¿En qué año se publicó ""Amores Imperfectos""?";1996;1997;1998;1999;C
+409;"¿Quién es el autor de ""Amores Imperfectos""?";Jaime Sáenz;Óscar Cerruto;Renato Prada;Edmundo Paz Soldán;D
