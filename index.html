@@ -3,8 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Banco de Preguntas - Sistema de Estudio</title>
+    <title>Banco de Preguntas PREUS - Sistema de Estudio Inteligente</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
     <style>
+        :root {
+            --primary: #4f46e5;
+            --primary-dark: #4338ca;
+            --primary-light: #818cf8;
+            --secondary: #f59e0b;
+            --success: #10b981;
+            --danger: #ef4444;
+            --dark: #1e293b;
+            --light: #f8fafc;
+            --gray: #64748b;
+            --gray-light: #e2e8f0;
+            --border-radius: 12px;
+            --shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+            --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+        }
+
         * {
             margin: 0;
             padding: 0;
@@ -16,14 +34,560 @@
         }
 
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #f5f7ff 0%, #eef2ff 100%);
+            color: var(--dark);
             min-height: 100vh;
             padding: 20px;
             position: relative;
             overflow-x: hidden;
+            line-height: 1.6;
         }
 
+        /* Fondo decorativo */
+        .background-decor {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 0;
+            overflow: hidden;
+        }
+
+        .decor-circle {
+            position: absolute;
+            border-radius: 50%;
+            background: linear-gradient(135deg, rgba(79, 70, 229, 0.05) 0%, rgba(129, 140, 248, 0.05) 100%);
+        }
+
+        .decor-circle:nth-child(1) {
+            width: 300px;
+            height: 300px;
+            top: -150px;
+            right: -100px;
+        }
+
+        .decor-circle:nth-child(2) {
+            width: 200px;
+            height: 200px;
+            bottom: -80px;
+            left: -50px;
+        }
+
+        /* Contenedor principal */
+        .main-container {
+            max-width: 1100px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 1;
+        }
+
+        /* Header */
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-top: 20px;
+        }
+
+        .logo-container {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background: white;
+            padding: 15px 25px;
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow);
+            margin-bottom: 20px;
+            gap: 15px;
+        }
+
+        .logo-icon {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 24px;
+        }
+
+        .title-container h1 {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 700;
+            font-size: 28px;
+            background: linear-gradient(to right, var(--primary), var(--primary-dark));
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            margin-bottom: 5px;
+        }
+
+        .title-container p {
+            color: var(--gray);
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        /* Sección de autenticación */
+        .auth-section {
+            background: white;
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow);
+            padding: 30px;
+            margin-bottom: 30px;
+            transition: var(--transition);
+            border-left: 5px solid var(--primary);
+        }
+
+        .auth-section:hover {
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .auth-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            gap: 12px;
+        }
+
+        .auth-icon {
+            background: var(--primary);
+            color: white;
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+        }
+
+        .auth-title {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 600;
+            font-size: 20px;
+            color: var(--dark);
+        }
+
+        .auth-form {
+            display: grid;
+            grid-template-columns: 1fr auto;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .auth-input {
+            padding: 15px 20px;
+            border: 2px solid var(--gray-light);
+            border-radius: var(--border-radius);
+            font-size: 16px;
+            font-family: 'Inter', sans-serif;
+            transition: var(--transition);
+            background: #fafafa;
+        }
+
+        .auth-input:focus {
+            outline: none;
+            border-color: var(--primary);
+            background: white;
+            box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.1);
+        }
+
+        .auth-btn {
+            padding: 15px 30px;
+            background: linear-gradient(to right, var(--primary), var(--primary-dark));
+            color: white;
+            border: none;
+            border-radius: var(--border-radius);
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: var(--transition);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .auth-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 7px 15px rgba(79, 70, 229, 0.2);
+        }
+
+        .logout-btn {
+            background: linear-gradient(to right, var(--danger), #dc2626);
+            margin-top: 10px;
+            width: 100%;
+        }
+
+        .logout-btn:hover {
+            box-shadow: 0 7px 15px rgba(239, 68, 68, 0.2);
+        }
+
+        /* Selector de materias */
+        .subjects-container {
+            margin-bottom: 40px;
+        }
+
+        .section-title {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 600;
+            font-size: 22px;
+            color: var(--dark);
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .section-title i {
+            color: var(--primary);
+        }
+
+        .subject-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+            gap: 18px;
+        }
+
+        .subject-card {
+            background: white;
+            border-radius: var(--border-radius);
+            padding: 25px 20px;
+            text-align: center;
+            box-shadow: var(--shadow);
+            cursor: pointer;
+            transition: var(--transition);
+            border: 2px solid transparent;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .subject-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 4px;
+            background: var(--primary);
+            transform: scaleX(0);
+            transition: var(--transition);
+        }
+
+        .subject-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .subject-card:hover::before {
+            transform: scaleX(1);
+        }
+
+        .subject-card.active {
+            border-color: var(--primary);
+            background: linear-gradient(to bottom, #f8fafc, white);
+        }
+
+        .subject-card.active::before {
+            transform: scaleX(1);
+        }
+
+        .subject-icon {
+            font-size: 32px;
+            margin-bottom: 15px;
+            display: inline-block;
+            width: 60px;
+            height: 60px;
+            line-height: 60px;
+            border-radius: 50%;
+            background: rgba(79, 70, 229, 0.1);
+            color: var(--primary);
+        }
+
+        .subject-name {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 600;
+            font-size: 16px;
+            color: var(--dark);
+        }
+
+        /* Contenedor de preguntas */
+        .questions-container {
+            margin-bottom: 40px;
+            min-height: 400px;
+        }
+
+        .question-counter {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            padding: 15px 20px;
+            background: white;
+            border-radius: var(--border-radius);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+        }
+
+        .counter-info {
+            font-weight: 600;
+            color: var(--dark);
+        }
+
+        .counter-info span {
+            color: var(--primary);
+        }
+
+        .access-info {
+            font-size: 14px;
+            color: var(--gray);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .access-info i {
+            color: var(--secondary);
+        }
+
+        .question-list {
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+        }
+
+        .question-card {
+            background: white;
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow);
+            padding: 30px;
+            transition: var(--transition);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .question-card:hover {
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+        }
+
+        .question-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid var(--gray-light);
+        }
+
+        .question-number {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 700;
+            font-size: 20px;
+            color: var(--primary);
+        }
+
+        .question-text {
+            font-size: 17px;
+            line-height: 1.7;
+            color: var(--dark);
+            margin-bottom: 25px;
+        }
+
+        .options-container {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 12px;
+            margin-bottom: 20px;
+        }
+
+        .option {
+            padding: 18px 20px;
+            border: 2px solid var(--gray-light);
+            border-radius: var(--border-radius);
+            cursor: pointer;
+            transition: var(--transition);
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            font-weight: 500;
+        }
+
+        .option:hover {
+            border-color: var(--primary-light);
+            background: rgba(79, 70, 229, 0.03);
+        }
+
+        .option.selected {
+            border-color: var(--primary);
+            background: rgba(79, 70, 229, 0.08);
+        }
+
+        .option.correct {
+            border-color: var(--success);
+            background: rgba(16, 185, 129, 0.08);
+        }
+
+        .option-letter {
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: var(--gray-light);
+            color: var(--dark);
+            font-weight: 600;
+            flex-shrink: 0;
+        }
+
+        .selected .option-letter {
+            background: var(--primary);
+            color: white;
+        }
+
+        .correct .option-letter {
+            background: var(--success);
+            color: white;
+        }
+
+        .answer-reveal {
+            margin-top: 20px;
+            padding: 18px;
+            background: linear-gradient(to right, rgba(16, 185, 129, 0.1), rgba(16, 185, 129, 0.05));
+            border-left: 4px solid var(--success);
+            border-radius: var(--border-radius);
+            font-weight: 600;
+            color: #065f46;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .answer-reveal i {
+            font-size: 20px;
+        }
+
+        /* Contenido bloqueado */
+        .locked-container {
+            background: white;
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow);
+            padding: 50px 40px;
+            text-align: center;
+            margin-bottom: 40px;
+            border: 2px dashed var(--gray-light);
+        }
+
+        .locked-icon {
+            font-size: 60px;
+            margin-bottom: 20px;
+            color: var(--gray);
+        }
+
+        .locked-title {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 700;
+            font-size: 26px;
+            color: var(--dark);
+            margin-bottom: 15px;
+        }
+
+        .locked-text {
+            font-size: 16px;
+            color: var(--gray);
+            max-width: 600px;
+            margin: 0 auto 30px;
+            line-height: 1.8;
+        }
+
+        .whatsapp-btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            background: #25D366;
+            color: white;
+            padding: 18px 30px;
+            border-radius: var(--border-radius);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 17px;
+            margin-bottom: 20px;
+            transition: var(--transition);
+            box-shadow: 0 5px 15px rgba(37, 211, 102, 0.2);
+        }
+
+        .whatsapp-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(37, 211, 102, 0.3);
+            color: white;
+        }
+
+        .payment-note {
+            font-size: 14px;
+            color: var(--gray);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 15px;
+        }
+
+        /* Mensajes de estado */
+        .message {
+            padding: 15px 20px;
+            border-radius: var(--border-radius);
+            margin: 15px 0;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .error-msg {
+            background: rgba(239, 68, 68, 0.1);
+            color: #991b1b;
+            border-left: 4px solid var(--danger);
+        }
+
+        .success-msg {
+            background: rgba(16, 185, 129, 0.1);
+            color: #065f46;
+            border-left: 4px solid var(--success);
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 30px 0;
+            color: var(--gray);
+            font-size: 14px;
+            border-top: 1px solid var(--gray-light);
+            margin-top: 30px;
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            margin-bottom: 15px;
+        }
+
+        .footer-link {
+            color: var(--gray);
+            text-decoration: none;
+            transition: var(--transition);
+        }
+
+        .footer-link:hover {
+            color: var(--primary);
+        }
+
+        /* Watermark */
         .watermark {
             position: fixed;
             top: 0;
@@ -32,11 +596,10 @@
             height: 100%;
             pointer-events: none;
             z-index: 9999;
-            opacity: 0.08;
+            opacity: 0.05;
             font-size: 24px;
             font-weight: bold;
-            color: #000;
-            transform: rotate(-45deg);
+            color: var(--primary);
             display: none;
             overflow: hidden;
         }
@@ -47,297 +610,249 @@
 
         .watermark-text {
             white-space: nowrap;
-            animation: scroll 20s linear infinite;
+            animation: scrollWatermark 30s linear infinite;
         }
 
-        @keyframes scroll {
+        @keyframes scrollWatermark {
             0% { transform: translateX(0); }
             100% { transform: translateX(-50%); }
         }
 
-        .container {
-            max-width: 900px;
-            margin: 0 auto;
-            background: white;
-            border-radius: 15px;
-            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
-            padding: 30px;
-            position: relative;
+        /* Responsive */
+        @media (max-width: 992px) {
+            .subject-grid {
+                grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+            }
         }
 
-        h1 {
-            text-align: center;
-            color: #667eea;
-            margin-bottom: 30px;
-            font-size: 28px;
-        }
-
-        .subject-selector {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-            gap: 15px;
-            margin-bottom: 30px;
-        }
-
-        .subject-btn {
-            padding: 15px;
-            border: 2px solid #667eea;
-            background: white;
-            color: #667eea;
-            border-radius: 10px;
-            cursor: pointer;
-            font-size: 16px;
-            font-weight: bold;
-            transition: all 0.3s;
-        }
-
-        .subject-btn:hover {
-            background: #667eea;
-            color: white;
-            transform: translateY(-2px);
-        }
-
-        .subject-btn.active {
-            background: #667eea;
-            color: white;
-        }
-
-        .auth-section {
-            background: #f8f9fa;
-            padding: 20px;
-            border-radius: 10px;
-            margin-bottom: 20px;
-        }
-
-        .auth-input {
-            width: 100%;
-            padding: 12px;
-            border: 2px solid #ddd;
-            border-radius: 8px;
-            font-size: 16px;
-            margin-bottom: 10px;
-        }
-
-        .auth-btn {
-            width: 100%;
-            padding: 12px;
-            background: #28a745;
-            color: white;
-            border: none;
-            border-radius: 8px;
-            font-size: 16px;
-            font-weight: bold;
-            cursor: pointer;
-            transition: background 0.3s;
-        }
-
-        .auth-btn:hover {
-            background: #218838;
-        }
-
-        .logout-btn {
-            background: #dc3545;
-            margin-top: 10px;
-        }
-
-        .logout-btn:hover {
-            background: #c82333;
-        }
-
-        .whatsapp-link {
-            display: block;
-            text-align: center;
-            background: #25D366;
-            color: white;
-            padding: 15px;
-            border-radius: 10px;
-            text-decoration: none;
-            font-weight: bold;
-            font-size: 18px;
-            margin: 20px 0;
-            transition: background 0.3s;
-        }
-
-        .whatsapp-link:hover {
-            background: #128C7E;
-        }
-
-        .question-card {
-            background: #f8f9fa;
-            padding: 25px;
-            border-radius: 10px;
-            margin-bottom: 20px;
-            border-left: 4px solid #667eea;
-        }
-
-        .question-number {
-            color: #667eea;
-            font-weight: bold;
-            font-size: 18px;
-            margin-bottom: 10px;
-        }
-
-        .question-text {
-            font-size: 16px;
-            line-height: 1.6;
-            margin-bottom: 15px;
-            color: #333;
-        }
-
-        .options {
-            margin-top: 15px;
-        }
-
-        .option {
-            display: block;
-            padding: 12px;
-            margin: 8px 0;
-            background: white;
-            border: 2px solid #ddd;
-            border-radius: 8px;
-            cursor: pointer;
-            transition: all 0.3s;
-        }
-
-        .option:hover {
-            border-color: #667eea;
-            background: #f0f4ff;
-        }
-
-        .option.selected {
-            border-color: #667eea;
-            background: #e3e9ff;
-        }
-
-        .option.correct {
-            border-color: #28a745;
-            background: #d4edda;
-        }
-
-        .answer-reveal {
-            margin-top: 15px;
-            padding: 12px;
-            background: #fff3cd;
-            border-left: 4px solid #ffc107;
-            border-radius: 5px;
-            font-weight: bold;
-            color: #856404;
-        }
-
-        .locked-content {
-            text-align: center;
-            padding: 40px;
-            background: #f8f9fa;
-            border-radius: 10px;
-            margin-top: 20px;
-        }
-
-        .locked-icon {
-            font-size: 48px;
-            margin-bottom: 15px;
-        }
-
-        .error-msg {
-            color: #dc3545;
-            padding: 10px;
-            background: #f8d7da;
-            border-radius: 5px;
-            margin: 10px 0;
-            text-align: center;
-        }
-
-        .success-msg {
-            color: #28a745;
-            padding: 10px;
-            background: #d4edda;
-            border-radius: 5px;
-            margin: 10px 0;
-            text-align: center;
-        }
-
-        .navigation {
-            display: flex;
-            justify-content: space-between;
-            margin-top: 20px;
-        }
-
-        .nav-btn {
-            padding: 10px 20px;
-            background: #667eea;
-            color: white;
-            border: none;
-            border-radius: 8px;
-            cursor: pointer;
-            font-size: 16px;
-            transition: background 0.3s;
-        }
-
-        .nav-btn:hover {
-            background: #5568d3;
-        }
-
-        .nav-btn:disabled {
-            background: #ccc;
-            cursor: not-allowed;
-        }
-
-        @media print {
-            body { display: none !important; }
-        }
-
-        @media (max-width: 600px) {
-            .container {
+        @media (max-width: 768px) {
+            body {
                 padding: 15px;
             }
-            h1 {
-                font-size: 22px;
+            
+            .header {
+                margin-bottom: 30px;
+            }
+            
+            .logo-container {
+                flex-direction: column;
+                padding: 20px;
+            }
+            
+            .auth-form {
+                grid-template-columns: 1fr;
+            }
+            
+            .subject-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .question-header {
+                flex-direction: column;
+                gap: 10px;
+            }
+            
+            .locked-container {
+                padding: 30px 20px;
+            }
+            
+            .footer-links {
+                flex-direction: column;
+                gap: 15px;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .title-container h1 {
+                font-size: 24px;
+            }
+            
+            .subject-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .question-card {
+                padding: 20px;
+            }
+            
+            .whatsapp-btn {
+                padding: 15px 20px;
+                font-size: 16px;
+            }
+            
+            .auth-section {
+                padding: 20px;
+            }
+        }
+
+        /* Protección contra copia e impresión */
+        @media print {
+            body * {
+                display: none !important;
             }
         }
     </style>
 </head>
 <body oncontextmenu="return false;" onkeydown="return disableKeys(event);">
     
+    <!-- Fondo decorativo -->
+    <div class="background-decor">
+        <div class="decor-circle"></div>
+        <div class="decor-circle"></div>
+    </div>
+
+    <!-- Watermark dinámico -->
     <div class="watermark" id="watermark"></div>
 
-    <div class="container">
-        <h1>🎓 Banco de Preguntas - PREUS USFX</h1>
+    <div class="main-container">
+        <!-- Header -->
+        <header class="header">
+            <div class="logo-container">
+                <div class="logo-icon">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <div class="title-container">
+                    <h1>Banco de Preguntas PREUS USFX</h1>
+                    <p>Sistema de estudio inteligente para tu preparación</p>
+                </div>
+            </div>
+        </header>
 
-        <div id="authSection" class="auth-section">
-            <h3 style="margin-bottom: 15px; color: #333;">Ingresa tu código de acceso</h3>
-            <input type="text" id="codeInput" class="auth-input" placeholder="Ej: BIO-8F3K" maxlength="20">
-            <button onclick="validateCode()" class="auth-btn">Validar Código</button>
-            <button onclick="logout()" class="auth-btn logout-btn" style="display:none;" id="logoutBtn">Cerrar Sesión</button>
+        <!-- Sección de autenticación -->
+        <section class="auth-section">
+            <div class="auth-header">
+                <div class="auth-icon">
+                    <i class="fas fa-key"></i>
+                </div>
+                <h2 class="auth-title">Acceso al contenido premium</h2>
+            </div>
+            
+            <div class="auth-form">
+                <input type="text" id="codeInput" class="auth-input" placeholder="Ingresa tu código de acceso (Ej: BIO-8F3K)" maxlength="20">
+                <button onclick="validateCode()" class="auth-btn">
+                    <i class="fas fa-check-circle"></i> Validar Código
+                </button>
+            </div>
+            
+            <button onclick="logout()" class="auth-btn logout-btn" style="display:none;" id="logoutBtn">
+                <i class="fas fa-sign-out-alt"></i> Cerrar Sesión
+            </button>
+            
             <div id="authMessage"></div>
-        </div>
+        </section>
 
-        <div class="subject-selector">
-            <button class="subject-btn" onclick="loadSubject('lenguaje')">📚 Lenguaje</button>
-            <button class="subject-btn" onclick="loadSubject('social')">🌍 Sociales</button>
-            <button class="subject-btn" onclick="loadSubject('matematica')">🔢 Matemática</button>
-            <button class="subject-btn" onclick="loadSubject('filosofia')">💭 Filosofía</button>
-            <button class="subject-btn" onclick="loadSubject('biologia')">🧬 Biología</button>
-            <button class="subject-btn" onclick="loadSubject('quimica')">⚗️ Química</button>
-        </div>
+        <!-- Selector de materias -->
+        <section class="subjects-container">
+            <h2 class="section-title">
+                <i class="fas fa-book-open"></i> Materias de Estudio
+            </h2>
+            
+            <div class="subject-grid">
+                <div class="subject-card" onclick="loadSubject('lenguaje')">
+                    <div class="subject-icon">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <h3 class="subject-name">Lenguaje</h3>
+                </div>
+                
+                <div class="subject-card" onclick="loadSubject('social')">
+                    <div class="subject-icon">
+                        <i class="fas fa-globe-americas"></i>
+                    </div>
+                    <h3 class="subject-name">Sociales</h3>
+                </div>
+                
+                <div class="subject-card" onclick="loadSubject('matematica')">
+                    <div class="subject-icon">
+                        <i class="fas fa-calculator"></i>
+                    </div>
+                    <h3 class="subject-name">Matemática</h3>
+                </div>
+                
+                <div class="subject-card" onclick="loadSubject('filosofia')">
+                    <div class="subject-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3 class="subject-name">Filosofía</h3>
+                </div>
+                
+                <div class="subject-card" onclick="loadSubject('biologia')">
+                    <div class="subject-icon">
+                        <i class="fas fa-dna"></i>
+                    </div>
+                    <h3 class="subject-name">Biología</h3>
+                </div>
+                
+                <div class="subject-card" onclick="loadSubject('quimica')">
+                    <div class="subject-icon">
+                        <i class="fas fa-flask"></i>
+                    </div>
+                    <h3 class="subject-name">Química</h3>
+                </div>
+            </div>
+        </section>
 
-        <div id="questionsContainer"></div>
+        <!-- Contenedor de preguntas -->
+        <section class="questions-container">
+            <div id="questionsHeader" style="display:none;">
+                <div class="question-counter">
+                    <div class="counter-info">
+                        Materia: <span id="currentSubject">Lenguaje</span> • 
+                        Preguntas mostradas: <span id="questionCount">0</span>
+                    </div>
+                    <div class="access-info">
+                        <i class="fas fa-info-circle"></i>
+                        <span id="accessInfo">Acceso limitado a 15 preguntas</span>
+                    </div>
+                </div>
+                
+                <div id="questionsList" class="question-list">
+                    <!-- Las preguntas se cargarán aquí dinámicamente -->
+                </div>
+            </div>
+        </section>
 
-        <div id="lockedContent" style="display:none;" class="locked-content">
-            <div class="locked-icon">🔒</div>
-            <h2>Contenido Bloqueado</h2>
-            <p style="margin: 15px 0;">Para acceder a todas las preguntas, necesitas un código de acceso.</p>
-            <a href="https://wa.me/59169004899?text=Hola%20%F0%9F%91%8B%F0%9F%98%8A%0AQuiero%20adquirir%20mi%20c%C3%B3digo%20de%20acceso%20al%20banco%20de%20preguntas%20%F0%9F%93%9A%E2%9C%A8%0A%F0%9F%92%B0%20Precio%3A%2015%20Bs%20(pago%20por%20QR)%0A%F0%9F%94%90%20Entiendo%20que%20el%20c%C3%B3digo%20funciona%20solo%20en%20un%20dispositivo%2C%20es%20de%20uso%20personal%20y%20solo%20online%2C%20por%20lo%20que%20me%20comprometo%20a%20no%20compartirlo%20con%20nadie.%0A%C2%A1Quedo%20atento(a)%2C%20muchas%20gracias!%20%F0%9F%99%8C%F0%9F%93%B2
-" 
-               class="whatsapp-link" target="_blank">
-                🔓 Solicitar Código de Acceso por WhatsApp
+        <!-- Contenido bloqueado -->
+        <section id="lockedContent" class="locked-container" style="display:none;">
+            <div class="locked-icon">
+                <i class="fas fa-lock"></i>
+            </div>
+            <h2 class="locked-title">Contenido Premium Bloqueado</h2>
+            <p class="locked-text">
+                Para acceder a todas las preguntas y recursos de estudio ilimitados, 
+                necesitas un código de acceso válido. Desbloquea el contenido completo 
+                y maximiza tu preparación para el examen.
+            </p>
+            
+            <a href="https://wa.me/59169004899?text=Hola%20%F0%9F%91%8B%F0%9F%98%8A%0AQuiero%20adquirir%20mi%20c%C3%B3digo%20de%20acceso%20al%20banco%20de%20preguntas%20%F0%9F%93%9A%E2%9C%A8%0A%F0%9F%92%B0%20Precio%3A%2015%20Bs%20(pago%20por%20QR)%0A%F0%9F%94%90%20Entiendo%20que%20el%20c%C3%B3digo%20funciona%20solo%20en%20un%20dispositivo%2C%20es%20de%20uso%20personal%20y%20solo%20online%2C%20por%20lo%20que%20me%20comprometo%20a%20no%20compartirlo%20con%20nadie.%0A%C2%A1Quedo%20atento(a)%2C%20muchas%20gracias!%20%F0%9F%99%8C%F0%9F%93%B2" 
+               class="whatsapp-btn" target="_blank">
+                <i class="fab fa-whatsapp"></i> Solicitar Código por WhatsApp
             </a>
-            <p style="color: #666; font-size: 14px;">Pago por QR. | Un código = Un dispositivo</p>
-        </div>
+            
+            <div class="payment-note">
+                <i class="fas fa-qrcode"></i>
+                <span>Pago por QR • Un código = Un dispositivo • Acceso online personal</span>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-links">
+                <a href="#" class="footer-link" onclick="return false;">Términos de uso</a>
+                <a href="#" class="footer-link" onclick="return false;">Política de privacidad</a>
+                <a href="#" class="footer-link" onclick="return false;">Soporte técnico</a>
+            </div>
+            <p>© 2023 Banco de Preguntas PREUS USFX. Todos los derechos reservados.</p>
+            <p>Sistema de estudio diseñado para la preparación de exámenes de ingreso universitario.</p>
+        </footer>
     </div>
 
     <script type="module">
+        // Firebase imports
         import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js';
         import { getFirestore, doc, getDoc, setDoc, updateDoc } from 'https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js';
 
+        // Firebase configuration
         const firebaseConfig = {
             apiKey: "AIzaSyAnqCepY0NoDbAVO3x7pADHmj9E3fl4t54",
             authDomain: "preus-2026-2do-examen.firebaseapp.com",
@@ -347,52 +862,53 @@
             appId: "1:348965754426:web:928967e7ee80b49c2fc703"
         };
 
+        // Initialize Firebase
         const app = initializeApp(firebaseConfig);
         const db = getFirestore(app);
 
-        window.db = db;
-        window.doc = doc;
-        window.getDoc = getDoc;
-        window.setDoc = setDoc;
-        window.updateDoc = updateDoc;
-
+        // Global variables
         let currentSubject = null;
         let currentQuestions = [];
         let isAuthenticated = false;
         let userCode = localStorage.getItem('userCode') || null;
         let deviceId = localStorage.getItem('deviceId') || generateDeviceId();
 
+        // Generate unique device ID
         function generateDeviceId() {
             const id = 'device_' + Date.now() + '_' + Math.random().toString(36).substr(2, 9);
             localStorage.setItem('deviceId', id);
             return id;
         }
 
-        window.generateDeviceId = generateDeviceId;
-
+        // Check for existing session on page load
         async function checkExistingSession() {
             if (userCode) {
-                const codeDoc = await getDoc(doc(db, 'codes', userCode));
-                if (codeDoc.exists()) {
-                    const data = codeDoc.data();
-                    if (data.deviceId === deviceId && data.sessionActive) {
-                        isAuthenticated = true;
-                        updateAuthUI(true);
-                        return true;
+                try {
+                    const codeDoc = await getDoc(doc(db, 'codes', userCode));
+                    if (codeDoc.exists()) {
+                        const data = codeDoc.data();
+                        if (data.deviceId === deviceId && data.sessionActive) {
+                            isAuthenticated = true;
+                            updateAuthUI(true);
+                            return true;
+                        }
                     }
+                    localStorage.removeItem('userCode');
+                    userCode = null;
+                } catch (error) {
+                    console.error("Error checking session:", error);
                 }
-                localStorage.removeItem('userCode');
-                userCode = null;
             }
             return false;
         }
 
+        // Validate user code
         window.validateCode = async function() {
             const input = document.getElementById('codeInput').value.trim().toUpperCase();
             const msgDiv = document.getElementById('authMessage');
             
             if (!input) {
-                msgDiv.innerHTML = '<div class="error-msg">Por favor ingresa un código</div>';
+                msgDiv.innerHTML = '<div class="message error-msg"><i class="fas fa-exclamation-circle"></i> Por favor ingresa un código de acceso</div>';
                 return;
             }
 
@@ -400,17 +916,18 @@
                 const codeDoc = await getDoc(doc(db, 'codes', input));
                 
                 if (!codeDoc.exists()) {
-                    msgDiv.innerHTML = '<div class="error-msg">Código inválido</div>';
+                    msgDiv.innerHTML = '<div class="message error-msg"><i class="fas fa-times-circle"></i> Código inválido o no encontrado</div>';
                     return;
                 }
 
                 const data = codeDoc.data();
 
                 if (data.sessionActive && data.deviceId !== deviceId) {
-                    msgDiv.innerHTML = '<div class="error-msg">Este código ya está siendo usado en otro dispositivo</div>';
+                    msgDiv.innerHTML = '<div class="message error-msg"><i class="fas fa-exclamation-triangle"></i> Este código ya está siendo usado en otro dispositivo</div>';
                     return;
                 }
 
+                // Update code record
                 await updateDoc(doc(db, 'codes', input), {
                     deviceId: deviceId,
                     sessionActive: true,
@@ -421,16 +938,19 @@
                 localStorage.setItem('userCode', input);
                 isAuthenticated = true;
                 updateAuthUI(true);
-                msgDiv.innerHTML = '<div class="success-msg">✅ Código validado correctamente</div>';
+                msgDiv.innerHTML = '<div class="message success-msg"><i class="fas fa-check-circle"></i> Código validado correctamente. ¡Bienvenido!</div>';
                 
+                // Reload questions if a subject is already selected
                 if (currentSubject) {
                     renderQuestions();
                 }
             } catch (error) {
-                msgDiv.innerHTML = '<div class="error-msg">Error al validar el código</div>';
+                console.error("Validation error:", error);
+                msgDiv.innerHTML = '<div class="message error-msg"><i class="fas fa-times-circle"></i> Error al validar el código. Intenta nuevamente.</div>';
             }
         };
 
+        // Logout function
         window.logout = async function() {
             if (userCode) {
                 try {
@@ -444,18 +964,23 @@
                 userCode = null;
                 isAuthenticated = false;
                 updateAuthUI(false);
-                document.getElementById('authMessage').innerHTML = '<div class="success-msg">Sesión cerrada correctamente</div>';
+                document.getElementById('authMessage').innerHTML = '<div class="message success-msg"><i class="fas fa-sign-out-alt"></i> Sesión cerrada correctamente</div>';
+                
+                // Reload questions if a subject is already selected
                 if (currentSubject) {
                     renderQuestions();
                 }
             }
         };
 
+        // Update authentication UI
         function updateAuthUI(authenticated) {
             const codeInput = document.getElementById('codeInput');
-            const authBtn = document.querySelector('.auth-btn:not(.logout-btn)');
+            const authBtn = document.querySelector('.auth-form .auth-btn');
             const logoutBtn = document.getElementById('logoutBtn');
             const watermark = document.getElementById('watermark');
+            const questionsHeader = document.getElementById('questionsHeader');
+            const lockedContent = document.getElementById('lockedContent');
 
             if (authenticated) {
                 codeInput.style.display = 'none';
@@ -463,36 +988,72 @@
                 logoutBtn.style.display = 'block';
                 watermark.classList.add('active');
                 
+                // Create watermark content
                 let watermarkContent = '';
-                for (let i = 0; i < 50; i++) {
+                for (let i = 0; i < 40; i++) {
                     watermarkContent += `${userCode}    `;
                 }
                 watermark.innerHTML = `<div class="watermark-text">${watermarkContent}${watermarkContent}</div>`;
+                
+                // Show questions header if we have a subject
+                if (currentSubject) {
+                    questionsHeader.style.display = 'block';
+                }
+                lockedContent.style.display = 'none';
             } else {
                 codeInput.style.display = 'block';
-                authBtn.style.display = 'block';
+                authBtn.style.display = 'flex';
                 logoutBtn.style.display = 'none';
                 watermark.classList.remove('active');
+                
+                // Show locked content if we have a subject but no auth
+                if (currentSubject && currentQuestions.length > 15) {
+                    lockedContent.style.display = 'block';
+                    questionsHeader.style.display = 'none';
+                }
             }
         }
 
+        // Load subject questions
         window.loadSubject = function(subject) {
             currentSubject = subject;
-            document.querySelectorAll('.subject-btn').forEach(btn => btn.classList.remove('active'));
-            event.target.classList.add('active');
             
+            // Update active subject card
+            document.querySelectorAll('.subject-card').forEach(card => {
+                card.classList.remove('active');
+            });
+            event.currentTarget.classList.add('active');
+            
+            // Update subject name
+            const subjectNames = {
+                'lenguaje': 'Lenguaje',
+                'social': 'Ciencias Sociales',
+                'matematica': 'Matemática',
+                'filosofia': 'Filosofía',
+                'biologia': 'Biología',
+                'quimica': 'Química'
+            };
+            
+            document.getElementById('currentSubject').textContent = subjectNames[subject] || subject;
+            
+            // Load questions from CSV
             fetch(`${subject}.csv`)
-                .then(response => response.text())
+                .then(response => {
+                    if (!response.ok) throw new Error('Error al cargar el archivo');
+                    return response.text();
+                })
                 .then(data => {
                     currentQuestions = parseCSV(data);
                     renderQuestions();
                 })
                 .catch(error => {
-                    document.getElementById('questionsContainer').innerHTML = 
-                        '<div class="error-msg">Error al cargar las preguntas</div>';
+                    console.error("Error loading questions:", error);
+                    document.getElementById('questionsList').innerHTML = 
+                        '<div class="message error-msg"><i class="fas fa-exclamation-triangle"></i> Error al cargar las preguntas. Intenta nuevamente.</div>';
                 });
         };
 
+        // Parse CSV data
         function parseCSV(csv) {
             const lines = csv.split('\n').filter(line => line.trim());
             const questions = [];
@@ -514,56 +1075,117 @@
             return questions;
         }
 
+        // Render questions to the page
         function renderQuestions() {
-            const container = document.getElementById('questionsContainer');
+            const container = document.getElementById('questionsList');
+            const questionsHeader = document.getElementById('questionsHeader');
             const lockedContent = document.getElementById('lockedContent');
+            const questionCount = document.getElementById('questionCount');
+            const accessInfo = document.getElementById('accessInfo');
             
+            // Show questions header
+            questionsHeader.style.display = 'block';
+            
+            // Determine how many questions to show based on authentication
             const limit = isAuthenticated ? currentQuestions.length : 15;
             const displayQuestions = currentQuestions.slice(0, limit);
             
+            // Update counters and info
+            questionCount.textContent = displayQuestions.length;
+            
+            if (isAuthenticated) {
+                accessInfo.innerHTML = '<i class="fas fa-unlock"></i> Acceso completo a todas las preguntas';
+            } else {
+                accessInfo.innerHTML = '<i class="fas fa-lock"></i> Acceso limitado a 15 preguntas. <a href="#" onclick="document.getElementById(\'codeInput\').focus(); return false;">Desbloquear todas</a>';
+            }
+            
+            // Generate HTML for questions
             let html = '';
             displayQuestions.forEach((q, index) => {
                 html += `
                     <div class="question-card">
-                        <div class="question-number">${q.number}) ${q.question}</div>
-                        <div class="options">
-                            <div class="option" onclick="selectOption(${index}, 'A')">a) ${q.a}</div>
-                            <div class="option" onclick="selectOption(${index}, 'B')">b) ${q.b}</div>
-                            <div class="option" onclick="selectOption(${index}, 'C')">c) ${q.c}</div>
-                            <div class="option" onclick="selectOption(${index}, 'D')">d) ${q.d}</div>
+                        <div class="question-header">
+                            <div class="question-number">Pregunta ${q.number}</div>
+                            <div class="question-tag">${currentSubject.toUpperCase()}</div>
                         </div>
-                        <div class="answer-reveal" id="answer-${index}">RESP. CORRECTA: *</div>
+                        <div class="question-text">${q.question}</div>
+                        <div class="options-container">
+                            <div class="option" onclick="selectOption(${index}, 'A')">
+                                <div class="option-letter">A</div>
+                                <div class="option-text">${q.a}</div>
+                            </div>
+                            <div class="option" onclick="selectOption(${index}, 'B')">
+                                <div class="option-letter">B</div>
+                                <div class="option-text">${q.b}</div>
+                            </div>
+                            <div class="option" onclick="selectOption(${index}, 'C')">
+                                <div class="option-letter">C</div>
+                                <div class="option-text">${q.c}</div>
+                            </div>
+                            <div class="option" onclick="selectOption(${index}, 'D')">
+                                <div class="option-letter">D</div>
+                                <div class="option-text">${q.d}</div>
+                            </div>
+                        </div>
+                        <div class="answer-reveal" id="answer-${index}">
+                            <i class="fas fa-lightbulb"></i>
+                            <span>Respuesta correcta: Selecciona una opción para verificar</span>
+                        </div>
                     </div>
                 `;
             });
             
             container.innerHTML = html;
-            lockedContent.style.display = (!isAuthenticated && currentQuestions.length > 15) ? 'block' : 'none';
+            
+            // Show/hide locked content
+            if (!isAuthenticated && currentQuestions.length > 15) {
+                lockedContent.style.display = 'block';
+            } else {
+                lockedContent.style.display = 'none';
+            }
         }
 
+        // Select option and check answer
         window.selectOption = function(questionIndex, option) {
             const card = document.querySelectorAll('.question-card')[questionIndex];
             const options = card.querySelectorAll('.option');
             const answerDiv = document.getElementById(`answer-${questionIndex}`);
             const correctAnswer = currentQuestions[questionIndex].correct;
             
-            options.forEach(opt => opt.classList.remove('selected'));
-            options[['A', 'B', 'C', 'D'].indexOf(option)].classList.add('selected');
+            // Remove previous selections
+            options.forEach(opt => {
+                opt.classList.remove('selected');
+                opt.classList.remove('correct');
+            });
             
+            // Mark selected option
+            const selectedOption = options[['A', 'B', 'C', 'D'].indexOf(option)];
+            selectedOption.classList.add('selected');
+            
+            // Mark correct answer
+            const correctOption = options[['A', 'B', 'C', 'D'].indexOf(correctAnswer)];
+            correctOption.classList.add('correct');
+            
+            // Update answer reveal
             if (option === correctAnswer) {
-                options[['A', 'B', 'C', 'D'].indexOf(option)].classList.add('correct');
+                answerDiv.innerHTML = `<i class="fas fa-check-circle"></i> <span><strong>¡Correcto!</strong> La respuesta es: ${correctAnswer}</span>`;
+                answerDiv.style.background = 'linear-gradient(to right, rgba(16, 185, 129, 0.1), rgba(16, 185, 129, 0.05))';
+                answerDiv.style.borderLeftColor = 'var(--success)';
+                answerDiv.style.color = '#065f46';
+            } else {
+                answerDiv.innerHTML = `<i class="fas fa-times-circle"></i> <span><strong>Incorrecto.</strong> La respuesta correcta es: ${correctAnswer}</span>`;
+                answerDiv.style.background = 'linear-gradient(to right, rgba(239, 68, 68, 0.1), rgba(239, 68, 68, 0.05))';
+                answerDiv.style.borderLeftColor = 'var(--danger)';
+                answerDiv.style.color = '#991b1b';
             }
-            
-            answerDiv.textContent = `RESP. CORRECTA: ${correctAnswer}`;
-            answerDiv.style.background = '#d4edda';
-            answerDiv.style.borderColor = '#28a745';
-            answerDiv.style.color = '#155724';
         };
 
+        // Initialize
         checkExistingSession();
     </script>
 
     <script>
+        // Security functions
         function disableKeys(e) {
             if (e.ctrlKey && (e.key === 'p' || e.key === 'P' || e.key === 's' || e.key === 'S' || e.key === 'u' || e.key === 'U')) {
                 e.preventDefault();
@@ -576,6 +1198,7 @@
             return true;
         }
 
+        // Prevent copy, cut
         document.addEventListener('copy', function(e) {
             e.preventDefault();
             return false;
@@ -586,12 +1209,36 @@
             return false;
         });
 
+        // Prevent print
         window.addEventListener('beforeprint', function(e) {
             e.preventDefault();
-            alert('La impresión está deshabilitada');
+            alert('La impresión está deshabilitada para proteger el contenido.');
             return false;
+        });
+
+        // Prevent drag and drop of images
+        document.addEventListener('dragstart', function(e) {
+            if (e.target.tagName === 'IMG') {
+                e.preventDefault();
+                return false;
+            }
+        });
+
+        // Initial animation for subject cards
+        document.addEventListener('DOMContentLoaded', function() {
+            const subjectCards = document.querySelectorAll('.subject-card');
+            subjectCards.forEach((card, index) => {
+                card.style.animationDelay = `${index * 0.1}s`;
+                card.style.opacity = '0';
+                card.style.transform = 'translateY(20px)';
+                
+                setTimeout(() => {
+                    card.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+                    card.style.opacity = '1';
+                    card.style.transform = 'translateY(0)';
+                }, 300 + (index * 100));
+            });
         });
     </script>
 </body>
-
 </html>
