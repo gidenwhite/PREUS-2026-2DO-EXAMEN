@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banco de Preguntas - Sistema de Estudio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+            position: relative;
+            overflow-x: hidden;
+        }
+
+        .watermark {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 9999;
+            opacity: 0.08;
+            font-size: 24px;
+            font-weight: bold;
+            color: #000;
+            transform: rotate(-45deg);
+            display: none;
+            overflow: hidden;
+        }
+
+        .watermark.active {
+            display: block;
+        }
+
+        .watermark-text {
+            white-space: nowrap;
+            animation: scroll 20s linear infinite;
+        }
+
+        @keyframes scroll {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-50%); }
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            padding: 30px;
+            position: relative;
+        }
+
+        h1 {
+            text-align: center;
+            color: #667eea;
+            margin-bottom: 30px;
+            font-size: 28px;
+        }
+
+        .subject-selector {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+
+        .subject-btn {
+            padding: 15px;
+            border: 2px solid #667eea;
+            background: white;
+            color: #667eea;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+            transition: all 0.3s;
+        }
+
+        .subject-btn:hover {
+            background: #667eea;
+            color: white;
+            transform: translateY(-2px);
+        }
+
+        .subject-btn.active {
+            background: #667eea;
+            color: white;
+        }
+
+        .auth-section {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        .auth-input {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+        .auth-btn {
+            width: 100%;
+            padding: 12px;
+            background: #28a745;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .auth-btn:hover {
+            background: #218838;
+        }
+
+        .logout-btn {
+            background: #dc3545;
+            margin-top: 10px;
+        }
+
+        .logout-btn:hover {
+            background: #c82333;
+        }
+
+        .whatsapp-link {
+            display: block;
+            text-align: center;
+            background: #25D366;
+            color: white;
+            padding: 15px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 18px;
+            margin: 20px 0;
+            transition: background 0.3s;
+        }
+
+        .whatsapp-link:hover {
+            background: #128C7E;
+        }
+
+        .question-card {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            border-left: 4px solid #667eea;
+        }
+
+        .question-number {
+            color: #667eea;
+            font-weight: bold;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .question-text {
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 15px;
+            color: #333;
+        }
+
+        .options {
+            margin-top: 15px;
+        }
+
+        .option {
+            display: block;
+            padding: 12px;
+            margin: 8px 0;
+            background: white;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .option:hover {
+            border-color: #667eea;
+            background: #f0f4ff;
+        }
+
+        .option.selected {
+            border-color: #667eea;
+            background: #e3e9ff;
+        }
+
+        .option.correct {
+            border-color: #28a745;
+            background: #d4edda;
+        }
+
+        .answer-reveal {
+            margin-top: 15px;
+            padding: 12px;
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            border-radius: 5px;
+            font-weight: bold;
+            color: #856404;
+        }
+
+        .locked-content {
+            text-align: center;
+            padding: 40px;
+            background: #f8f9fa;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        .locked-icon {
+            font-size: 48px;
+            margin-bottom: 15px;
+        }
+
+        .error-msg {
+            color: #dc3545;
+            padding: 10px;
+            background: #f8d7da;
+            border-radius: 5px;
+            margin: 10px 0;
+            text-align: center;
+        }
+
+        .success-msg {
+            color: #28a745;
+            padding: 10px;
+            background: #d4edda;
+            border-radius: 5px;
+            margin: 10px 0;
+            text-align: center;
+        }
+
+        .navigation {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+
+        .nav-btn {
+            padding: 10px 20px;
+            background: #667eea;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background 0.3s;
+        }
+
+        .nav-btn:hover {
+            background: #5568d3;
+        }
+
+        .nav-btn:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+        }
+
+        @media print {
+            body { display: none !important; }
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 15px;
+            }
+            h1 {
+                font-size: 22px;
+            }
+        }
+    </style>
+</head>
+<body oncontextmenu="return false;" onkeydown="return disableKeys(event);">
+    
+    <div class="watermark" id="watermark"></div>
+
+    <div class="container">
+        <h1>🎓 Banco de Preguntas - PREUS USFX</h1>
+
+        <div id="authSection" class="auth-section">
+            <h3 style="margin-bottom: 15px; color: #333;">Ingresa tu código de acceso</h3>
+            <input type="text" id="codeInput" class="auth-input" placeholder="Ej: BIO-8F3K" maxlength="20">
+            <button onclick="validateCode()" class="auth-btn">Validar Código</button>
+            <button onclick="logout()" class="auth-btn logout-btn" style="display:none;" id="logoutBtn">Cerrar Sesión</button>
+            <div id="authMessage"></div>
+        </div>
+
+        <div class="subject-selector">
+            <button class="subject-btn" onclick="loadSubject('lenguaje')">📚 Lenguaje</button>
+            <button class="subject-btn" onclick="loadSubject('social')">🌍 Sociales</button>
+            <button class="subject-btn" onclick="loadSubject('matematica')">🔢 Matemática</button>
+            <button class="subject-btn" onclick="loadSubject('filosofia')">💭 Filosofía</button>
+            <button class="subject-btn" onclick="loadSubject('biologia')">🧬 Biología</button>
+            <button class="subject-btn" onclick="loadSubject('quimica')">⚗️ Química</button>
+        </div>
+
+        <div id="questionsContainer"></div>
+
+        <div id="lockedContent" style="display:none;" class="locked-content">
+            <div class="locked-icon">🔒</div>
+            <h2>Contenido Bloqueado</h2>
+            <p style="margin: 15px 0;">Para acceder a todas las preguntas, necesitas un código de acceso.</p>
+            <a href="https://wa.me/59169004899?text=Hola%20%F0%9F%91%8B%F0%9F%98%8A%0AQuiero%20adquirir%20mi%20c%C3%B3digo%20de%20acceso%20al%20banco%20de%20preguntas%20%F0%9F%93%9A%E2%9C%A8%0A%F0%9F%92%B0%20Precio%3A%2015%20Bs%20(pago%20por%20QR)%0A%F0%9F%94%90%20Entiendo%20que%20el%20c%C3%B3digo%20funciona%20solo%20en%20un%20dispositivo%2C%20es%20de%20uso%20personal%20y%20solo%20online%2C%20por%20lo%20que%20me%20comprometo%20a%20no%20compartirlo%20con%20nadie.%0A%C2%A1Quedo%20atento(a)%2C%20muchas%20gracias!%20%F0%9F%99%8C%F0%9F%93%B2
+" 
+               class="whatsapp-link" target="_blank">
+                🔓 Solicitar Código de Acceso por WhatsApp
+            </a>
+            <p style="color: #666; font-size: 14px;">Pago por QR. | Un código = Un dispositivo</p>
+        </div>
+    </div>
+
+    <script type="module">
+        import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js';
+        import { getFirestore, doc, getDoc, setDoc, updateDoc } from 'https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js';
+
+        const firebaseConfig = {
+            apiKey: "AIzaSyAnqCepY0NoDbAVO3x7pADHmj9E3fl4t54",
+            authDomain: "preus-2026-2do-examen.firebaseapp.com",
+            projectId: "preus-2026-2do-examen",
+            storageBucket: "preus-2026-2do-examen.firebasestorage.app",
+            messagingSenderId: "348965754426",
+            appId: "1:348965754426:web:928967e7ee80b49c2fc703"
+        };
+
+        const app = initializeApp(firebaseConfig);
+        const db = getFirestore(app);
+
+        window.db = db;
+        window.doc = doc;
+        window.getDoc = getDoc;
+        window.setDoc = setDoc;
+        window.updateDoc = updateDoc;
+
+        let currentSubject = null;
+        let currentQuestions = [];
+        let isAuthenticated = false;
+        let userCode = localStorage.getItem('userCode') || null;
+        let deviceId = localStorage.getItem('deviceId') || generateDeviceId();
+
+        function generateDeviceId() {
+            const id = 'device_' + Date.now() + '_' + Math.random().toString(36).substr(2, 9);
+            localStorage.setItem('deviceId', id);
+            return id;
+        }
+
+        window.generateDeviceId = generateDeviceId;
+
+        async function checkExistingSession() {
+            if (userCode) {
+                const codeDoc = await getDoc(doc(db, 'codes', userCode));
+                if (codeDoc.exists()) {
+                    const data = codeDoc.data();
+                    if (data.deviceId === deviceId && data.sessionActive) {
+                        isAuthenticated = true;
+                        updateAuthUI(true);
+                        return true;
+                    }
+                }
+                localStorage.removeItem('userCode');
+                userCode = null;
+            }
+            return false;
+        }
+
+        window.validateCode = async function() {
+            const input = document.getElementById('codeInput').value.trim().toUpperCase();
+            const msgDiv = document.getElementById('authMessage');
+            
+            if (!input) {
+                msgDiv.innerHTML = '<div class="error-msg">Por favor ingresa un código</div>';
+                return;
+            }
+
+            try {
+                const codeDoc = await getDoc(doc(db, 'codes', input));
+                
+                if (!codeDoc.exists()) {
+                    msgDiv.innerHTML = '<div class="error-msg">Código inválido</div>';
+                    return;
+                }
+
+                const data = codeDoc.data();
+
+                if (data.sessionActive && data.deviceId !== deviceId) {
+                    msgDiv.innerHTML = '<div class="error-msg">Este código ya está siendo usado en otro dispositivo</div>';
+                    return;
+                }
+
+                await updateDoc(doc(db, 'codes', input), {
+                    deviceId: deviceId,
+                    sessionActive: true,
+                    lastAccess: new Date().toISOString()
+                });
+
+                userCode = input;
+                localStorage.setItem('userCode', input);
+                isAuthenticated = true;
+                updateAuthUI(true);
+                msgDiv.innerHTML = '<div class="success-msg">✅ Código validado correctamente</div>';
+                
+                if (currentSubject) {
+                    renderQuestions();
+                }
+            } catch (error) {
+                msgDiv.innerHTML = '<div class="error-msg">Error al validar el código</div>';
+            }
+        };
+
+        window.logout = async function() {
+            if (userCode) {
+                try {
+                    await updateDoc(doc(db, 'codes', userCode), {
+                        sessionActive: false
+                    });
+                } catch (error) {
+                    console.error('Error al cerrar sesión:', error);
+                }
+                localStorage.removeItem('userCode');
+                userCode = null;
+                isAuthenticated = false;
+                updateAuthUI(false);
+                document.getElementById('authMessage').innerHTML = '<div class="success-msg">Sesión cerrada correctamente</div>';
+                if (currentSubject) {
+                    renderQuestions();
+                }
+            }
+        };
+
+        function updateAuthUI(authenticated) {
+            const codeInput = document.getElementById('codeInput');
+            const authBtn = document.querySelector('.auth-btn:not(.logout-btn)');
+            const logoutBtn = document.getElementById('logoutBtn');
+            const watermark = document.getElementById('watermark');
+
+            if (authenticated) {
+                codeInput.style.display = 'none';
+                authBtn.style.display = 'none';
+                logoutBtn.style.display = 'block';
+                watermark.classList.add('active');
+                
+                let watermarkContent = '';
+                for (let i = 0; i < 50; i++) {
+                    watermarkContent += `${userCode}    `;
+                }
+                watermark.innerHTML = `<div class="watermark-text">${watermarkContent}${watermarkContent}</div>`;
+            } else {
+                codeInput.style.display = 'block';
+                authBtn.style.display = 'block';
+                logoutBtn.style.display = 'none';
+                watermark.classList.remove('active');
+            }
+        }
+
+        window.loadSubject = function(subject) {
+            currentSubject = subject;
+            document.querySelectorAll('.subject-btn').forEach(btn => btn.classList.remove('active'));
+            event.target.classList.add('active');
+            
+            fetch(`${subject}.csv`)
+                .then(response => response.text())
+                .then(data => {
+                    currentQuestions = parseCSV(data);
+                    renderQuestions();
+                })
+                .catch(error => {
+                    document.getElementById('questionsContainer').innerHTML = 
+                        '<div class="error-msg">Error al cargar las preguntas</div>';
+                });
+        };
+
+        function parseCSV(csv) {
+            const lines = csv.split('\n').filter(line => line.trim());
+            const questions = [];
+            
+            for (let i = 1; i < lines.length; i++) {
+                const parts = lines[i].split(';');
+                if (parts.length >= 7) {
+                    questions.push({
+                        number: parts[0].trim(),
+                        question: parts[1].trim(),
+                        a: parts[2].trim(),
+                        b: parts[3].trim(),
+                        c: parts[4].trim(),
+                        d: parts[5].trim(),
+                        correct: parts[6].trim().toUpperCase()
+                    });
+                }
+            }
+            return questions;
+        }
+
+        function renderQuestions() {
+            const container = document.getElementById('questionsContainer');
+            const lockedContent = document.getElementById('lockedContent');
+            
+            const limit = isAuthenticated ? currentQuestions.length : 15;
+            const displayQuestions = currentQuestions.slice(0, limit);
+            
+            let html = '';
+            displayQuestions.forEach((q, index) => {
+                html += `
+                    <div class="question-card">
+                        <div class="question-number">${q.number}) ${q.question}</div>
+                        <div class="options">
+                            <div class="option" onclick="selectOption(${index}, 'A')">a) ${q.a}</div>
+                            <div class="option" onclick="selectOption(${index}, 'B')">b) ${q.b}</div>
+                            <div class="option" onclick="selectOption(${index}, 'C')">c) ${q.c}</div>
+                            <div class="option" onclick="selectOption(${index}, 'D')">d) ${q.d}</div>
+                        </div>
+                        <div class="answer-reveal" id="answer-${index}">RESP. CORRECTA: *</div>
+                    </div>
+                `;
+            });
+            
+            container.innerHTML = html;
+            lockedContent.style.display = (!isAuthenticated && currentQuestions.length > 15) ? 'block' : 'none';
+        }
+
+        window.selectOption = function(questionIndex, option) {
+            const card = document.querySelectorAll('.question-card')[questionIndex];
+            const options = card.querySelectorAll('.option');
+            const answerDiv = document.getElementById(`answer-${questionIndex}`);
+            const correctAnswer = currentQuestions[questionIndex].correct;
+            
+            options.forEach(opt => opt.classList.remove('selected'));
+            options[['A', 'B', 'C', 'D'].indexOf(option)].classList.add('selected');
+            
+            if (option === correctAnswer) {
+                options[['A', 'B', 'C', 'D'].indexOf(option)].classList.add('correct');
+            }
+            
+            answerDiv.textContent = `RESP. CORRECTA: ${correctAnswer}`;
+            answerDiv.style.background = '#d4edda';
+            answerDiv.style.borderColor = '#28a745';
+            answerDiv.style.color = '#155724';
+        };
+
+        checkExistingSession();
+    </script>
+
+    <script>
+        function disableKeys(e) {
+            if (e.ctrlKey && (e.key === 'p' || e.key === 'P' || e.key === 's' || e.key === 'S' || e.key === 'u' || e.key === 'U')) {
+                e.preventDefault();
+                return false;
+            }
+            if (e.key === 'F12' || (e.ctrlKey && e.shiftKey && e.key === 'I')) {
+                e.preventDefault();
+                return false;
+            }
+            return true;
+        }
+
+        document.addEventListener('copy', function(e) {
+            e.preventDefault();
+            return false;
+        });
+
+        document.addEventListener('cut', function(e) {
+            e.preventDefault();
+            return false;
+        });
+
+        window.addEventListener('beforeprint', function(e) {
+            e.preventDefault();
+            alert('La impresión está deshabilitada');
+            return false;
+        });
+    </script>
+</body>
+
+</html>
