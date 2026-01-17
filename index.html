@@ -3,24 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Banco de Preguntas PREUS - SOLO PREGUNTAS DEL 2DO EXAMEN</title>
+    <title>PREUS 2026 - Banco de Preguntas</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <style>
         :root {
-            --primary: #4f46e5;
-            --primary-dark: #4338ca;
-            --primary-light: #818cf8;
-            --secondary: #f59e0b;
-            --success: #10b981;
-            --danger: #ef4444;
-            --dark: #1e293b;
-            --light: #f8fafc;
-            --gray: #64748b;
-            --gray-light: #e2e8f0;
-            --border-radius: 12px;
-            --shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
-            --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+            --primary-blue: #1e40af;
+            --primary-blue-light: #3b82f6;
+            --primary-blue-dark: #1e3a8a;
+            --accent-red: #e11d48;
+            --accent-red-light: #f43f5e;
+            --accent-red-dark: #be123c;
+            --success: #059669;
+            --success-light: #10b981;
+            --warning: #f59e0b;
+            --neutral-50: #f8fafc;
+            --neutral-100: #f1f5f9;
+            --neutral-200: #e2e8f0;
+            --neutral-300: #cbd5e1;
+            --neutral-600: #475569;
+            --neutral-700: #334155;
+            --neutral-900: #0f172a;
+            --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+            --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+            --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1);
+            --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1);
+            --radius: 12px;
+            --radius-sm: 8px;
+            --transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
         }
 
         * {
@@ -28,283 +38,307 @@
             padding: 0;
             box-sizing: border-box;
             -webkit-user-select: none;
-            -moz-user-select: none;
-            -ms-user-select: none;
             user-select: none;
         }
 
         body {
-            font-family: 'Inter', sans-serif;
-            background: linear-gradient(135deg, #f5f7ff 0%, #eef2ff 100%);
-            color: var(--dark);
-            min-height: 100vh;
-            padding: 20px;
-            position: relative;
-            overflow-x: hidden;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: linear-gradient(to br, var(--neutral-50), var(--neutral-100));
+            color: var(--neutral-900);
             line-height: 1.6;
-        }
-
-        /* Fondo decorativo */
-        .background-decor {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            pointer-events: none;
-            z-index: 0;
-            overflow: hidden;
-        }
-
-        .decor-circle {
-            position: absolute;
-            border-radius: 50%;
-            background: linear-gradient(135deg, rgba(79, 70, 229, 0.05) 0%, rgba(129, 140, 248, 0.05) 100%);
-        }
-
-        .decor-circle:nth-child(1) {
-            width: 300px;
-            height: 300px;
-            top: -150px;
-            right: -100px;
-        }
-
-        .decor-circle:nth-child(2) {
-            width: 200px;
-            height: 200px;
-            bottom: -80px;
-            left: -50px;
-        }
-
-        /* Contenedor principal */
-        .main-container {
-            max-width: 1100px;
-            margin: 0 auto;
-            position: relative;
-            z-index: 1;
+            -webkit-font-smoothing: antialiased;
+            min-height: 100vh;
         }
 
         /* Header */
         .header {
-            text-align: center;
-            margin-bottom: 40px;
-            padding-top: 20px;
+            background: white;
+            box-shadow: var(--shadow-sm);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            border-bottom: 1px solid var(--neutral-200);
         }
 
-        .logo-container {
-            display: inline-flex;
+        .header-content {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 1rem 1.5rem;
+            display: flex;
             align-items: center;
-            justify-content: center;
-            background: white;
-            padding: 15px 25px;
-            border-radius: var(--border-radius);
-            box-shadow: var(--shadow);
-            margin-bottom: 20px;
-            gap: 15px;
+            justify-content: space-between;
+            gap: 1.5rem;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
         }
 
         .logo-icon {
-            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
+            width: 44px;
+            height: 44px;
+            background: linear-gradient(135deg, var(--primary-blue), var(--primary-blue-light));
+            border-radius: 10px;
             display: flex;
             align-items: center;
             justify-content: center;
             color: white;
-            font-size: 24px;
+            font-size: 1.25rem;
+            box-shadow: var(--shadow-md);
         }
 
-        .title-container h1 {
-            font-family: 'Poppins', sans-serif;
-            font-weight: 700;
-            font-size: 28px;
-            background: linear-gradient(to right, var(--primary), var(--primary-dark));
-            -webkit-background-clip: text;
-            background-clip: text;
-            color: transparent;
-            margin-bottom: 5px;
+        .logo-text h1 {
+            font-size: 1.25rem;
+            font-weight: 800;
+            color: var(--neutral-900);
+            letter-spacing: -0.02em;
         }
 
-        .title-container p {
-            color: var(--gray);
-            font-size: 14px;
+        .logo-text p {
+            font-size: 0.75rem;
+            color: var(--neutral-600);
             font-weight: 500;
         }
 
-        /* Sección de autenticación */
-        .auth-section {
-            background: white;
-            border-radius: var(--border-radius);
-            box-shadow: var(--shadow);
-            padding: 30px;
-            margin-bottom: 30px;
-            transition: var(--transition);
-            border-left: 5px solid var(--primary);
+        .header-actions {
+            display: flex;
+            gap: 0.75rem;
         }
 
-        .auth-section:hover {
-            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+        /* Container */
+        .container {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 2rem 1.5rem;
+        }
+
+        /* Auth Card */
+        .auth-card {
+            background: white;
+            border-radius: var(--radius);
+            padding: 2rem;
+            box-shadow: var(--shadow-md);
+            margin-bottom: 2rem;
+            border: 1px solid var(--neutral-200);
         }
 
         .auth-header {
             display: flex;
             align-items: center;
-            margin-bottom: 20px;
-            gap: 12px;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--neutral-100);
         }
 
         .auth-icon {
-            background: var(--primary);
-            color: white;
-            width: 44px;
-            height: 44px;
-            border-radius: 50%;
+            width: 48px;
+            height: 48px;
+            background: linear-gradient(135deg, var(--primary-blue-light), var(--primary-blue));
+            border-radius: 12px;
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 20px;
+            color: white;
+            font-size: 1.25rem;
         }
 
-        .auth-title {
-            font-family: 'Poppins', sans-serif;
-            font-weight: 600;
-            font-size: 20px;
-            color: var(--dark);
+        .auth-title h2 {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--neutral-900);
+        }
+
+        .auth-title p {
+            font-size: 0.875rem;
+            color: var(--neutral-600);
+            margin-top: 0.25rem;
         }
 
         .auth-form {
             display: grid;
             grid-template-columns: 1fr auto;
-            gap: 15px;
-            margin-bottom: 15px;
+            gap: 0.75rem;
+            margin-bottom: 1rem;
         }
 
-        .auth-input {
-            padding: 15px 20px;
-            border: 2px solid var(--gray-light);
-            border-radius: var(--border-radius);
-            font-size: 16px;
-            font-family: 'Inter', sans-serif;
+        .input-group {
+            position: relative;
+        }
+
+        .input-icon {
+            position: absolute;
+            left: 1rem;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--neutral-600);
+            font-size: 1rem;
+        }
+
+        .input {
+            width: 100%;
+            padding: 0.875rem 1rem 0.875rem 2.75rem;
+            border: 2px solid var(--neutral-200);
+            border-radius: var(--radius-sm);
+            font-size: 0.9375rem;
+            font-weight: 500;
             transition: var(--transition);
-            background: #fafafa;
+            background: var(--neutral-50);
         }
 
-        .auth-input:focus {
+        .input:focus {
             outline: none;
-            border-color: var(--primary);
+            border-color: var(--primary-blue);
             background: white;
-            box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.1);
+            box-shadow: 0 0 0 3px rgba(30, 64, 175, 0.1);
         }
 
-        .auth-btn {
-            padding: 15px 30px;
-            background: linear-gradient(to right, var(--primary), var(--primary-dark));
-            color: white;
+        .btn {
+            padding: 0.875rem 1.5rem;
             border: none;
-            border-radius: var(--border-radius);
-            font-size: 16px;
+            border-radius: var(--radius-sm);
+            font-size: 0.9375rem;
             font-weight: 600;
             cursor: pointer;
             transition: var(--transition);
-            display: flex;
+            display: inline-flex;
             align-items: center;
             justify-content: center;
-            gap: 10px;
+            gap: 0.5rem;
+            white-space: nowrap;
         }
 
-        .auth-btn:hover {
+        .btn-primary {
+            background: linear-gradient(135deg, var(--primary-blue), var(--primary-blue-light));
+            color: white;
+            box-shadow: var(--shadow-md);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-1px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .btn-primary:active {
+            transform: translateY(0);
+        }
+
+        .btn-danger {
+            background: linear-gradient(135deg, var(--accent-red), var(--accent-red-light));
+            color: white;
+            box-shadow: var(--shadow-md);
+        }
+
+        .btn-danger:hover {
+            transform: translateY(-1px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .btn-success {
+            background: linear-gradient(135deg, #059669, var(--success-light));
+            color: white;
+            box-shadow: var(--shadow-md);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .btn-success::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+            transition: left 0.5s;
+        }
+
+        .btn-success:hover::before {
+            left: 100%;
+        }
+
+        .btn-success:hover {
             transform: translateY(-2px);
-            box-shadow: 0 7px 15px rgba(79, 70, 229, 0.2);
+            box-shadow: var(--shadow-xl);
         }
 
-        .whatsapp-auth-btn {
+        .btn-block {
+            width: 100%;
+        }
+
+        /* Alert */
+        .alert {
+            padding: 1rem 1.25rem;
+            border-radius: var(--radius-sm);
             display: flex;
             align-items: center;
-            justify-content: center;
-            gap: 12px;
-            background: #25D366;
-            color: white;
-            padding: 15px 20px;
-            border-radius: var(--border-radius);
-            text-decoration: none;
-            font-weight: 600;
-            font-size: 16px;
-            margin-top: 15px;
-            transition: var(--transition);
-            box-shadow: 0 5px 15px rgba(37, 211, 102, 0.2);
-            width: 100%;
-            border: none;
-            cursor: pointer;
-            font-family: 'Inter', sans-serif;
+            gap: 0.75rem;
+            font-size: 0.9375rem;
+            font-weight: 500;
+            margin-top: 1rem;
+            animation: slideIn 0.3s ease-out;
         }
 
-        .whatsapp-auth-btn:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 10px 25px rgba(37, 211, 102, 0.3);
-            color: white;
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(-10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
         }
 
-        .logout-btn {
-            background: linear-gradient(to right, var(--danger), #dc2626);
-            margin-top: 10px;
-            width: 100%;
+        .alert-error {
+            background: #fef2f2;
+            color: var(--accent-red-dark);
+            border: 1px solid #fecaca;
         }
 
-        .logout-btn:hover {
-            box-shadow: 0 7px 15px rgba(239, 68, 68, 0.2);
+        .alert-success {
+            background: #f0fdf4;
+            color: #166534;
+            border: 1px solid #bbf7d0;
         }
 
-        /* Selector de materias */
-        .subjects-container {
-            margin-bottom: 40px;
+        /* Subject Grid */
+        .section-header {
+            margin-bottom: 1.5rem;
         }
 
-        .section-title {
-            font-family: 'Poppins', sans-serif;
-            font-weight: 600;
-            font-size: 22px;
-            color: var(--dark);
-            margin-bottom: 10px;
+        .section-header h2 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--neutral-900);
             display: flex;
             align-items: center;
-            gap: 10px;
+            gap: 0.75rem;
+            margin-bottom: 0.5rem;
         }
 
-        .section-title i {
-            color: var(--primary);
-        }
-
-        .subject-instruction {
-            color: var(--gray);
-            font-size: 15px;
-            margin-bottom: 20px;
-            padding-left: 10px;
-            border-left: 3px solid var(--primary-light);
-            animation: pulse 2s infinite;
-        }
-
-        @keyframes pulse {
-            0% { opacity: 0.8; }
-            50% { opacity: 1; }
-            100% { opacity: 0.8; }
+        .section-header p {
+            color: var(--neutral-600);
+            font-size: 0.9375rem;
         }
 
         .subject-grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-            gap: 18px;
+            gap: 1rem;
+            margin-bottom: 2rem;
         }
 
         .subject-card {
             background: white;
-            border-radius: var(--border-radius);
-            padding: 25px 20px;
+            border: 2px solid var(--neutral-200);
+            border-radius: var(--radius);
+            padding: 1.5rem 1rem;
             text-align: center;
-            box-shadow: var(--shadow);
             cursor: pointer;
             transition: var(--transition);
-            border: 2px solid transparent;
             position: relative;
             overflow: hidden;
         }
@@ -316,14 +350,15 @@
             left: 0;
             width: 100%;
             height: 4px;
-            background: var(--primary);
+            background: linear-gradient(90deg, var(--primary-blue), var(--primary-blue-light));
             transform: scaleX(0);
             transition: var(--transition);
         }
 
         .subject-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+            transform: translateY(-3px);
+            box-shadow: var(--shadow-lg);
+            border-color: var(--primary-blue-light);
         }
 
         .subject-card:hover::before {
@@ -331,8 +366,9 @@
         }
 
         .subject-card.active {
-            border-color: var(--primary);
-            background: linear-gradient(to bottom, #f8fafc, white);
+            border-color: var(--primary-blue);
+            background: linear-gradient(to bottom, #eff6ff, white);
+            box-shadow: var(--shadow-md);
         }
 
         .subject-card.active::before {
@@ -340,293 +376,465 @@
         }
 
         .subject-icon {
-            font-size: 32px;
-            margin-bottom: 15px;
-            display: inline-block;
-            width: 60px;
-            height: 60px;
-            line-height: 60px;
-            border-radius: 50%;
-            background: rgba(79, 70, 229, 0.1);
-            color: var(--primary);
+            width: 56px;
+            height: 56px;
+            margin: 0 auto 1rem;
+            background: linear-gradient(135deg, #dbeafe, #bfdbfe);
+            border-radius: 14px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--primary-blue);
+            font-size: 1.5rem;
+            transition: var(--transition);
+        }
+
+        .subject-card:hover .subject-icon,
+        .subject-card.active .subject-icon {
+            background: linear-gradient(135deg, var(--primary-blue), var(--primary-blue-light));
+            color: white;
+            transform: scale(1.05);
         }
 
         .subject-name {
-            font-family: 'Poppins', sans-serif;
-            font-weight: 600;
-            font-size: 16px;
-            color: var(--dark);
+            font-weight: 700;
+            font-size: 0.9375rem;
+            color: var(--neutral-900);
         }
 
-        /* Contenedor de preguntas */
-        .questions-container {
-            margin-bottom: 40px;
-            min-height: 400px;
-        }
-
-        .question-counter {
+        /* Stats Bar */
+        .stats-bar {
+            background: white;
+            border-radius: var(--radius);
+            padding: 1.25rem 1.5rem;
+            box-shadow: var(--shadow-sm);
+            border: 1px solid var(--neutral-200);
             display: flex;
             align-items: center;
             justify-content: space-between;
-            margin-bottom: 20px;
-            padding: 15px 20px;
-            background: white;
-            border-radius: var(--border-radius);
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            margin-bottom: 1.5rem;
+            flex-wrap: wrap;
+            gap: 1rem;
         }
 
-        .counter-info {
-            font-weight: 600;
-            color: var(--dark);
-        }
-
-        .counter-info span {
-            color: var(--primary);
-        }
-
-        .access-info {
-            font-size: 14px;
-            color: var(--gray);
+        .stat-item {
             display: flex;
             align-items: center;
-            gap: 8px;
+            gap: 0.75rem;
         }
 
-        .access-info i {
-            color: var(--secondary);
-        }
-
-        .question-list {
+        .stat-icon {
+            width: 40px;
+            height: 40px;
+            background: linear-gradient(135deg, #dbeafe, #bfdbfe);
+            border-radius: 10px;
             display: flex;
-            flex-direction: column;
-            gap: 25px;
+            align-items: center;
+            justify-content: center;
+            color: var(--primary-blue);
         }
 
+        .stat-content h3 {
+            font-size: 0.875rem;
+            color: var(--neutral-600);
+            font-weight: 500;
+        }
+
+        .stat-content p {
+            font-size: 1.125rem;
+            font-weight: 700;
+            color: var(--neutral-900);
+        }
+
+        .stat-value {
+            color: var(--primary-blue);
+        }
+
+        /* Question Card */
         .question-card {
             background: white;
-            border-radius: var(--border-radius);
-            box-shadow: var(--shadow);
-            padding: 30px;
+            border-radius: var(--radius);
+            padding: 2rem;
+            box-shadow: var(--shadow-md);
+            border: 1px solid var(--neutral-200);
+            margin-bottom: 1.5rem;
             transition: var(--transition);
-            position: relative;
-            overflow: hidden;
         }
 
         .question-card:hover {
-            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+            box-shadow: var(--shadow-lg);
         }
 
         .question-header {
             display: flex;
             justify-content: space-between;
-            align-items: flex-start;
-            margin-bottom: 20px;
-            padding-bottom: 20px;
-            border-bottom: 1px solid var(--gray-light);
+            align-items: center;
+            margin-bottom: 1.5rem;
+            padding-bottom: 1rem;
+            border-bottom: 2px solid var(--neutral-100);
         }
 
         .question-number {
-            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, var(--primary-blue), var(--primary-blue-light));
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: var(--radius-sm);
             font-weight: 700;
-            font-size: 20px;
-            color: var(--primary);
+            font-size: 0.9375rem;
+        }
+
+        .question-tag {
+            background: var(--neutral-100);
+            color: var(--neutral-700);
+            padding: 0.375rem 0.875rem;
+            border-radius: 20px;
+            font-size: 0.8125rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.025em;
         }
 
         .question-text {
-            font-size: 17px;
+            font-size: 1.0625rem;
             line-height: 1.7;
-            color: var(--dark);
-            margin-bottom: 25px;
+            color: var(--neutral-900);
+            margin-bottom: 1.5rem;
+            font-weight: 500;
         }
 
-        .options-container {
+        .options-grid {
             display: grid;
-            grid-template-columns: 1fr;
-            gap: 12px;
-            margin-bottom: 20px;
+            gap: 0.875rem;
+            margin-bottom: 1.5rem;
         }
 
         .option {
-            padding: 18px 20px;
-            border: 2px solid var(--gray-light);
-            border-radius: var(--border-radius);
+            padding: 1rem 1.25rem;
+            border: 2px solid var(--neutral-200);
+            border-radius: var(--radius-sm);
             cursor: pointer;
             transition: var(--transition);
             display: flex;
             align-items: center;
-            gap: 15px;
-            font-weight: 500;
+            gap: 1rem;
+            background: var(--neutral-50);
         }
 
         .option:hover {
-            border-color: var(--primary-light);
-            background: rgba(79, 70, 229, 0.03);
+            border-color: var(--primary-blue-light);
+            background: white;
+            transform: translateX(2px);
         }
 
         .option.selected {
-            border-color: var(--primary);
-            background: rgba(79, 70, 229, 0.08);
+            border-color: var(--primary-blue);
+            background: #eff6ff;
         }
 
         .option.correct {
             border-color: var(--success);
-            background: rgba(16, 185, 129, 0.08);
+            background: #f0fdf4;
+        }
+
+        .option.incorrect {
+            border-color: var(--accent-red);
+            background: #fef2f2;
         }
 
         .option-letter {
             width: 36px;
             height: 36px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: white;
+            border: 2px solid var(--neutral-300);
+            color: var(--neutral-700);
+            font-weight: 700;
+            flex-shrink: 0;
+            transition: var(--transition);
+        }
+
+        .option:hover .option-letter {
+            border-color: var(--primary-blue-light);
+            color: var(--primary-blue);
+        }
+
+        .option.selected .option-letter {
+            background: var(--primary-blue);
+            border-color: var(--primary-blue);
+            color: white;
+        }
+
+        .option.correct .option-letter {
+            background: var(--success);
+            border-color: var(--success);
+            color: white;
+        }
+
+        .option.incorrect .option-letter {
+            background: var(--accent-red);
+            border-color: var(--accent-red);
+            color: white;
+        }
+
+        .option-text {
+            flex: 1;
+            font-weight: 500;
+            color: var(--neutral-900);
+        }
+
+        .feedback {
+            padding: 1rem 1.25rem;
+            border-radius: var(--radius-sm);
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            font-weight: 600;
+            animation: slideIn 0.3s ease-out;
+        }
+
+        .feedback.correct {
+            background: #f0fdf4;
+            color: #166534;
+            border: 2px solid #86efac;
+        }
+
+        .feedback.incorrect {
+            background: #fef2f2;
+            color: #991b1b;
+            border: 2px solid #fca5a5;
+        }
+
+        .feedback i {
+            font-size: 1.25rem;
+        }
+
+        /* Locked Content */
+        .locked-overlay {
+            background: white;
+            border-radius: var(--radius);
+            padding: 3rem 2rem;
+            text-align: center;
+            box-shadow: var(--shadow-xl);
+            border: 2px solid var(--neutral-200);
+            max-width: 600px;
+            margin: 2rem auto;
+        }
+
+        .locked-icon {
+            width: 80px;
+            height: 80px;
+            margin: 0 auto 1.5rem;
+            background: linear-gradient(135deg, #fee2e2, #fecaca);
             border-radius: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
-            background: var(--gray-light);
-            color: var(--dark);
-            font-weight: 600;
-            flex-shrink: 0;
+            color: var(--accent-red);
+            font-size: 2rem;
+            animation: pulse 2s ease-in-out infinite;
         }
 
-        .selected .option-letter {
-            background: var(--primary);
-            color: white;
-        }
-
-        .correct .option-letter {
-            background: var(--success);
-            color: white;
-        }
-
-        .answer-reveal {
-            margin-top: 20px;
-            padding: 18px;
-            background: linear-gradient(to right, rgba(16, 185, 129, 0.1), rgba(16, 185, 129, 0.05));
-            border-left: 4px solid var(--success);
-            border-radius: var(--border-radius);
-            font-weight: 600;
-            color: #065f46;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-
-        .answer-reveal i {
-            font-size: 20px;
-        }
-
-        /* Contenido bloqueado */
-        .locked-container {
-            background: white;
-            border-radius: var(--border-radius);
-            box-shadow: var(--shadow);
-            padding: 50px 40px;
-            text-align: center;
-            margin-bottom: 40px;
-            border: 2px dashed var(--gray-light);
-        }
-
-        .locked-icon {
-            font-size: 60px;
-            margin-bottom: 20px;
-            color: var(--gray);
+        @keyframes pulse {
+            0%, 100% {
+                transform: scale(1);
+                box-shadow: 0 0 0 0 rgba(225, 29, 72, 0.4);
+            }
+            50% {
+                transform: scale(1.05);
+                box-shadow: 0 0 0 15px rgba(225, 29, 72, 0);
+            }
         }
 
         .locked-title {
-            font-family: 'Poppins', sans-serif;
-            font-weight: 700;
-            font-size: 26px;
-            color: var(--dark);
-            margin-bottom: 15px;
+            font-size: 1.75rem;
+            font-weight: 800;
+            color: var(--neutral-900);
+            margin-bottom: 1rem;
         }
 
         .locked-text {
-            font-size: 16px;
-            color: var(--gray);
-            max-width: 600px;
-            margin: 0 auto 30px;
-            line-height: 1.8;
+            color: var(--neutral-600);
+            font-size: 1.0625rem;
+            line-height: 1.7;
+            margin-bottom: 2rem;
         }
 
-        .whatsapp-btn {
+        .price-tag {
             display: inline-flex;
             align-items: center;
-            justify-content: center;
-            gap: 12px;
-            background: #25D366;
-            color: white;
-            padding: 18px 30px;
-            border-radius: var(--border-radius);
-            text-decoration: none;
+            gap: 0.5rem;
+            background: linear-gradient(135deg, #fef3c7, #fde68a);
+            color: #92400e;
+            padding: 0.75rem 1.5rem;
+            border-radius: var(--radius-sm);
+            font-weight: 700;
+            font-size: 1.125rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 4px 12px rgba(245, 158, 11, 0.3);
+            animation: shine 3s ease-in-out infinite;
+        }
+
+        @keyframes shine {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+        }
+
+        /* Badge de acceso */
+        .access-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-size: 0.875rem;
             font-weight: 600;
-            font-size: 17px;
-            margin-bottom: 20px;
-            transition: var(--transition);
-            box-shadow: 0 5px 15px rgba(37, 211, 102, 0.2);
+            margin-bottom: 1.5rem;
         }
 
-        .whatsapp-btn:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 10px 25px rgba(37, 211, 102, 0.3);
-            color: white;
+        .access-badge.limited {
+            background: linear-gradient(135deg, #fee2e2, #fecaca);
+            color: var(--accent-red-dark);
+            border: 2px solid var(--accent-red-light);
         }
 
-        .payment-note {
-            font-size: 14px;
-            color: var(--gray);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 10px;
-            margin-top: 15px;
-        }
-
-        /* Mensajes de estado */
-        .message {
-            padding: 15px 20px;
-            border-radius: var(--border-radius);
-            margin: 15px 0;
-            font-weight: 500;
-            display: flex;
-            align-items: center;
-            gap: 12px;
-        }
-
-        .error-msg {
-            background: rgba(239, 68, 68, 0.1);
-            color: #991b1b;
-            border-left: 4px solid var(--danger);
-        }
-
-        .success-msg {
-            background: rgba(16, 185, 129, 0.1);
+        .access-badge.full {
+            background: linear-gradient(135deg, #d1fae5, #a7f3d0);
             color: #065f46;
-            border-left: 4px solid var(--success);
+            border: 2px solid var(--success);
         }
 
-        /* Footer */
-        .footer {
-            text-align: center;
-            padding: 30px 0;
-            color: var(--gray);
-            font-size: 14px;
-            border-top: 1px solid var(--gray-light);
-            margin-top: 30px;
+        /* Destacados visuales */
+        .highlight-box {
+            background: linear-gradient(135deg, rgba(225, 29, 72, 0.05), rgba(244, 63, 94, 0.05));
+            border: 2px solid var(--accent-red-light);
+            border-radius: var(--radius);
+            padding: 1.5rem;
+            margin: 1.5rem 0;
         }
 
-        .footer-links {
+        .highlight-box h3 {
+            color: var(--accent-red);
+            font-weight: 700;
+            margin-bottom: 0.75rem;
             display: flex;
-            justify-content: center;
-            gap: 25px;
-            margin-bottom: 15px;
+            align-items: center;
+            gap: 0.5rem;
         }
 
-        .footer-link {
-            color: var(--gray);
-            text-decoration: none;
-            transition: var(--transition);
+        .highlight-box ul {
+            list-style: none;
+            padding: 0;
         }
 
-        .footer-link:hover {
-            color: var(--primary);
+        .highlight-box li {
+            padding: 0.5rem 0;
+            padding-left: 1.5rem;
+            position: relative;
+            color: var(--neutral-700);
+        }
+
+        .highlight-box li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: var(--accent-red);
+            font-weight: 700;
+        }
+        .footer {
+            background: white;
+            border-top: 1px solid var(--neutral-200);
+            padding: 2rem 1.5rem;
+            margin-top: 4rem;
+        }
+
+        .footer-content {
+            max-width: 1280px;
+            margin: 0 auto;
+            text-align: center;
+            color: var(--neutral-600);
+            font-size: 0.875rem;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .header-content {
+                flex-direction: column;
+                align-items: stretch;
+                gap: 1rem;
+            }
+
+            .logo {
+                justify-content: center;
+            }
+
+            .header-actions {
+                flex-direction: column;
+            }
+
+            .auth-form {
+                grid-template-columns: 1fr;
+            }
+
+            .subject-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .stats-bar {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .question-card {
+                padding: 1.5rem;
+            }
+
+            .question-header {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 0.75rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .subject-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .container {
+                padding: 1.5rem 1rem;
+            }
+
+            .auth-card {
+                padding: 1.5rem;
+            }
+
+            .locked-overlay {
+                padding: 2rem 1.5rem;
+            }
+        }
+
+        /* Loading State */
+        .loading {
+            text-align: center;
+            padding: 3rem;
+            color: var(--neutral-600);
+        }
+
+        .spinner {
+            width: 40px;
+            height: 40px;
+            margin: 0 auto 1rem;
+            border: 4px solid var(--neutral-200);
+            border-top-color: var(--primary-blue);
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
         }
 
         /* Watermark */
@@ -638,274 +846,207 @@
             height: 100%;
             pointer-events: none;
             z-index: 9999;
-            opacity: 0.05;
-            font-size: 24px;
-            font-weight: bold;
-            color: var(--primary);
-            display: none;
+            opacity: 0.03;
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--neutral-900);
             overflow: hidden;
+            display: none;
         }
 
         .watermark.active {
             display: block;
         }
-
-        .watermark-text {
-            white-space: nowrap;
-            animation: scrollWatermark 30s linear infinite;
-        }
-
-        @keyframes scrollWatermark {
-            0% { transform: translateX(0); }
-            100% { transform: translateX(-50%); }
-        }
-
-        /* Responsive */
-        @media (max-width: 992px) {
-            .subject-grid {
-                grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
-            }
-        }
-
-        @media (max-width: 768px) {
-            body {
-                padding: 15px;
-            }
-            
-            .header {
-                margin-bottom: 30px;
-            }
-            
-            .logo-container {
-                flex-direction: column;
-                padding: 20px;
-            }
-            
-            .auth-form {
-                grid-template-columns: 1fr;
-            }
-            
-            .subject-grid {
-                grid-template-columns: repeat(2, 1fr);
-            }
-            
-            .question-header {
-                flex-direction: column;
-                gap: 10px;
-            }
-            
-            .locked-container {
-                padding: 30px 20px;
-            }
-            
-            .footer-links {
-                flex-direction: column;
-                gap: 15px;
-            }
-        }
-
-        @media (max-width: 576px) {
-            .title-container h1 {
-                font-size: 24px;
-            }
-            
-            .subject-grid {
-                grid-template-columns: 1fr;
-            }
-            
-            .question-card {
-                padding: 20px;
-            }
-            
-            .whatsapp-btn, .whatsapp-auth-btn {
-                padding: 15px 20px;
-                font-size: 16px;
-            }
-            
-            .auth-section {
-                padding: 20px;
-            }
-            
-            .subject-instruction {
-                font-size: 14px;
-            }
-        }
-
-        /* Protección contra copia e impresión */
-        @media print {
-            body * {
-                display: none !important;
-            }
-        }
     </style>
 </head>
-<body oncontextmenu="return false;" onkeydown="return disableKeys(event);">
-    
-    <!-- Fondo decorativo -->
-    <div class="background-decor">
-        <div class="decor-circle"></div>
-        <div class="decor-circle"></div>
-    </div>
+<body oncontextmenu="return false;">
 
-    <!-- Watermark dinámico -->
-    <div class="watermark" id="watermark"></div>
-
-    <div class="main-container">
-        <!-- Header -->
-        <header class="header">
-            <div class="logo-container">
+    <!-- Header -->
+    <header class="header">
+        <div class="header-content">
+            <div class="logo">
                 <div class="logo-icon">
                     <i class="fas fa-graduation-cap"></i>
                 </div>
-                <div class="title-container">
-                    <h1>Banco de Preguntas PREUS 2026</h1>
-                    <p>SOLO PREGUNTAS DEL SEGUNDO EXAMEN</p>
+                <div class="logo-text">
+                    <h1>PREUS 2DO EXAMEN</h1>
+                    <p>Banco de Preguntas · Preus 2026</p>
                 </div>
             </div>
-        </header>
+            <div class="header-actions">
+                <button class="btn btn-danger" id="logoutBtn" style="display:none;" onclick="logout()">
+                    <i class="fas fa-sign-out-alt"></i> Cerrar Sesión
+                </button>
+            </div>
+        </div>
+    </header>
 
-        <!-- Sección de autenticación -->
-        <section class="auth-section">
+    <!-- Watermark -->
+    <div class="watermark" id="watermark"></div>
+
+    <div class="container">
+        <!-- Auth Section -->
+        <div class="auth-card" id="authCard">
             <div class="auth-header">
                 <div class="auth-icon">
-                    <i class="fas fa-key"></i>
+                    <i class="fas fa-lock"></i>
                 </div>
-                <h2 class="auth-title">Acceso Premium</h2>
+                <div class="auth-title">
+                    <h2>Acceso Premium</h2>
+                    <p>Ingresa tu código para desbloquear todas las preguntas</p>
+                </div>
             </div>
             
             <div class="auth-form">
-                <input type="text" id="codeInput" class="auth-input" placeholder="Ingresa tu código de acceso (Ej: BIO-8F3K)" maxlength="20">
-                <button onclick="validateCode()" class="auth-btn">
-                    <i class="fas fa-check-circle"></i> Validar Código
+                <div class="input-group">
+                    <i class="fas fa-key input-icon"></i>
+                    <input type="text" id="codeInput" class="input" placeholder="Ejemplo: BIO-8F3K" maxlength="20">
+                </div>
+                <button onclick="validateCode()" class="btn btn-primary">
+                    <i class="fas fa-unlock"></i> Comprobar Código
                 </button>
             </div>
             
-            <!-- Botón para obtener acceso premium -->
-            <button onclick="openWhatsAppAccess()" class="whatsapp-auth-btn" id="whatsappAuthBtn">
-                <i class="fab fa-whatsapp"></i> VER TODAS LAS PREGUNTAS
-            </button>
-            
-            <button onclick="logout()" class="auth-btn logout-btn" style="display:none;" id="logoutBtn">
-                <i class="fas fa-sign-out-alt"></i> Cerrar Sesión
+            <button onclick="openWhatsAppAccess()" class="btn btn-success btn-block">
+                <i class="fab fa-whatsapp"></i> Ver todas las Preguntas
             </button>
             
             <div id="authMessage"></div>
-        </section>
+        </div>
 
-        <!-- Selector de materias -->
-        <section class="subjects-container">
-            <h2 class="section-title">
-                <i class="fas fa-book-open"></i> Selecciona una Materia
-            </h2>
-            <p class="subject-instruction" id="subjectInstruction">
-                <i class="fas fa-mouse-pointer"></i> Estan eleborados con los temas del Segundo Examen de los PREUS
-            </p>
+        <!-- Subject Selection -->
+        <div class="section-header">
+            <h2><i class="fas fa-book-open"></i> Selecciona una Materia</h2>
+            <p>Haz clic en cualquier materia para comenzar a practicar</p>
+        </div>
+
+        <div class="subject-grid">
+            <div class="subject-card" onclick="loadSubject('lenguaje', this)">
+                <div class="subject-icon">
+                    <i class="fas fa-book"></i>
+                </div>
+                <h3 class="subject-name">Lenguaje</h3>
+            </div>
             
-            <div class="subject-grid">
-                <div class="subject-card" onclick="loadSubject('lenguaje')">
-                    <div class="subject-icon">
-                        <i class="fas fa-book"></i>
-                    </div>
-                    <h3 class="subject-name">Lenguaje</h3>
+            <div class="subject-card" onclick="loadSubject('social', this)">
+                <div class="subject-icon">
+                    <i class="fas fa-globe-americas"></i>
                 </div>
-                
-                <div class="subject-card" onclick="loadSubject('social')">
-                    <div class="subject-icon">
-                        <i class="fas fa-globe-americas"></i>
-                    </div>
-                    <h3 class="subject-name">Sociales</h3>
-                </div>
-                
-                <div class="subject-card" onclick="loadSubject('matematica')">
-                    <div class="subject-icon">
-                        <i class="fas fa-calculator"></i>
-                    </div>
-                    <h3 class="subject-name">Matemática</h3>
-                </div>
-                
-                <div class="subject-card" onclick="loadSubject('filosofia')">
-                    <div class="subject-icon">
-                        <i class="fas fa-brain"></i>
-                    </div>
-                    <h3 class="subject-name">Filosofía</h3>
-                </div>
-                
-                <div class="subject-card" onclick="loadSubject('biologia')">
-                    <div class="subject-icon">
-                        <i class="fas fa-dna"></i>
-                    </div>
-                    <h3 class="subject-name">Biología</h3>
-                </div>
-                
-                <div class="subject-card" onclick="loadSubject('quimica')">
-                    <div class="subject-icon">
-                        <i class="fas fa-flask"></i>
-                    </div>
-                    <h3 class="subject-name">Química</h3>
-                </div>
+                <h3 class="subject-name">Sociales</h3>
             </div>
-        </section>
-
-        <!-- Contenedor de preguntas -->
-        <section class="questions-container">
-            <div id="questionsHeader" style="display:none;">
-                <div class="question-counter">
-                    <div class="counter-info">
-                        Materia: <span id="currentSubject">Lenguaje</span> • 
-                        Preguntas mostradas: <span id="questionCount">0</span>
-                    </div>
-                    <div class="access-info">
-                        <i class="fas fa-info-circle"></i>
-                        <span id="accessInfo">Acceso limitado a 15 preguntas</span>
-                    </div>
-                </div>
-                
-                <div id="questionsList" class="question-list">
-                    <!-- Las preguntas se cargarán aquí dinámicamente -->
-                </div>
-            </div>
-        </section>
-
-        <!-- Contenido bloqueado -->
-        <section id="lockedContent" class="locked-container" style="display:none;">
-            <div class="locked-icon">
-                <i class="fas fa-lock"></i>
-            </div>
-            <h2 class="locked-title">Contenido Premium Bloqueado</h2>
-            <p class="locked-text">
-                Para acceder a todas las preguntas y recursos de estudio ilimitados, 
-                necesitas un código de acceso válido. Desbloquea el contenido completo 
-                y maximiza tu preparación para el examen.
-            </p>
             
-            <a href="javascript:void(0);" onclick="openWhatsAppAccess()" class="whatsapp-btn">
-                <i class="fab fa-whatsapp"></i> Solicitar Código por WhatsApp para VER todas las Preguntas
-            </a>
+            <div class="subject-card" onclick="loadSubject('matematica', this)">
+                <div class="subject-icon">
+                    <i class="fas fa-calculator"></i>
+                </div>
+                <h3 class="subject-name">Matemática</h3>
+            </div>
             
-            <div class="payment-note">
-                <i class="fas fa-qrcode"></i>
-                <span>Pago por QR • Un código = Un dispositivo • Acceso online personal</span>
+            <div class="subject-card" onclick="loadSubject('filosofia', this)">
+                <div class="subject-icon">
+                    <i class="fas fa-brain"></i>
+                </div>
+                <h3 class="subject-name">Filosofía</h3>
             </div>
-        </section>
+            
+            <div class="subject-card" onclick="loadSubject('biologia', this)">
+                <div class="subject-icon">
+                    <i class="fas fa-dna"></i>
+                </div>
+                <h3 class="subject-name">Biología</h3>
+            </div>
+            
+            <div class="subject-card" onclick="loadSubject('quimica', this)">
+                <div class="subject-icon">
+                    <i class="fas fa-flask"></i>
+                </div>
+                <h3 class="subject-name">Química</h3>
+            </div>
+        </div>
 
-        <!-- Footer -->
-        <footer class="footer">
-            <div class="footer-links">
-                <a href="#" class="footer-link" onclick="return false;">Términos de uso</a>
-                <a href="#" class="footer-link" onclick="return false;">Política de privacidad</a>
-                <a href="#" class="footer-link" onclick="return false;">Soporte técnico</a>
+        <!-- Stats Bar -->
+        <div class="stats-bar" id="statsBar" style="display:none;">
+            <div class="stat-item">
+                <div class="stat-icon">
+                    <i class="fas fa-book-open"></i>
+                </div>
+                <div class="stat-content">
+                    <h3>Materia Actual</h3>
+                    <p id="currentSubject">-</p>
+                </div>
             </div>
-            <p>© 2026 Banco de Preguntas PREUS.</p>
-            <p>Sistema de estudio diseñado para la preparación de exámenes de ingreso universitario.</p>
-        </footer>
+            
+            <div class="stat-item">
+                <div class="stat-icon">
+                    <i class="fas fa-list-ol"></i>
+                </div>
+                <div class="stat-content">
+                    <h3>Preguntas Disponibles</h3>
+                    <p><span class="stat-value" id="questionCount">0</span> preguntas</p>
+                </div>
+            </div>
+            
+            <div class="stat-item">
+                <div class="stat-icon">
+                    <i class="fas fa-info-circle"></i>
+                </div>
+                <div class="stat-content">
+                    <h3>Estado</h3>
+                    <p id="accessStatus">Acceso limitado</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Questions Container -->
+        <div id="questionsContainer"></div>
+
+        <!-- Locked Content -->
+        <div id="lockedContent" style="display:none;">
+            <div class="locked-overlay">
+                <div class="locked-icon">
+                    <i class="fas fa-lock"></i>
+                </div>
+                <h2 class="locked-title">🔒 Contenido Premium Bloqueado</h2>
+                <p class="locked-text">
+                    Has alcanzado el límite de 15 preguntas gratuitas. Desbloquea el acceso completo para maximizar tu preparación.
+                </p>
+                
+                <div class="highlight-box">
+                    <h3><i class="fas fa-star"></i> ¿Qué obtienes con el acceso premium?</h3>
+                    <ul>
+                        <li>Acceso ilimitado a TODAS las preguntas</li>
+                        <li>Preguntas actualizadas del 2do examen PREUS 2026</li>
+                        <li>Respuestas correctas al instante</li>
+                        <li>Practica cuantas veces quieras</li>
+                        <li>Un solo pago, acceso permanente</li>
+                    </ul>
+                </div>
+                
+                <div class="price-tag">
+                    <i class="fas fa-tag"></i> Pago por QR
+                </div>
+                <button onclick="openWhatsAppAccess()" class="btn btn-success btn-block">
+                    <i class="fab fa-whatsapp"></i> Obtener Mi Código Ahora
+                </button>
+                <p style="margin-top: 1rem; font-size: 0.875rem; color: var(--neutral-600);">
+                    <i class="fas fa-shield-alt"></i> Código de uso personal • Un dispositivo • Acceso online
+                </p>
+            </div>
+        </div>
     </div>
 
-    <script type="module">
-        // Firebase imports
-        import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js';
-        import { getFirestore, doc, getDoc, setDoc, updateDoc } from 'https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js';
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>© 2026 Banco de Preguntas PREUS. Sistema de preparación para exámenes universitarios.</p>
+            <p style="margin-top: 0.5rem; font-size: 0.8125rem;">Desarrollado con tecnología web moderna · Protegido contra copia</p>
+        </div>
+    </footer>
 
-        // Firebase configuration
+    <script type="module">
+        import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js';
+        import { getFirestore, doc, getDoc, updateDoc } from 'https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js';
+
         const firebaseConfig = {
             apiKey: "AIzaSyAnqCepY0NoDbAVO3x7pADHmj9E3fl4t54",
             authDomain: "preus-2026-2do-examen.firebaseapp.com",
@@ -915,33 +1056,27 @@
             appId: "1:348965754426:web:928967e7ee80b49c2fc703"
         };
 
-        // Initialize Firebase
         const app = initializeApp(firebaseConfig);
         const db = getFirestore(app);
 
-        // Global variables
         let currentSubject = null;
         let currentQuestions = [];
         let isAuthenticated = false;
         let userCode = localStorage.getItem('userCode') || null;
         let deviceId = localStorage.getItem('deviceId') || generateDeviceId();
 
-        // WhatsApp link
         const whatsappLink = "https://wa.me/59162402261?text=Hola%20%F0%9F%91%8B%F0%9F%98%8A%0AQuiero%20adquirir%20mi%20c%C3%B3digo%20de%20acceso%20al%20banco%20de%20preguntas%20%F0%9F%93%9A%E2%9C%A8%0A%F0%9F%92%B0%20Precio%3A%2020%20Bs%20(pago%20por%20QR)%0A%F0%9F%94%90%20Entiendo%20que%20el%20c%C3%B3digo%20funciona%20solo%20en%20un%20dispositivo%2C%20es%20de%20uso%20personal%20y%20solo%20online%2C%20por%20lo%20que%20me%20comprometo%20a%20no%20compartirlo%20con%20nadie.%0A%C2%A1Quedo%20atento(a)%2C%20muchas%20gracias!%20%F0%9F%99%8C%F0%9F%93%B2";
 
-        // Función para abrir WhatsApp
         window.openWhatsAppAccess = function() {
             window.open(whatsappLink, '_blank');
         };
 
-        // Generate unique device ID
         function generateDeviceId() {
             const id = 'device_' + Date.now() + '_' + Math.random().toString(36).substr(2, 9);
             localStorage.setItem('deviceId', id);
             return id;
         }
 
-        // Check for existing session on page load
         async function checkExistingSession() {
             if (userCode) {
                 try {
@@ -957,19 +1092,18 @@
                     localStorage.removeItem('userCode');
                     userCode = null;
                 } catch (error) {
-                    console.error("Error checking session:", error);
+                    console.error("Error:", error);
                 }
             }
             return false;
         }
 
-        // Validate user code
         window.validateCode = async function() {
             const input = document.getElementById('codeInput').value.trim().toUpperCase();
             const msgDiv = document.getElementById('authMessage');
             
             if (!input) {
-                msgDiv.innerHTML = '<div class="message error-msg"><i class="fas fa-exclamation-circle"></i> Por favor ingresa un código de acceso</div>';
+                msgDiv.innerHTML = '<div class="alert alert-error"><i class="fas fa-exclamation-circle"></i> Por favor ingresa un código de acceso</div>';
                 return;
             }
 
@@ -977,18 +1111,17 @@
                 const codeDoc = await getDoc(doc(db, 'codes', input));
                 
                 if (!codeDoc.exists()) {
-                    msgDiv.innerHTML = '<div class="message error-msg"><i class="fas fa-times-circle"></i> Código inválido o no encontrado</div>';
+                    msgDiv.innerHTML = '<div class="alert alert-error"><i class="fas fa-times-circle"></i> Código inválido o no encontrado</div>';
                     return;
                 }
 
                 const data = codeDoc.data();
 
                 if (data.sessionActive && data.deviceId !== deviceId) {
-                    msgDiv.innerHTML = '<div class="message error-msg"><i class="fas fa-exclamation-triangle"></i> Este código ya está siendo usado en otro dispositivo</div>';
+                    msgDiv.innerHTML = '<div class="alert alert-error"><i class="fas fa-exclamation-triangle"></i> Este código ya está siendo usado en otro dispositivo</div>';
                     return;
                 }
 
-                // Update code record
                 await updateDoc(doc(db, 'codes', input), {
                     deviceId: deviceId,
                     sessionActive: true,
@@ -999,19 +1132,17 @@
                 localStorage.setItem('userCode', input);
                 isAuthenticated = true;
                 updateAuthUI(true);
-                msgDiv.innerHTML = '<div class="message success-msg"><i class="fas fa-check-circle"></i> Código validado correctamente. ¡Bienvenido!</div>';
+                msgDiv.innerHTML = '<div class="alert alert-success"><i class="fas fa-check-circle"></i> ¡Código validado! Acceso completo desbloqueado</div>';
                 
-                // Reload questions if a subject is already selected
                 if (currentSubject) {
                     renderQuestions();
                 }
             } catch (error) {
-                console.error("Validation error:", error);
-                msgDiv.innerHTML = '<div class="message error-msg"><i class="fas fa-times-circle"></i> Error al validar el código. Intenta nuevamente.</div>';
+                console.error("Error:", error);
+                msgDiv.innerHTML = '<div class="alert alert-error"><i class="fas fa-times-circle"></i> Error al validar. Intenta nuevamente</div>';
             }
         };
 
-        // Logout function
         window.logout = async function() {
             if (userCode) {
                 try {
@@ -1019,79 +1150,50 @@
                         sessionActive: false
                     });
                 } catch (error) {
-                    console.error('Error al cerrar sesión:', error);
+                    console.error('Error:', error);
                 }
                 localStorage.removeItem('userCode');
                 userCode = null;
                 isAuthenticated = false;
                 updateAuthUI(false);
-                document.getElementById('authMessage').innerHTML = '<div class="message success-msg"><i class="fas fa-sign-out-alt"></i> Sesión cerrada correctamente</div>';
+                document.getElementById('authMessage').innerHTML = '<div class="alert alert-success"><i class="fas fa-sign-out-alt"></i> Sesión cerrada correctamente</div>';
                 
-                // Reload questions if a subject is already selected
                 if (currentSubject) {
                     renderQuestions();
                 }
             }
         };
 
-        // Update authentication UI
         function updateAuthUI(authenticated) {
-            const codeInput = document.getElementById('codeInput');
-            const authBtn = document.querySelector('.auth-form .auth-btn');
+            const authCard = document.getElementById('authCard');
             const logoutBtn = document.getElementById('logoutBtn');
-            const whatsappAuthBtn = document.getElementById('whatsappAuthBtn');
             const watermark = document.getElementById('watermark');
-            const questionsHeader = document.getElementById('questionsHeader');
-            const lockedContent = document.getElementById('lockedContent');
 
             if (authenticated) {
-                codeInput.style.display = 'none';
-                authBtn.style.display = 'none';
-                whatsappAuthBtn.style.display = 'none';
-                logoutBtn.style.display = 'block';
+                authCard.style.display = 'none';
+                logoutBtn.style.display = 'inline-flex';
                 watermark.classList.add('active');
                 
-                // Create watermark content
                 let watermarkContent = '';
-                for (let i = 0; i < 40; i++) {
+                for (let i = 0; i < 50; i++) {
                     watermarkContent += `${userCode}    `;
                 }
-                watermark.innerHTML = `<div class="watermark-text">${watermarkContent}${watermarkContent}</div>`;
-                
-                // Show questions header if we have a subject
-                if (currentSubject) {
-                    questionsHeader.style.display = 'block';
-                }
-                lockedContent.style.display = 'none';
+                watermark.innerHTML = watermarkContent;
             } else {
-                codeInput.style.display = 'block';
-                authBtn.style.display = 'flex';
-                whatsappAuthBtn.style.display = 'flex';
+                authCard.style.display = 'block';
                 logoutBtn.style.display = 'none';
                 watermark.classList.remove('active');
-                
-                // Show locked content if we have a subject but no auth
-                if (currentSubject && currentQuestions.length > 15) {
-                    lockedContent.style.display = 'block';
-                    questionsHeader.style.display = 'none';
-                }
             }
         }
 
-        // Load subject questions
-        window.loadSubject = function(subject) {
+        window.loadSubject = function(subject, element) {
             currentSubject = subject;
             
-            // Update active subject card
             document.querySelectorAll('.subject-card').forEach(card => {
                 card.classList.remove('active');
             });
-            event.currentTarget.classList.add('active');
+            element.classList.add('active');
             
-            // Hide instruction message when a subject is selected
-            document.getElementById('subjectInstruction').style.display = 'none';
-            
-            // Update subject name
             const subjectNames = {
                 'lenguaje': 'Lenguaje',
                 'social': 'Ciencias Sociales',
@@ -1101,12 +1203,13 @@
                 'quimica': 'Química'
             };
             
-            document.getElementById('currentSubject').textContent = subjectNames[subject] || subject;
+            document.getElementById('statsBar').style.display = 'flex';
+            document.getElementById('currentSubject').textContent = subjectNames[subject];
+            document.getElementById('questionsContainer').innerHTML = '<div class="loading"><div class="spinner"></div><p>Cargando preguntas...</p></div>';
             
-            // Load questions from CSV
             fetch(`${subject}.csv`)
                 .then(response => {
-                    if (!response.ok) throw new Error('Error al cargar el archivo');
+                    if (!response.ok) throw new Error('Error');
                     return response.text();
                 })
                 .then(data => {
@@ -1114,13 +1217,12 @@
                     renderQuestions();
                 })
                 .catch(error => {
-                    console.error("Error loading questions:", error);
-                    document.getElementById('questionsList').innerHTML = 
-                        '<div class="message error-msg"><i class="fas fa-exclamation-triangle"></i> Error al cargar las preguntas. Intenta nuevamente.</div>';
+                    console.error("Error:", error);
+                    document.getElementById('questionsContainer').innerHTML = 
+                        '<div class="alert alert-error"><i class="fas fa-exclamation-triangle"></i> Error al cargar las preguntas</div>';
                 });
         };
 
-        // Parse CSV data
         function parseCSV(csv) {
             const lines = csv.split('\n').filter(line => line.trim());
             const questions = [];
@@ -1142,31 +1244,18 @@
             return questions;
         }
 
-        // Render questions to the page
         function renderQuestions() {
-            const container = document.getElementById('questionsList');
-            const questionsHeader = document.getElementById('questionsHeader');
+            const container = document.getElementById('questionsContainer');
             const lockedContent = document.getElementById('lockedContent');
             const questionCount = document.getElementById('questionCount');
-            const accessInfo = document.getElementById('accessInfo');
+            const accessStatus = document.getElementById('accessStatus');
             
-            // Show questions header
-            questionsHeader.style.display = 'block';
-            
-            // Determine how many questions to show based on authentication
             const limit = isAuthenticated ? currentQuestions.length : 15;
             const displayQuestions = currentQuestions.slice(0, limit);
             
-            // Update counters and info
             questionCount.textContent = displayQuestions.length;
+            accessStatus.textContent = isAuthenticated ? '✓ Acceso completo' : '⚠ Limitado (15 preguntas)';
             
-            if (isAuthenticated) {
-                accessInfo.innerHTML = '<i class="fas fa-unlock"></i> Acceso completo a todas las preguntas';
-            } else {
-                accessInfo.innerHTML = '<i class="fas fa-lock"></i> Acceso limitado a 15 preguntas. <a href="#" onclick="document.getElementById(\'codeInput\').focus(); return false;">Desbloquear todas</a>';
-            }
-            
-            // Generate HTML for questions
             let html = '';
             displayQuestions.forEach((q, index) => {
                 html += `
@@ -1176,7 +1265,7 @@
                             <div class="question-tag">${currentSubject.toUpperCase()}</div>
                         </div>
                         <div class="question-text">${q.question}</div>
-                        <div class="options-container">
+                        <div class="options-grid">
                             <div class="option" onclick="selectOption(${index}, 'A')">
                                 <div class="option-letter">A</div>
                                 <div class="option-text">${q.a}</div>
@@ -1194,17 +1283,13 @@
                                 <div class="option-text">${q.d}</div>
                             </div>
                         </div>
-                        <div class="answer-reveal" id="answer-${index}">
-                            <i class="fas fa-lightbulb"></i>
-                            <span>Respuesta correcta: Selecciona una opción para verificar</span>
-                        </div>
+                        <div id="feedback-${index}"></div>
                     </div>
                 `;
             });
             
             container.innerHTML = html;
             
-            // Show/hide locked content
             if (!isAuthenticated && currentQuestions.length > 15) {
                 lockedContent.style.display = 'block';
             } else {
@@ -1212,47 +1297,51 @@
             }
         }
 
-        // Select option and check answer
         window.selectOption = function(questionIndex, option) {
             const card = document.querySelectorAll('.question-card')[questionIndex];
             const options = card.querySelectorAll('.option');
-            const answerDiv = document.getElementById(`answer-${questionIndex}`);
+            const feedbackDiv = document.getElementById(`feedback-${questionIndex}`);
             const correctAnswer = currentQuestions[questionIndex].correct;
             
-            // Remove previous selections
             options.forEach(opt => {
-                opt.classList.remove('selected');
-                opt.classList.remove('correct');
+                opt.classList.remove('selected', 'correct', 'incorrect');
+                opt.style.pointerEvents = 'none';
             });
             
-            // Mark selected option
             const selectedOption = options[['A', 'B', 'C', 'D'].indexOf(option)];
-            selectedOption.classList.add('selected');
-            
-            // Mark correct answer
             const correctOption = options[['A', 'B', 'C', 'D'].indexOf(correctAnswer)];
+            
             correctOption.classList.add('correct');
             
-            // Update answer reveal
             if (option === correctAnswer) {
-                answerDiv.innerHTML = `<i class="fas fa-check-circle"></i> <span><strong>¡Correcto!</strong> La respuesta es: ${correctAnswer}</span>`;
-                answerDiv.style.background = 'linear-gradient(to right, rgba(16, 185, 129, 0.1), rgba(16, 185, 129, 0.05))';
-                answerDiv.style.borderLeftColor = 'var(--success)';
-                answerDiv.style.color = '#065f46';
+                selectedOption.classList.add('selected');
+                feedbackDiv.innerHTML = `
+                    <div class="feedback correct">
+                        <i class="fas fa-check-circle"></i>
+                        <span><strong>¡Excelente!</strong> Respuesta correcta: ${correctAnswer}</span>
+                    </div>
+                `;
             } else {
-                answerDiv.innerHTML = `<i class="fas fa-times-circle"></i> <span><strong>Incorrecto.</strong> La respuesta correcta es: ${correctAnswer}</span>`;
-                answerDiv.style.background = 'linear-gradient(to right, rgba(239, 68, 68, 0.1), rgba(239, 68, 68, 0.05))';
-                answerDiv.style.borderLeftColor = 'var(--danger)';
-                answerDiv.style.color = '#991b1b';
+                selectedOption.classList.add('incorrect');
+                feedbackDiv.innerHTML = `
+                    <div class="feedback incorrect">
+                        <i class="fas fa-times-circle"></i>
+                        <span><strong>Incorrecto.</strong> La respuesta correcta es: ${correctAnswer}</span>
+                    </div>
+                `;
             }
+            
+            setTimeout(() => {
+                options.forEach(opt => {
+                    opt.style.pointerEvents = 'auto';
+                });
+            }, 2000);
         };
 
-        // Initialize
         checkExistingSession();
     </script>
 
     <script>
-        // Security functions
         function disableKeys(e) {
             if (e.ctrlKey && (e.key === 'p' || e.key === 'P' || e.key === 's' || e.key === 'S' || e.key === 'u' || e.key === 'U')) {
                 e.preventDefault();
@@ -1265,7 +1354,6 @@
             return true;
         }
 
-        // Prevent copy, cut
         document.addEventListener('copy', function(e) {
             e.preventDefault();
             return false;
@@ -1276,14 +1364,12 @@
             return false;
         });
 
-        // Prevent print
         window.addEventListener('beforeprint', function(e) {
             e.preventDefault();
-            alert('La impresión está deshabilitada para proteger el contenido.');
+            alert('La impresión está deshabilitada.');
             return false;
         });
 
-        // Prevent drag and drop of images
         document.addEventListener('dragstart', function(e) {
             if (e.target.tagName === 'IMG') {
                 e.preventDefault();
@@ -1291,21 +1377,7 @@
             }
         });
 
-        // Initial animation for subject cards
-        document.addEventListener('DOMContentLoaded', function() {
-            const subjectCards = document.querySelectorAll('.subject-card');
-            subjectCards.forEach((card, index) => {
-                card.style.animationDelay = `${index * 0.1}s`;
-                card.style.opacity = '0';
-                card.style.transform = 'translateY(20px)';
-                
-                setTimeout(() => {
-                    card.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
-                    card.style.opacity = '1';
-                    card.style.transform = 'translateY(0)';
-                }, 300 + (index * 100));
-            });
-        });
+        document.addEventListener('keydown', disableKeys);
     </script>
 </body>
 </html>
